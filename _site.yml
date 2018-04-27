@@ -5,6 +5,12 @@ navbar:
   left:
   - text: Home
     href: index.html
+  - text: Projects
+    menu:
+    - text: Intactness paper
+      href: https://github.com/prvernier/intactness
+    - text: Surrogates paper
+      href: https://github.com/prvernier/surrogates
   - text: Data
     menu:
     - text: Intactness
