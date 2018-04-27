@@ -1,0 +1,28 @@
+name: Pierre Vernier
+output_dir: '.'
+navbar:
+  title: Pierre Vernier
+  left:
+  - text: Home
+    href: index.html
+  - text: Data
+    menu:
+    - text: Intactness
+      href: intactness.html
+    - text: Disturbance
+      href: disturbance.html
+    - text: Surrogates
+      href: surrogates.html
+    - text: Species
+      href: species.html
+  - text: Tools
+    href: tools.html
+  - text: About
+    href: about.html
+output:
+  html_document:
+    highlight: textmate
+    theme: cosmo
+    lib_dir: site_libs
+    self_contained: no
+

@@ -1,0 +1,8 @@
+---
+title: "About"
+date: "2018-03-09"
+---
+
+# Welcome!
+
+I am a landscape ecologist with the [Department of Renewable Resources](http://www.rr.ualberta.ca) at the University of Alberta. My research interests include biodiversity monitoring, systematic conservation planning, and species distribution modelling. I am a member of the [BEACONs Project](http://www.beaconsproject.ca/), which is developing a scientific framework for comprehensive conservation planning through the development and application of leading-edge conservation science that includes consideration of both protected areas and lands managed for other values.
