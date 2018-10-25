@@ -7,9 +7,13 @@ navbar:
     href: index.html
   - text: Projects
     menu:
-    - text: Intactness paper
+    - text: Northwest Boreal LCC
+      href: http://nwb.ualberta.ca
+    - text: Pan-boreal assessment
+      href: http://pba.ualberta.ca
+    - text: Intactness datasets
       href: https://github.com/prvernier/intactness
-    - text: Surrogates paper
+    - text: Surrogates evaluation
       href: https://github.com/prvernier/surrogates
   - text: About
     href: about.html
