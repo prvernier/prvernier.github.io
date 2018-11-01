@@ -1,0 +1,12 @@
+---
+title: "Welcome!"
+output:
+  html_document:
+    toc: FALSE
+    keep_md: no
+---
+
+<br>
+
+Welcome to my website. Here you will find information on various projects that I'm involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.
+

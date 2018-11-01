@@ -1,0 +1,67 @@
+---
+title: "Disturbance maps"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+author: "[Pierre Vernier](http://prv.updog.co)"
+output:
+  html_document:
+    toc: FALSE
+    keep_md: no
+---
+
+<br>
+
+### Examples of recent remote sensing based disturbance datasets from Canada
+
+Several disturbance datasets have been developed recently, some of which have been used to update both the Canada and Global IFL datasets. The datasets represent changes in forest cover with or without attribution to disturbance type.
+
+---
+
+**Global maps of forest cover change (Hansen et al. 2013).** The maps were developed using Landsat imagery at a resolution of 30m and covers latitudes 80°N and 60°S. Four metrics are used: (i) percent tree cover in 2000, (ii) cover loss 2000-2012, (iii) cover gain 2000-2012, and (iv) year of cover loss. There is no attribution of disturbance type. The datasets was recently updated to 2015.
+  
+  - View and download data: https://earthenginepartners.appspot.com/science-2013-global-forest
+
+**Boreal ecosystem anthropogenic disturbance (BEAD) layers for Canada (Pasher et al. 2013).** A vector disturbance dataset of unbuffered individual linear and polygonal disturbance types covering 51 caribou ranges in Canada. The dataset is based on 2008-2010 Landsat imagery and each disturbance type was also gridded to a 1 km<sup>2</sup> resolution and represent total km<sup>2</sup>/km<sup>2</sup> for polygonal disturbances and km/km<sup>2</sup> for linear disturbances. In total, nineteen individual raster layers were produced including layers representing total polygonal and linear disturbances. The dataset was updated for some ranges in 2012 and 500m buffers were applied.
+  
+  - Download data: http://open.canada.ca/data/en/dataset?q=Boreal+ecosystem+anthropogenic+disturbance
+
+**Annual mapping of large forest disturbances in Canada (Guindon et al. 2014).** Annual mapping of large forest disturbances across Canada's forests using 250m MODIS imagery from 2000 to 2011. At total of 22 raster maps were generated representing fractional change and disturbance type. Fractional change is mapped as a continuous variable at the pixel level. Disturbance types were classified as no-change, fire, harvesting, or flooding.
+  
+  - Download data (Suppl. data): http://www.nrcresearchpress.com/doi/abs/10.1139/cjfr-2014-0229#.Wcu9msiGPRZ
+
+**Canada Landsat Disturbance (CanLaD) 2017.** This dataset includes a set of raster maps in which areas affected by fire or by harvest from 1984 to 2015 are identified at the level of individual 30m pixels on the Landsat grid. Details of the product development can be found in Guindon et. al. (2017, 2018).
+
+  - Download data: https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad
+
+**Satellite forest monitoring in Canada (White et al. 2017).** Online satellite-derived forest change map for Canada with information on the amount, type, and rates of disturbances from 1985-2011. The maps were developed using Landsat imagery at a resolution of 30m and estimate change type as being fire, infrastructure, harvest, or untyped.
+  
+  - View and download data: http://forests.foundryspatial.com/
+
+**Alberta Human Footprint (ABMI 2017).** From the ABMI website: "This comprehensive layer (updated every two years) includes human footprint information related to the energy, forestry, and agriculture industries, as well as urban development. The ABMI's human footprint information is core to understanding relationships between human land use, habitat, and species abundance. These data are used to support policy development, regional planning, and cumulative effects management decisions." The Human Footprint Index (HFI) has being developed for 2007, 2010, 2012, 2014.
+
+  - Website: http://www.abmi.ca/home/data-analytics/da-top/da-product-overview/GIS-Human-Footprint-Land-Cover-Data/HF-inventory.html
+
+**Northwest Boreal LCC Anthropogenic Footprint (Geist et al. 2017).** Datasets representing past and present human footprint across the Northwest Boreal Landscape. Currently, only the mining footprint layer is available. It was created by digitizing visible mining footprints using best available digital imagery layers (primarily GeoNorth Ortho WMS layer and ESRI global imagery service) and represents a snapshot in time during the period between 2010-2016.
+
+  - View and download data: http://accs.uaa.alaska.edu/landscape-ecology/northwest-boreal-anthropogenic-footprint/
+
+---
+
+### References
+
+Geist, M, Aisu, M, Lema, P, Trammell, EJ. 2017. Spatial estimates of surface mining footprints in northwest boreal ecoregions of Alaska and Canada.
+
+Guindon, L, Bernier, PY, Beaudion, A, Pouliot, D, Villmaire, P, Hall, RJ, Latifovic, R, St-Amant, R. 2014. Annual mapping of large forest disturbances across Canada's forests using 250m MODIS imagery from 2000 to 2011. Canadian Journal of Forest Research 44(12): 1545-1554.
+
+Guindon, L, Villemaire, P, St-Amant, R, Bernier, PY, Beaudoin, A, Caron, F, Bonucelli, M, Dorion, H. 2017. Canada Landsat Disturbance (CanLaD): a Canada-wide Landsat-based 30-m resolution product of fire and harvest detection and attribution since 1984.
+
+Guindon, L, Bernier, P.Y., Gauthier, S, Stinson, G, Villemaire, Beaudoin, A. 2018. Missing forest cover gains in boreal forests explained. Ecosphere 9(1):e02094. 10.1002/ecs2.2094
+
+Hansen, MC, Potapov, PV, Moore, R, Hancher, M, Turubanova, SA, Tyukavina, A, Stenham, SV, Goetz, SJ, Loveland, TR, Kommareddy, A, Egarov, A, Chini, L, Justice, CO, Townshend, JRG. 2013. High- resolution global maps of 21st-century forest cover change. Science 342: 850-853.
+
+Hermosilla, T, Wulder, MA, White, JC, Coops, NC, Hobart, GW. 2015. Regional detection, characterization, and attribution of annual forest change from 1984 to 2012 using Landsat-derived time-series metrics. Remote Sensing of Environment 170: 121-132.
+
+Hermosilla, T, Wulder, MA, White, JC, Coops, NC, Hobart, GW, Campbell, LB. 2016. Mass data processing of time series Landsat imagery: pixels to data products for forest monitoring. International Journal of Digital Earth 9: 1035-1054.
+
+Pasher, J, Seed, E, Duffe, J. 2013. Development of boreal ecosystem anthropogenic disturbance layers for Canada based on 2008 to 2010 Landsat imagery. Can. J. Remote Sensing 39(1): 42-58.
+
+White, JC, Wulder, MA, Hermosilla, T, Coops, NC, Hobart, GW 2017 A nationwide annual characterization of 25 years of forest disturbance and recovery for Canada using Landsat time series. Remote Sensing of Environment 194: 303-321.

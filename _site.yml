@@ -11,10 +11,14 @@ navbar:
       href: http://nwb.ualberta.ca
     - text: Pan-boreal assessment
       href: http://pba.ualberta.ca
-    - text: Intactness datasets
+    - text: Intactness paper
       href: https://github.com/prvernier/intactness
-    - text: Surrogates evaluation
+    - text: Surrogates paper
       href: https://github.com/prvernier/surrogates
+  - text: Data
+    menu:
+    - text: Intactness maps
+      href: intactness.html
   - text: About
     href: about.html
 output:
