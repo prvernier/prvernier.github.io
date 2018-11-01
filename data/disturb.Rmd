@@ -1,7 +1,7 @@
 ---
 title: "Disturbance maps"
-date: "`r format(Sys.time(), '%d %B %Y')`"
-author: "[Pierre Vernier](http://prv.updog.co)"
+date: "November 1, 2018"
+author: "Pierre Vernier"
 output:
   html_document:
     toc: FALSE
@@ -16,7 +16,7 @@ Several disturbance datasets have been developed recently, some of which have be
 
 ---
 
-**Global maps of forest cover change (Hansen et al. 2013).** The maps were developed using Landsat imagery at a resolution of 30m and covers latitudes 80°N and 60°S. Four metrics are used: (i) percent tree cover in 2000, (ii) cover loss 2000-2012, (iii) cover gain 2000-2012, and (iv) year of cover loss. There is no attribution of disturbance type. The datasets was recently updated to 2015.
+**Global maps of forest cover change (Hansen et al. 2013).** The maps were developed using Landsat imagery at a resolution of 30m and covers latitudes 80N and 60S. Four metrics are used: (i) percent tree cover in 2000, (ii) cover loss 2000-2012, (iii) cover gain 2000-2012, and (iv) year of cover loss. There is no attribution of disturbance type. The datasets was recently updated to 2015.
   
   - View and download data: https://earthenginepartners.appspot.com/science-2013-global-forest
 

@@ -18,7 +18,9 @@ navbar:
   - text: Data
     menu:
     - text: Intactness maps
-      href: intactness.html
+      href: data/intact.html
+    - text: Disturbance maps
+      href: data/disturb.html
   - text: About
     href: about.html
 output:

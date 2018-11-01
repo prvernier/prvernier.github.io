@@ -1,7 +1,7 @@
 ---
 title: "Intactness and footprint maps"
-date: "`r format(Sys.time(), '%d %B %Y')`"
-author: "[Pierre Vernier](http://prv.updog.co)"
+date: "November 1, 2018"
+author: "Pierre Vernier"
 output:
   html_document:
     toc: FALSE
