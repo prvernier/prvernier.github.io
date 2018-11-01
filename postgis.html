@@ -9,9 +9,11 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Pierre Vernier" />
 
+<meta name="date" content="2018-11-01" />
 
-<title>Welcome!</title>
+<title>PostGIS</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +21,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -166,6 +171,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -246,42 +346,30 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome!</h1>
+<h1 class="title toc-ignore">PostGIS</h1>
+<h4 class="author"><em>Pierre Vernier</em></h4>
+<h4 class="date"><em>November 1, 2018</em></h4>
 
 </div>
 
 
-<p>Welcome to my github pages. Here you will find information on various projects that I’m involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.</p>
-<p><br></p>
-<div id="projects" class="section level2">
-<h2>Projects</h2>
+<p>Welcome to my initiation to PostGIS!</p>
+<div id="installing-on-windows" class="section level3">
+<h3>Installing on Windows</h3>
+<div id="download-postgresql" class="section level4">
+<h4>Download PostgreSQL</h4>
+<p>You can download the latest version from here:</p>
 <ul>
-<li><a href="http://nwb.ualberta.ca">Northwest boreal LCC</a></li>
-<li><a href="http://pba.ualberta.ca">Panboreal assessment</a></li>
-<li><a href="https://github.com/prvernier/intactness">Intactness paper</a></li>
-<li><a href="https://github.com/prvernier/surrogates">Surrogates paper</a></li>
+<li><a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads" class="uri">https://www.enterprisedb.com/downloads/postgres-postgresql-downloads</a></li>
 </ul>
-<p><br></p>
+<p>In my case I selected the latest version (11.0) for Windows 10 64-bit (Windows x86-64). Once downloaded, start the installation by double-clicking on the file. I selected all the default parameters and used “postgres” as the password for the “postgres” database that is created during the installation process. Towards the end of the installation, you can select extensions - namely the latest version of PostGIS. That’s all there is to it!</p>
 </div>
-<div id="datasets" class="section level2">
-<h2>Datasets</h2>
-<p>Global and region forest intactness and human footprint datasets:</p>
-<ul>
-<li><a href="intact.html">Description and coverage of intactness maps from Canada and Alaska</a></li>
-<li><a href="disturb.html">Examples of recent remote sensing based disturbance datasets from Canada and Alaska</a></li>
-</ul>
-<p><br></p>
-</div>
-<div id="coding" class="section level2">
-<h2>Coding</h2>
-<p>Some code samples:</p>
-<ul>
-<li><a href="postgis.html">Initiation to Postgis…</a></li>
-</ul>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

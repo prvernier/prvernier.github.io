@@ -18,9 +18,13 @@ navbar:
   - text: Data
     menu:
     - text: Intactness maps
-      href: data/intact.html
+      href: intact.html
     - text: Disturbance maps
-      href: data/disturb.html
+      href: disturb.html
+  - text: Code
+    menu:
+    - text: PostGIS
+      href: postgis.html
   - text: About
     href: about.html
 output:

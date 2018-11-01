@@ -1,0 +1,23 @@
+---
+title: "PostGIS"
+date: "November 1, 2018"
+author: "Pierre Vernier"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: true
+    keep_md: no
+---
+
+Welcome to my initiation to PostGIS!
+
+### Installing on Windows
+
+#### Download PostgreSQL
+
+You can download the latest version from here:
+
+  * https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
+In my case I selected the latest version (11.0) for Windows 10 64-bit (Windows x86-64). Once downloaded, start the installation by double-clicking on the file. I selected all the default parameters and used "postgres" as the password for the "postgres" database that is created during the installation process. Towards the end of the installation, you can select extensions - namely the latest version of PostGIS. That's all there is to it!
+
