@@ -11,7 +11,7 @@
 
 <meta name="author" content="Pierre Vernier" />
 
-<meta name="date" content="2018-11-01" />
+<meta name="date" content="2019-01-03" />
 
 <title>PostGIS</title>
 
@@ -73,6 +73,7 @@ h6 {
 }
 </style>
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 </head>
 
@@ -348,21 +349,47 @@ div.tocify {
 
 <h1 class="title toc-ignore">PostGIS</h1>
 <h4 class="author"><em>Pierre Vernier</em></h4>
-<h4 class="date"><em>November 1, 2018</em></h4>
+<h4 class="date"><em>January 3, 2019</em></h4>
 
 </div>
 
 
-<p>Welcome to my initiation to PostGIS!</p>
-<div id="installing-on-windows" class="section level3">
-<h3>Installing on Windows</h3>
-<div id="download-postgresql" class="section level4">
-<h4>Download PostgreSQL</h4>
+<p>Installing PostgreSQL/PostGIS and Anaconda on Windows.</p>
+<div id="installing-tools" class="section level1">
+<h1>Installing tools</h1>
+<p>In this section, I will describe how I installed PostgreSQL/PostGIS and Python (Anaconda) on a 64-bit Windows 10 machine. If you know of a simpler or more robust method, please let me know (<a href="mailto:pierre.vernier@gmail.com" class="email">pierre.vernier@gmail.com</a>). Even though I describe the process as steps, there are no requirements to install these in this particular order.</p>
+<div id="step-1---install-postgresql" class="section level2">
+<h2>Step 1 - Install PostgreSQL</h2>
 <p>You can download the latest version from here:</p>
 <ul>
 <li><a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads" class="uri">https://www.enterprisedb.com/downloads/postgres-postgresql-downloads</a></li>
 </ul>
 <p>In my case I selected the latest version (11.0) for Windows 10 64-bit (Windows x86-64). Once downloaded, start the installation by double-clicking on the file. I selected all the default parameters and used “postgres” as the password for the “postgres” database that is created during the installation process. Towards the end of the installation, you can select extensions - namely the latest version of PostGIS. That’s all there is to it!</p>
+</div>
+<div id="step-2---install-anaconda" class="section level2">
+<h2>Step 2 - Install Anaconda</h2>
+<p>Anaconda includes Python and various libraries that are useful for spatial data management and analysis e.g., GDAL/OGR. Specifically, the ogr2ogr utility includes most of the drivers needed to import vector datasets (e.g., shapefiles, file geodatabases) into PostGIS. You can download the latest version from here:</p>
+<ul>
+<li><a href="https://www.anaconda.com/download/" class="uri">https://www.anaconda.com/download/</a></li>
+</ul>
+<p>I downloaded the Python 3.7 64-Bit Graphical Installer. Once downloaded, start the installation and select the default prompts. At this point, you should be able to start the Anaconda prompt. From there, you can run various utilities, Python scripts, and install additional libraries as needed (i.e., conda install …).</p>
+</div>
+</div>
+<div id="viewing-postgis-maps" class="section level1">
+<h1>Viewing PostGIS maps</h1>
+<p>It is often useful to have a look at intermediate results when running queries or conducting an analysis. There are no easy ways to do this within PostGIS, however I’ve come across a few approaches that are relatively simple.</p>
+<div id="pgadmin-4" class="section level2">
+<h2>pgAdmin 4</h2>
+<p>With recent versions of PostGIS, it is now possible to view the geometry of a spatial table if it is in a geographic projectiong (epgs = 4326).</p>
+</div>
+<div id="qgis" class="section level2">
+<h2>QGIS</h2>
+</div>
+<div id="r" class="section level2">
+<h2>R</h2>
+</div>
+<div id="python" class="section level2">
+<h2>Python</h2>
 </div>
 </div>
 

@@ -33,4 +33,4 @@ output:
     theme: cosmo
     lib_dir: site_libs
     self_contained: no
-
+    css: styles.css
