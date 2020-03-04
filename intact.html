@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Pierre Vernier" />
 
-<meta name="date" content="2018-11-01" />
+<meta name="date" content="2020-03-04" />
 
 <title>Intactness and footprint maps</title>
 
@@ -72,9 +72,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -98,6 +95,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -113,7 +113,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -133,6 +132,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,19 +190,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -250,8 +341,8 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Intactness and footprint maps</h1>
-<h4 class="author"><em>Pierre Vernier</em></h4>
-<h4 class="date"><em>November 1, 2018</em></h4>
+<h4 class="author">Pierre Vernier</h4>
+<h4 class="date">March 04, 2020</h4>
 
 </div>
 
@@ -306,6 +397,17 @@ $(document).ready(function () {
 </tr>
 </tbody>
 </table>
+<p><strong>Global Human Modification (Kennedy et al. 2019).</strong> The global Human Modification map (HM) provides a cumulative measure of human modification of terrestrial lands across the globe at a 1-km2 resolution. It is a continuous 0-1 metric that reflects the proportion of a landscape modified based on modeling the physical extents of 13 anthropogenic stressors and their estimated impacts using spatially-explicit global datasets with a median year of 2016.</p>
+<ul>
+<li>Reference: Kennedy et al. 2019</li>
+<li>Download data: <a href="https://figshare.com/articles/Global_Human_Modification/7283087" class="uri">https://figshare.com/articles/Global_Human_Modification/7283087</a></li>
+<li>Interactive data viewer: <a href="http://s3.amazonaws.com/DevByDesign-Web/Apps/gHM/index.html" class="uri">http://s3.amazonaws.com/DevByDesign-Web/Apps/gHM/index.html</a></li>
+</ul>
+<p><strong>Low Impact Areas (Jacobson et al. 2019).</strong> The Low Impact Areas dataset uses open-access, frequently updated data sets on terrestrial human impacts (human population density, built-up area, cropland, livestock, forest cover change, roads, night-time lights) to create a new categorical map of global human influence (“Low Impact Areas” and “Very Low Impact Areas”) at a 1-km2 resolution.</p>
+<ul>
+<li>Reference: Jacobson et al. 2019</li>
+<li>Download data: <a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.z612jm67g" class="uri">https://datadryad.org/stash/dataset/doi:10.5061/dryad.z612jm67g</a></li>
+</ul>
 <p><strong>Frontier Forests (Bryant et al. 1997).</strong> The Forest Frontiers (FF) map was the first attempt to create a global map of the remaining large, ecologically intact, and relatively undisturbed natural forest landscapes. The map shows where the last remaining large areas of forest remains and provides an assessment of the degree of threat (low or no threat, medium or high threat, unassessed for threat). The maps were created from readily-accessible, but variable, ancillary information such as roads, and numerous experts provided advice and reviews. Unlike the other more recent approaches, Frontier Forests did not use consistent and more recent data sources such as satellite imagery. The Forest Frontiers map was published in 1997 by World Resources Institute.</p>
 <ul>
 <li>Website: <a href="http://www.wri.org/publication/last-frontier-forests" class="uri">http://www.wri.org/publication/last-frontier-forests</a> (16-Mar-2017: link no longer works)</li>
@@ -323,26 +425,11 @@ $(document).ready(function () {
 </tr>
 </tbody>
 </table>
-<p><strong>HANPP (Haberl et al. 2007).</strong> Human appropriation of net primary productivity (HANPP) represents the aggregate impact of land use on biomass available each year in ecosystems and is considered to be a prominent measure of human domination of the biosphere. HANPP is based on vegetation modeling, agricultural and forestry statistics, and geographical information systems data on land use, land cover, and soil degradation that localizes human impact on ecosystems. Global HANPP maps are available as PDF files while several underlying land use datasets are available in digital raster format including a map of wilderness and unproductive areas produced by the same authors (Erb et al 2007) which may be of most interest for selecting benchmarks. Other approaches have been used to calculate HANPP (e.g., Imhoff et al 2004) and these are reviewed in the main website.</p>
+<p><strong>Anthromes (Ellis and Ramankutty 2010).</strong> From The Encyclopedia of Earth: “Anthropogenic biomes describe globally-significant ecological patterns within the terrestrial biosphere caused by sustained direct human interaction with ecosystems, including agriculture, urbanization, forestry and other land uses. Conventional biomes, such as tropical rainforests or grasslands, are based on global vegetation patterns related to climate. Now that humans have fundamentally altered global patterns of ecosystem form, process, and biodiversity, anthropogenic biomes provide a contemporary view of the terrestrial biosphere in its human-altered form. Anthropogenic biomes may also be termed”anthromes" to distinguish them from conventional biome systems, or “human biomes” (a simpler but less precise term)". The three wildland categories (wild forest, sparse trees, and barren) are of primary interest.</p>
 <ul>
-<li>Download data (Wilderness and unproductive areas): <a href="http://www.uni-klu.ac.at/socec/inhalt/1189.htm" class="uri">http://www.uni-klu.ac.at/socec/inhalt/1189.htm</a></li>
-<li>Distribution in Canada and Alaska:</li>
-</ul>
-<table>
-<thead>
-<tr class="header">
-<th align="center">HANNP Unused</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center"><a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/unused.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/unused.png"></a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Anthromes (Ellis and Ramankutty 2008).</strong> From The Encyclopedia of Earth: “Anthropogenic biomes describe globally-significant ecological patterns within the terrestrial biosphere caused by sustained direct human interaction with ecosystems, including agriculture, urbanization, forestry and other land uses. Conventional biomes, such as tropical rainforests or grasslands, are based on global vegetation patterns related to climate. Now that humans have fundamentally altered global patterns of ecosystem form, process, and biodiversity, anthropogenic biomes provide a contemporary view of the terrestrial biosphere in its human-altered form. Anthropogenic biomes may also be termed”anthromes&quot; to distinguish them from conventional biome systems, or “human biomes” (a simpler but less precise term)&quot;. The three wildland categories (wild forest, sparse trees, and barren) are of primary interest.</p>
-<ul>
+<li>Reference: Ellis et al. 2010</li>
 <li>Website: <a href="http://www.ecotope.org/anthromes/default.aspx" class="uri">http://www.ecotope.org/anthromes/default.aspx</a></li>
+<li>Download data: <a href="http://www.ecotope.org/anthromes/v2/data/" class="uri">http://www.ecotope.org/anthromes/v2/data/</a></li>
 <li>Distribution in Canada and Alaska:</li>
 </ul>
 <table>
@@ -354,23 +441,6 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td align="center"><a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/wild.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/wild.png"></a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>GLOBIO (UNEP 2001).</strong> GLOBIO is a modelling framework that can be used to calculate the combined effects of five broad environmental drivers on indicators of biodiversity in the past, present and future. The framework combines several established models used to assess the cumulative effects of human pressures on biodiversity worldwide. The GLOBIO models are based on scientific literature reviews to develop dose-response relationships between biodiversity indicators and various human pressures. The main biodiversity indicator map produced by GLOBIO is the Mean Species Abundance (MSA) and Ecosystem extent. MSA is an indicator of naturalness or biodiversity intactness. It is defined as the mean abundance of original species relative to their abundance in undisturbed ecosystems. An area with an MSA of 100% means a biodiversity that is similar to the natural situation. An MSA of 0% means a completely destructed ecosystem, with no original species remaining. The most recent version of the model, GLOBIO 3.0, evaluates the impacts of infrastructure development (e.g., roads, pipelines, powerlines, settlements), land use change and land use intensity, climate change and nitrogen deposition on biodiversity.</p>
-<ul>
-<li>Website: <a href="http://www.globio.info" class="uri">http://www.globio.info</a></li>
-<li>Distribution in Canada and Alaska:</li>
-</ul>
-<table>
-<thead>
-<tr class="header">
-<th align="center">GLOBIO MSA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center"><a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/msa.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/msa.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -438,10 +508,13 @@ $(document).ready(function () {
 <h3>References</h3>
 <p>Bryant, D., Nielsen, D., Tangley, L. 1997. The last frontier forests: Ecosystems and economies on the edge. World Resources Institute, Washington, D.C.</p>
 <p>Ellis, E.C., and Ramankutty, N., 2008. Putting people in the map: anthropogenic biomes of the world. Frontiers in Ecology and the Environment 6, <a href="doi:10.1890/070062" class="uri">doi:10.1890/070062</a>. URL: <a href="http://www.esajournals.org/doi/abs/10.1890/070062" class="uri">http://www.esajournals.org/doi/abs/10.1890/070062</a></p>
+<p>Ellis, E. C., K. Klein Goldewijk, S. Siebert, D. Lightman, and N. Ramankutty. 2010. Anthropogenic transformation of the biomes, 1700 to 2000. Global Ecology and Biogeography 19(5):589-606</p>
 <p>Erb, K.-H., Gaube, V., Krausmann, F., Plutzar, C., Bondeau, A., Haberl, H. 2007. A comprehensive global 5min resolution land-use dataset for the year 2000 consistent with national census data. Journal of Land Use Science 2(3): 191-224. URL: <a href="http://www.informaworld.com/smpp/content~content=a783007657~db=all~order=page" class="uri">http://www.informaworld.com/smpp/content~content=a783007657~db=all~order=page</a></p>
 <p>Geist, M., M. Aisu , P. Lema &amp; E. J. Trammell. 2017. Spatial estimates of surface mining footprints in northwest boreal ecoregions of Alaska and Canada.</p>
 <p>Haberl, H., Erb, K.H., Krausmann, F., Gaube, V. Bondeau, A., Plutzar, C., Gingrich, S., Lucht, W., Fischer-Kowalski, M. 2007. Quantifying and mapping the human appropriation of net primary production in earth’s ecosystems. PNAS (104): 12942-12947. URL: <a href="http://www.pnas.org/content/104/31/12942.full" class="uri">http://www.pnas.org/content/104/31/12942.full</a></p>
 <p>Imhoff, M. L., Bounoua, L., Ricketts, T., Loucks, C., Harriss, R., Lawrence, W. T. 2004. Global patterns in human consumption of net primary production. Nature 429, 870-873. URL: <a href="http://sedac.ciesin.columbia.edu/es/hanpp.html" class="uri">http://sedac.ciesin.columbia.edu/es/hanpp.html</a></p>
+<p>Jacobson, A.P., Riggio, J., Tait, A.M. and Baillie, J.E. 2019. Global areas of low human impact (Low Impact Areas) and fragmentation of the natural world. Scientific reports 9(1):1-13. <a href="http://dx.doi.org/10.1038/s41598-019-50558-6" class="uri">http://dx.doi.org/10.1038/s41598-019-50558-6</a></p>
+<p>Kennedy C.M., Oakleaf J.R., Theobald D.M., Baruch-Mordo S., Kiesecker J. 2019. Managing the middle: A shift in conservation priorities based on the global human modification gradient. Global Change Biology 25:811-826. <a href="https://doi.org/10.1111/gcb.14549" class="uri">https://doi.org/10.1111/gcb.14549</a></p>
 <p>Lee, P., Gysbers, J.D., Stonojevic, Z. 2006. Canada’s forest landscape fragments: A first approximation (A Global Forest Watch Canada Report). Edmonton, Alberta: Global Forest Watch Canada. 97pp.</p>
 <p>Lee, P. G. 2009. Caution against using intact forest-landscapes data at regional scales. Ecology and Society 14(1): r1. URL: <a href="http://www.ecologyandsociety.org/vol14/iss1/resp1/" class="uri">http://www.ecologyandsociety.org/vol14/iss1/resp1/</a></p>
 <p>Potapov, P., Yaroshenko, A., Turubanova, S., Dubinin, M., Laestadius, L., Thies, C., Aksenov, D., Egorov, E., Yesipova, Y., Glushkov, I., Karpachevskiy, M., Kostikova, A., Manisha, A., Tsybikova, E., Zhuravleva, I.. 2008. Mapping the world’s intact forest landscapes by remote sensing. Ecology and Society 13(2): 51. URL: <a href="http://www.ecologyandsociety.org/vol13/iss2/art51/" class="uri">http://www.ecologyandsociety.org/vol13/iss2/art51/</a></p>
@@ -471,6 +544,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

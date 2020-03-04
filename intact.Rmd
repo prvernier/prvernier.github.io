@@ -1,6 +1,6 @@
 ---
 title: "Intactness and footprint maps"
-date: "November 1, 2018"
+date: "March 04, 2020"
 author: "Pierre Vernier"
 output:
   html_document:
@@ -40,6 +40,19 @@ Intactness datasets can help conservation planners to design and evaluate protec
 | <a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/hf2009.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/hf2009.png"></a> | <a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/hf1993.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/hf1993.png"></a> |
 
 
+**Global Human Modification (Kennedy et al. 2019).** The global Human Modification map (HM) provides a cumulative measure of human modification of terrestrial lands across the globe at a 1-km2 resolution. It is a continuous 0-1 metric that reflects the proportion of a landscape modified based on modeling the physical extents of 13 anthropogenic stressors and their estimated impacts using spatially-explicit global datasets with a median year of 2016.
+
+  - Reference: Kennedy et al. 2019
+  - Download data: https://figshare.com/articles/Global_Human_Modification/7283087
+  - Interactive data viewer: http://s3.amazonaws.com/DevByDesign-Web/Apps/gHM/index.html
+
+
+**Low Impact Areas (Jacobson et al. 2019).** The Low Impact Areas dataset uses open-access, frequently updated data sets on terrestrial human impacts (human population density, built-up area, cropland, livestock, forest cover change, roads, night-time lights) to create a new categorical map of global human influence ("Low Impact Areas" and "Very Low Impact Areas") at a 1-km2 resolution.
+
+  - Reference: Jacobson et al. 2019
+  - Download data: https://datadryad.org/stash/dataset/doi:10.5061/dryad.z612jm67g
+
+
 **Frontier Forests (Bryant et al. 1997).** The Forest Frontiers (FF) map was the first attempt to create a global map of the remaining large, ecologically intact, and relatively undisturbed natural forest landscapes. The map shows where the last remaining large areas of forest remains and provides an assessment of the degree of threat (low or no threat, medium or high threat, unassessed for threat). The maps were created from readily-accessible, but variable, ancillary information such as roads, and numerous experts provided advice and reviews. Unlike the other more recent approaches, Frontier Forests did not use consistent and more recent data sources such as satellite imagery. The Forest Frontiers map was published in 1997 by World Resources Institute.
 
   - Website: http://www.wri.org/publication/last-frontier-forests (16-Mar-2017: link no longer works)
@@ -50,34 +63,17 @@ Intactness datasets can help conservation planners to design and evaluate protec
 | <a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/ff.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/ff.png"></a> |
 
 
-**HANPP (Haberl et al. 2007).** Human appropriation of net primary productivity (HANPP) represents the aggregate impact of land use on biomass available each year in ecosystems and is considered to be a prominent measure of human domination of the biosphere. HANPP is based on vegetation modeling, agricultural and forestry statistics, and geographical information systems data on land use, land cover, and soil degradation that localizes human impact on ecosystems. Global HANPP maps are available as PDF files while several underlying land use datasets are available in digital raster format including a map of wilderness and unproductive areas produced by the same authors (Erb et al 2007) which may be of most interest for selecting benchmarks. Other approaches have been used to calculate HANPP (e.g., Imhoff et al 2004) and these are reviewed in the main website.
+**Anthromes (Ellis and Ramankutty 2010).** From The Encyclopedia of Earth: "Anthropogenic biomes describe globally-significant ecological patterns within the terrestrial biosphere caused by sustained direct human interaction with ecosystems, including agriculture, urbanization, forestry and other land uses. Conventional biomes, such as tropical rainforests or grasslands, are based on global vegetation patterns related to climate. Now that humans have fundamentally altered global patterns of ecosystem form, process, and biodiversity, anthropogenic biomes provide a contemporary view of the terrestrial biosphere in its human-altered form. Anthropogenic biomes may also be termed "anthromes" to distinguish them from conventional biome systems, or "human biomes" (a simpler but less precise term)". The three wildland categories (wild forest, sparse trees, and barren) are of primary interest.
 
-  - Download data (Wilderness and unproductive areas): <http://www.uni-klu.ac.at/socec/inhalt/1189.htm>
-  - Distribution in Canada and Alaska:
-
-| HANNP Unused |
-|:------------:|
-| <a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/unused.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/unused.png"></a> |
-
-
-**Anthromes (Ellis and Ramankutty 2008).** From The Encyclopedia of Earth: "Anthropogenic biomes describe globally-significant ecological patterns within the terrestrial biosphere caused by sustained direct human interaction with ecosystems, including agriculture, urbanization, forestry and other land uses. Conventional biomes, such as tropical rainforests or grasslands, are based on global vegetation patterns related to climate. Now that humans have fundamentally altered global patterns of ecosystem form, process, and biodiversity, anthropogenic biomes provide a contemporary view of the terrestrial biosphere in its human-altered form. Anthropogenic biomes may also be termed "anthromes" to distinguish them from conventional biome systems, or "human biomes" (a simpler but less precise term)". The three wildland categories (wild forest, sparse trees, and barren) are of primary interest.
-
+  - Reference: Ellis et al. 2010
   - Website: http://www.ecotope.org/anthromes/default.aspx
+  - Download data: http://www.ecotope.org/anthromes/v2/data/
   - Distribution in Canada and Alaska:
 
 | Anthromes Wild |
 |:--------------:|
 | <a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/wild.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/wild.png"></a> |
 
-
-**GLOBIO (UNEP 2001).** GLOBIO is a modelling framework that can be used to calculate the combined effects of five broad environmental drivers on indicators of biodiversity in the past, present and future. The framework combines several established models used to assess the cumulative effects of human pressures on biodiversity worldwide. The GLOBIO models are based on scientific literature reviews to develop dose-response relationships between biodiversity indicators and various human pressures. The main biodiversity indicator map produced by GLOBIO is the Mean Species Abundance (MSA) and Ecosystem extent. MSA is an indicator of naturalness or biodiversity intactness. It is defined as the mean abundance of original species relative to their abundance in undisturbed ecosystems. An area with an MSA of 100% means a biodiversity that is similar to the natural situation. An MSA of 0% means a completely destructed ecosystem, with no original species remaining. The most recent version of the model, GLOBIO 3.0, evaluates the impacts of infrastructure development (e.g., roads, pipelines, powerlines, settlements), land use change and land use intensity, climate change and nitrogen deposition on biodiversity.
-
-  - Website: http://www.globio.info
-  - Distribution in Canada and Alaska:
-
-| GLOBIO MSA |
-|:----------------:|
-| <a href="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/msa.png"><img width=200 src="https://raw.githubusercontent.com/beacons/intactness/master/supp_info/maps/msa.png"></a> |
 
 ---
 
@@ -131,6 +127,8 @@ Bryant, D., Nielsen, D., Tangley, L. 1997. The last frontier forests: Ecosystems
 
 Ellis, E.C., and Ramankutty, N., 2008. Putting people in the map: anthropogenic biomes of the world. Frontiers in Ecology and the Environment 6, <doi:10.1890/070062>. URL: <http://www.esajournals.org/doi/abs/10.1890/070062>
 
+Ellis, E. C., K. Klein Goldewijk, S. Siebert, D. Lightman, and N. Ramankutty. 2010. Anthropogenic transformation of the biomes, 1700 to 2000. Global Ecology and Biogeography 19(5):589-606
+
 Erb, K.-H., Gaube, V., Krausmann, F., Plutzar, C., Bondeau, A., Haberl, H. 2007. A comprehensive global 5min resolution land-use dataset for the year 2000 consistent with national census data. Journal of Land Use Science 2(3): 191-224. URL: <http://www.informaworld.com/smpp/content~content=a783007657~db=all~order=page>
 
 Geist, M., M. Aisu , P. Lema & E. J. Trammell. 2017. Spatial estimates of surface mining footprints in northwest boreal ecoregions of Alaska and Canada.
@@ -138,6 +136,10 @@ Geist, M., M. Aisu , P. Lema & E. J. Trammell. 2017. Spatial estimates of surfac
 Haberl, H., Erb, K.H., Krausmann, F., Gaube, V. Bondeau, A., Plutzar, C., Gingrich, S., Lucht, W., Fischer-Kowalski, M. 2007. Quantifying and mapping the human appropriation of net primary production in earth's ecosystems. PNAS (104): 12942-12947. URL: <http://www.pnas.org/content/104/31/12942.full>
 
 Imhoff, M. L., Bounoua, L., Ricketts, T., Loucks, C., Harriss, R., Lawrence, W. T. 2004. Global patterns in human consumption of net primary production. Nature 429, 870-873. URL: <http://sedac.ciesin.columbia.edu/es/hanpp.html>
+
+Jacobson, A.P., Riggio, J., Tait, A.M. and Baillie, J.E. 2019. Global areas of low human impact (Low Impact Areas) and fragmentation of the natural world. Scientific reports 9(1):1-13. http://dx.doi.org/10.1038/s41598-019-50558-6
+
+Kennedy C.M., Oakleaf J.R., Theobald D.M., Baruch-Mordo S., Kiesecker J. 2019. Managing the middle: A shift in conservation priorities based on the global human modification gradient. Global Change Biology 25:811-826. https://doi.org/10.1111/gcb.14549
 
 Lee, P., Gysbers, J.D., Stonojevic, Z. 2006. Canada's forest landscape fragments: A first approximation (A Global Forest Watch Canada Report). Edmonton, Alberta: Global Forest Watch Canada. 97pp.
 
