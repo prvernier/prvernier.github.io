@@ -1,0 +1,28 @@
+---
+title: "PostGIS"
+date: "January 3, 2019"
+author: "Pierre Vernier"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: true
+    keep_md: no
+---
+
+**How to rename variables...**
+
+```
+z = read_csv(paste0('code/output/tables/models_r2_by_ecoregion_rnr.csv')) %>%
+    select(ecozone, ecoregion, songbirds) %>%
+    mutate(ecozone = factor(ecozone, levels=c('4','5','6A','6B','9','11','12','14','15')),
+        ecozone=recode(ecozone, 
+            `4`="Taiga Plains",
+            `5`="Taiga Shield",
+            `6A`="Boreal Shield A",
+            `6B`="Boreal Shield B",
+            `9`="Boreal Plains",
+            `11`="Taiga Cordillera",
+            `12`="Boreal Cordillera",
+            `14`="Montane Cordillera",
+            `15`="Hudson Plains"))
+```
