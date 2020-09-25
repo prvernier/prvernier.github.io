@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Pierre Vernier" />
 
+<meta name="date" content="2019-01-03" />
 
-<title>Welcome!</title>
+<title>PostGIS</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +21,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -249,6 +254,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -256,6 +324,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -338,42 +416,33 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome!</h1>
+<h1 class="title toc-ignore">PostGIS</h1>
+<h4 class="author">Pierre Vernier</h4>
+<h4 class="date">January 3, 2019</h4>
 
 </div>
 
 
-<p>Welcome to my github pages. Here you will find information on various projects that I’m involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.</p>
-<p><br></p>
-<div id="projects" class="section level2">
-<h2>Projects</h2>
-<ul>
-<li><a href="http://nwb.ualberta.ca">Northwest boreal LCC</a></li>
-<li><a href="http://pba.ualberta.ca">Panboreal assessment</a></li>
-<li><a href="https://github.com/prvernier/intactness">Intactness paper</a></li>
-<li><a href="https://github.com/prvernier/surrogates">Surrogates paper</a></li>
-</ul>
-<p><br></p>
-</div>
-<div id="datasets" class="section level2">
-<h2>Datasets</h2>
-<p>Global and region forest intactness and human footprint datasets:</p>
-<ul>
-<li><a href="intact.html">Description and coverage of intactness maps from Canada and Alaska</a></li>
-<li><a href="disturb.html">Examples of recent remote sensing based disturbance datasets from Canada and Alaska</a></li>
-</ul>
-<p><br></p>
-</div>
-<div id="coding" class="section level2">
-<h2>Coding</h2>
-<p>Some code samples:</p>
-<ul>
-<li><a href="postgis.html">Initiation to Postgis…</a></li>
-</ul>
+<div id="how-to-rename-variables" class="section level2">
+<h2>How to rename variables…</h2>
+<pre><code>z = read_csv(paste0(&#39;code/output/tables/models_r2_by_ecoregion_rnr.csv&#39;)) %&gt;%
+    select(ecozone, ecoregion, songbirds) %&gt;%
+    mutate(ecozone = factor(ecozone, levels=c(&#39;4&#39;,&#39;5&#39;,&#39;6&#39;,&#39;9&#39;,&#39;11&#39;,&#39;12&#39;,&#39;14&#39;,&#39;15&#39;)),
+        ecozone=recode(ecozone, 
+            `4`=&quot;Taiga Plains&quot;,
+            `5`=&quot;Taiga Shield&quot;,
+            `6`=&quot;Boreal Shield B&quot;,
+            `9`=&quot;Boreal Plains&quot;,
+            `11`=&quot;Taiga Cordillera&quot;,
+            `12`=&quot;Boreal Cordillera&quot;,
+            `14`=&quot;Montane Cordillera&quot;,
+            `15`=&quot;Hudson Plains&quot;))</code></pre>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -406,6 +475,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

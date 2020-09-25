@@ -17,14 +17,14 @@ navbar:
       href: https://github.com/prvernier/surrogates
   - text: Data
     menu:
-    - text: Intactness maps
-      href: intact.html
-    - text: Disturbance maps
-      href: disturb.html
+    - text: Intactness & disturbances
+      href: intact_disturb.html
   - text: Code
     menu:
     - text: PostGIS
       href: postgis.html
+    - text: R snippets
+      href: rcode.html
   - text: About
     href: about.html
 output:
