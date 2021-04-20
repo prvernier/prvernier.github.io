@@ -1,5 +1,5 @@
 ---
-title: "Intactness and Disturbance Datasets"
+title: "Conservation Planning Datasets"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 author: "Pierre Vernier"
 output:
@@ -17,6 +17,10 @@ output:
 Intactness and disturbance datasets are increasingly used by conservation planners to design and evaluate protected areas. This page describes existing global and regional datasets that measure intactness (e.g., intact forest landscapes) or cumulative disturbances (e.g., human footprint maps) for use in the boreal region of North America.
 
   * Detailed characteristics of some of the datasets can be found [here](https://docs.google.com/spreadsheets/d/17x_a3f5QkyALlC7vYdq61wou_UAYvwR2ViyIFDHrsBg/edit?usp=sharing).
+
+---
+
+# Protected Areas
 
 ---
 
@@ -198,6 +202,56 @@ Anthropogenic Biomes. From The Encyclopedia of Earth: "Anthropogenic biomes desc
   - Website: http://www.ecotope.org/anthromes/v2/data/
 
 
+### World terrestrial ecosystems
+
+From Sayre et al. (2020): "We describe a new set of maps of globally consistent climate regions and ecosystems at a much finer spatial resolution (250m) than existing ecological regionalizations. The new map of terrestrial World Ecosystems was derived from the objective development and integration of 1) global temperature domains, 2) global moisture domains, 3) global landforms, and 4) 2015 global vegetation and land use. These new terrestrial World Ecosystems do not include either freshwater or marine ecosystems, but analog products for the freshwater and marine domains are in development. A total of 431 World Ecosystems were identified, and of these a total of 278 units were natural or semi-natural vegetation/environment combinations, including different kinds of forestlands, shrublands, grasslands, bare areas, and ice/snow regions. The remaining classes were different kinds of croplands and settlements." The dataset can be downloaded from the bottom of the storymap page.
+
+  - Data years: 2020
+  - References: Sayre et al. 2020
+  - Storymap: https://storymaps.arcgis.com/stories/a4a6b1f779be4b64816d1876cfe669b9
+
+
+# Climate
+
+## Canada Datasets
+
+### Climate moisture index
+
+Climate moisture index (CMI) is a measure of the water deficit (or surplus) in soil, calculated as the yearly average precipitation minus yearly potential evapotranspiration expressed in units of cm of water per year (Hogg 1997). We used data from Hamann et al. 2013 with resolutions of 1-km2 for western North America and 4-km2 for North America, resampling the latter to 1-km2.
+
+## Productivity
+
+## Global Datasets
+
+### Gross primary productivity
+
+Gross primary productivity (GPP) is an indicator of the amount of carbon absorbed by photosynthesis, measured in kg per meter squared per year (C kg/m2/yr). It is calculated as an average of 15 years of data (2000-2014) from the MODIS satellite and has a resolution of 1 km2 (Zhao and Running 2010); 
+
+# Hydrology
+
+## Canada Datasets
+
+### Lake edge density
+
+Lake edge density (LED) is an indicator of the density of riparian habitat, measured in km/km2 within 100 km2 circular units (BEACONs 2011). This dataset was created using the 1:1,000,000 lakes and wide rivers coverage from the Atlas of Canada?s National Scale Frameworks Hydrology (v6.0, NRCAN 2009);
+
+
+# Land cover
+
+## North America Datasets
+
+### NALCC 2010
+
+Land cover (LCC) is a categorical descriptor of vegetation on the landscape and was measured using the 2010 Land Cover of North America based on 250m MODIS satellite imagery, containing 19 cover types (CEC 2013). We removed landcover classes associated with anthropogenic disturbances (urban, agriculture).
+
+# Species
+
+## Canada Datasets
+
+### Songbird density
+
+### Waterfowl density
+
 
 # References
 
@@ -244,6 +298,8 @@ Potapov, P., Yaroshenko, A., Turubanova, S., Dubinin, M., Laestadius, L., Thies,
 Potapov, P., Hansen, M.C., Laestadius, L., Turubanova, S., Yaroshenko, A., Thies, C., Smith, W., Zhuravleva, I., Komarova, A., Minnemeyer, S., Esipova, E. 2017 The last frontiers of wilderness: Tracking loss of intact forest landscapes from 2000 to 2013. Science Advances 3: 1-13.
 
 Sanderson, E.W., Jaiteh, M., Levy, M.A., Redford, K.H., Wannebo, A.V., Woolmer, G. 2002. The human footprint and the last of the wild. BioScience 52:891-904.
+
+Sayre et al.. 2020. An assessment of the representation of ecosystems in global protected areas using new maps of World Climate Regions and World Ecosystems. Global Ecology and Conservation 21. https://doi.org/10.1016/j.gecco.2019.e00860
 
 Smith, W. and Cheng, R. 2016. Canada's Intact Forest Landscapes Updated to 2013. Ottawa: Global Forest Watch Canada. 26 pp.
 

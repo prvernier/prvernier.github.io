@@ -17,8 +17,8 @@ navbar:
       href: https://github.com/prvernier/surrogates
   - text: Data
     menu:
-    - text: Intactness & disturbances
-      href: intact_disturb.html
+    - text: Conservation planning datasets
+      href: datasets.html
   - text: Code
     menu:
     - text: PostGIS
