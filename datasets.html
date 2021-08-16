@@ -11,11 +11,10 @@
 
 <meta name="author" content="Pierre Vernier" />
 
-<meta name="date" content="2021-04-20" />
+<meta name="date" content="2021-04-27" />
 
 <title>Conservation Planning Datasets</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -388,7 +387,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Conservation Planning Datasets</h1>
 <h4 class="author">Pierre Vernier</h4>
-<h4 class="date">20 April 2021</h4>
+<h4 class="date">27 April 2021</h4>
 
 </div>
 
@@ -407,6 +406,15 @@ div.tocify {
 <h1>Wilderness and Intact Areas</h1>
 <div id="global-datasets" class="section level2">
 <h2>Global Datasets</h2>
+<div id="forest-landscape-intactness-index" class="section level3">
+<h3>Forest Landscape Intactness Index</h3>
+<p>From the website: “The Forest Landscape Integrity Index integrates data on observed and inferred forest pressures and lost forest connectivity to generate the first globally-consistent, continuous index of forest integrity as determined by degree of anthropogenic modification. This is the first measure of ecological integrity for all the world’s forests. The study brought together 47 forest experts from across the world to apply recent developments in cloud computing and large new datasets.”</p>
+<ul>
+<li>Data years:</li>
+<li>References: Grantham et al. 2020</li>
+<li>Website: <a href="https://www.forestlandscapeintegrity.com/home" class="uri">https://www.forestlandscapeintegrity.com/home</a></li>
+</ul>
+</div>
 <div id="global-intact-forest-landscapes" class="section level3">
 <h3>Global Intact Forest Landscapes</h3>
 <p>The global Intact Forest Landscapes maps describe large unbroken expanses of natural ecosystems for the years 2000, 2013 and 2016 within areas of current forest extent, without signs of significant human activity, and having an area of at least 500 km2. The forest zone boundary was defined using a global tree canopy cover dataset (MODIS 500m) and included all areas with a tree canopy cover &gt; 20% in the year 2000. The global IFL maps were created using maps of human settlements and transportation networks and a global coverage of high spatial resolution satellite imagery (Landsat 5 &amp; 7, 30m).</p>
@@ -628,6 +636,22 @@ div.tocify {
 <h3>Gross primary productivity</h3>
 <p>Gross primary productivity (GPP) is an indicator of the amount of carbon absorbed by photosynthesis, measured in kg per meter squared per year (C kg/m2/yr). It is calculated as an average of 15 years of data (2000-2014) from the MODIS satellite and has a resolution of 1 km2 (Zhao and Running 2010);</p>
 </div>
+<div id="dynamic-habitat-indices" class="section level3">
+<h3>Dynamic habitat indices</h3>
+<p>The DHIs are designed for biodiversity assessments and to describe habitats of different species. Three individual indices comprise the DHIs:</p>
+<ul>
+<li>DHI cum - cumulative DHI, i.e., the area under the phenological curve of a year</li>
+<li>DHI min - minimum DHI, i.e., the minimum value of the phenological curve of a year</li>
+<li>DHI var - seasonality DHI, i.e., the coefficient of variation of the phenological curve of a year</li>
+</ul>
+<p>The python code (wrappers for GDAL and GRASS) to create DHI data is available from the bottom of the website.</p>
+<ul>
+<li>Data years: annually for 2003-2015; composite for 2003-2014</li>
+<li>References: Hobi et al. 2017, Radelof et al. 2019</li>
+<li>Website: <a href="http://silvis.forest.wisc.edu/data/dhis/" class="uri">http://silvis.forest.wisc.edu/data/dhis/</a></li>
+<li>Website: <a href="http://silvis.forest.wisc.edu/data/dhis-clusters/" class="uri">http://silvis.forest.wisc.edu/data/dhis-clusters/</a></li>
+</ul>
+</div>
 </div>
 </div>
 <div id="hydrology" class="section level1">
@@ -669,6 +693,7 @@ div.tocify {
 <p>Ellis, E. C., K. Klein Goldewijk, S. Siebert, D. Lightman, and N. Ramankutty. 2010. Anthropogenic transformation of the biomes, 1700 to 2000. Global Ecology and Biogeography 19(5):589-606</p>
 <p>Erb, K.-H., Gaube, V., Krausmann, F., Plutzar, C., Bondeau, A., Haberl, H. 2007. A comprehensive global 5min resolution land-use dataset for the year 2000 consistent with national census data. Journal of Land Use Science 2(3): 191-224. URL: <a href="http://www.informaworld.com/smpp/content~content=a783007657~db=all~order=page" class="uri">http://www.informaworld.com/smpp/content~content=a783007657~db=all~order=page</a></p>
 <p>Geist, M., Aisu, M., Lema, P., Trammell, E.J. 2017. Spatial estimates of surface mining footprints in northwest boreal ecoregions of Alaska and Canada.</p>
+<p>Grantham et al. 2020 Anthropogenic modification of forests means only 40% of remaining forests have high ecosystem integrity. Nature Communications 11: 5978. <a href="https://doi.org/10.1038/s41467-020-19493-3" class="uri">https://doi.org/10.1038/s41467-020-19493-3</a></p>
 <p>Guindon, L, Bernier, PY, Beaudion, A, Pouliot, D, Villmaire, P, Hall, RJ, Latifovic, R, St-Amant, R. 2014. Annual mapping of large forest disturbances across Canada’s forests using 250m MODIS imagery from 2000 to 2011. Canadian Journal of Forest Research 44(12): 1545-1554.</p>
 <p>Guindon, L, Villemaire, P, St-Amant, R, Bernier, PY, Beaudoin, A, Caron, F, Bonucelli, M, Dorion, H. 2017. Canada Landsat Disturbance (CanLaD): a Canada-wide Landsat-based 30-m resolution product of fire and harvest detection and attribution since 1984.</p>
 <p>Guindon, L, Bernier, P.Y., Gauthier, S, Stinson, G, Villemaire, Beaudoin, A. 2018. Missing forest cover gains in boreal forests explained. Ecosphere 9(1):e02094. 10.1002/ecs2.2094</p>
@@ -676,6 +701,7 @@ div.tocify {
 <p>Hansen, MC, Potapov, PV, Moore, R, Hancher, M, Turubanova, SA, Tyukavina, A, Stenham, SV, Goetz, SJ, Loveland, TR, Kommareddy, A, Egarov, A, Chini, L, Justice, CO, Townshend, JRG. 2013. High- resolution global maps of 21st-century forest cover change. Science 342: 850-853.</p>
 <p>Hermosilla, T, Wulder, MA, White, JC, Coops, NC, Hobart, GW. 2015. Regional detection, characterization, and attribution of annual forest change from 1984 to 2012 using Landsat-derived time-series metrics. Remote Sensing of Environment 170: 121-132.</p>
 <p>Hermosilla, T, Wulder, MA, White, JC, Coops, NC, Hobart, GW, Campbell, LB. 2016. Mass data processing of time series Landsat imagery: pixels to data products for forest monitoring. International Journal of Digital Earth 9: 1035-1054.</p>
+<p>Hobi, M.L., Dubinin, M., Graham, C.H., Coops, N.C., Clayton, M.K., Pidgeon, A.M., &amp; Radeloff, V.C. 2017. A comparison of Dynamic Habitat Indices derived from different MODIS products as predictors of avian species richness. Remote Sensing of Environment, 195, 142-152.</p>
 <p>Imhoff, M. L., Bounoua, L., Ricketts, T., Loucks, C., Harriss, R., Lawrence, W. T. 2004. Global patterns in human consumption of net primary production. Nature 429, 870-873. URL: <a href="http://sedac.ciesin.columbia.edu/es/hanpp.html" class="uri">http://sedac.ciesin.columbia.edu/es/hanpp.html</a></p>
 <p>Jacobson, A.P., Riggio, J., Tait, A.M. and Baillie, J.E. 2019. Global areas of low human impact (Low Impact Areas) and fragmentation of the natural world. Scientific reports 9(1):1-13. <a href="http://dx.doi.org/10.1038/s41598-019-50558-6" class="uri">http://dx.doi.org/10.1038/s41598-019-50558-6</a></p>
 <p>Kennedy C.M., Oakleaf J.R., Theobald D.M., Baruch-Mordo S., Kiesecker J. 2019. Managing the middle: A shift in conservation priorities based on the global human modification gradient. Global Change Biology 25:811-826. <a href="https://doi.org/10.1111/gcb.14549" class="uri">https://doi.org/10.1111/gcb.14549</a></p>
@@ -685,8 +711,9 @@ div.tocify {
 <p>Pasher, J, Seed, E, Duffe, J. 2013. Development of boreal ecosystem anthropogenic disturbance layers for Canada based on 2008 to 2010 Landsat imagery. Can. J. Remote Sensing 39(1): 42-58.</p>
 <p>Potapov, P., Yaroshenko, A., Turubanova, S., Dubinin, M., Laestadius, L., Thies, C., Aksenov, D., Egorov, E., Yesipova, Y., Glushkov, I., Karpachevskiy, M., Kostikova, A., Manisha, A., Tsybikova, E., Zhuravleva, I.. 2008. Mapping the world’s intact forest landscapes by remote sensing. Ecology and Society 13(2): 51. URL: <a href="http://www.ecologyandsociety.org/vol13/iss2/art51/" class="uri">http://www.ecologyandsociety.org/vol13/iss2/art51/</a></p>
 <p>Potapov, P., Hansen, M.C., Laestadius, L., Turubanova, S., Yaroshenko, A., Thies, C., Smith, W., Zhuravleva, I., Komarova, A., Minnemeyer, S., Esipova, E. 2017 The last frontiers of wilderness: Tracking loss of intact forest landscapes from 2000 to 2013. Science Advances 3: 1-13.</p>
+<p>Radeloff, V. C., M. Dubinin, N. C. Coops, A. Allen, T. M. Brooks, M. Clayton, G. Costa, C. H. Graham, D. Helmers, A. R. Ives, D. Kolesov, A. M. Pidgeon, G. Rapacciuolo, E. Razenkova, N. Suttidate, B. E. Young, L. Zhu, and M. Hobi. 2019. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. Remote Sensing of Environment, 222: 204-214</p>
 <p>Sanderson, E.W., Jaiteh, M., Levy, M.A., Redford, K.H., Wannebo, A.V., Woolmer, G. 2002. The human footprint and the last of the wild. BioScience 52:891-904.</p>
-<p>Sayre et al.. 2020. An assessment of the representation of ecosystems in global protected areas using new maps of World Climate Regions and World Ecosystems. Global Ecology and Conservation 21. <a href="https://doi.org/10.1016/j.gecco.2019.e00860" class="uri">https://doi.org/10.1016/j.gecco.2019.e00860</a></p>
+<p>Sayre et al. 2020. An assessment of the representation of ecosystems in global protected areas using new maps of World Climate Regions and World Ecosystems. Global Ecology and Conservation 21. <a href="https://doi.org/10.1016/j.gecco.2019.e00860" class="uri">https://doi.org/10.1016/j.gecco.2019.e00860</a></p>
 <p>Smith, W. and Cheng, R. 2016. Canada’s Intact Forest Landscapes Updated to 2013. Ottawa: Global Forest Watch Canada. 26 pp.</p>
 <p>Strittholt, J.R., Nogueron, R., Alvarez, M., and Bergquist, J. 2006. Mapping undisturbed landscapes in Alaska: An overview report. Conservation Biology Institute and World Resource Institute. URL: <a href="https://www.wri.org/publication/mapping-undisturbed-landscapes-alaska" class="uri">https://www.wri.org/publication/mapping-undisturbed-landscapes-alaska</a> (accessed April 01, 2020).</p>
 <p>UNEP. 2001. Nelleman, C., Kullerud, L., Vistnes, I., Forbes, B.C., Husby, E., Kofinas, G.P., Kaltenborn, B.P., Rouaud, J., Magomedova, M., Bobiwash, R., Lambrechts, C., Schei, P.J., Tveitdal, S., Gron, O., Larsen, T.S. GLOBIO. Global methodology for mapping human impacts on the biosphere. UNEP/DEWA/TR.01-3.</p>

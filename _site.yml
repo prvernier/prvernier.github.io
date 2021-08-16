@@ -11,14 +11,16 @@ navbar:
       href: http://nwb.ualberta.ca
     - text: Pan-boreal assessment
       href: http://pba.ualberta.ca
+    - text: SFI conservation tool
+      href: https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool
     - text: Intactness paper
       href: https://github.com/prvernier/intactness
     - text: Surrogates paper
       href: https://github.com/prvernier/surrogates
   - text: Data
     menu:
-    - text: Conservation planning datasets
-      href: datasets.html
+    - text: Intactness and disturbance
+      href: intact_disturb.html
   - text: Code
     menu:
     - text: PostGIS

@@ -1,6 +1,6 @@
 ---
-title: "PostGIS"
-date: "January 3, 2019"
+title: "R snippets"
+date: "July 30, 2021"
 author: "Pierre Vernier"
 output:
   html_document:
@@ -10,6 +10,8 @@ output:
 ---
 
 ## How to rename variables...
+
+In this example, we show how to recode a numeric variable into a factor with meaningful labels.
 
 ```
 z = read_csv(paste0('code/output/tables/models_r2_by_ecoregion_rnr.csv')) %>%
