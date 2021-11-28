@@ -1,0 +1,36 @@
+---
+title: Lugdunum Bookmarks
+output:
+  html_document:
+    toc: TRUE
+    toc_float: true
+    keep_md: no
+---
+
+# Social media
+
+- [Gmail](https://mail.google.com)
+- [Facebook](https://www.facebook.com)
+- [Twitter](https://www.twitter.com)
+- [Strava](https://www.strava.com)
+
+# News sources
+
+- [The New York Times](https://www.nytimes.com)
+- [The Guardian](https://www.guardian.co.uk)
+- [The Globe and Mail](https://www.theglobeandmail.com)
+- [CBC news](https://www.cbc.ca/news)
+- [The Tyee](https://www.thetyee.ca)
+- [The Conversation](https://theconversation.com/ca)
+- [Hakai Magazine](https://www.hakaimagazine.com)
+- [The Narwhal](https://www.thenarwhal.ca)
+
+# Travel
+
+- [Aeronet](https://acaeronet.aircanada.ca)
+
+# Banking
+
+- BMO
+- Caisse d'Epargne
+- Rogers Bank
