@@ -38,4 +38,4 @@ output:
 # Recreation
 
 - [Soccerstand](https://www.soccerstand.com)
-- [Soccernet](https://www.soccernet.com)
+- [Soccernet](https://global.espn.com/football)
