@@ -32,5 +32,10 @@ output:
 # Banking
 
 - [BMO](https://www.bmo.com)
-- [Caisse d'Epargne](https://www.caisse-epargne.fr)
+- [Caisse d'Epargne](https://www.caisse-epargne.fr/bourgogne-franche-comte)
 - [Rogers Bank](https://www.rogersbank.com)
+
+# Recreation
+
+- [Soccerstand](https://www.soccerstand.com)
+- [Soccernet](https://www.soccernet.com)
