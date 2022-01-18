@@ -9,19 +9,23 @@ Welcome to my github pages. Here you will find information on various projects t
 
 ## Projects
 
+* SEYT-NEBC Spatial database
+* SEYT-NEBC Disturbance mapping
+* SEYT-NEBC Connectivity analysis
 * [Surrogates paper](https://github.com/prvernier/surrogates)
 * [Intactness paper](https://github.com/prvernier/intactness)
+* [CASFRI](https://github.com/CASFRI/CASFRI)
+* [KBA biotic intactness index](https://github.com/prvernier/kba-bii)
+* [SFI conservation value assessment tool](https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool/)
 * [Northwest boreal LCC](http://nwb.ualberta.ca)
 * [Panboreal assessment](http://pba.ualberta.ca)
-* [SFI conservation value assessment tool](https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool/)
 
 ## Datasets
 
-* [Intactness and disturbance maps](intact_disturb.html)
+* Intactness and disturbance maps
 
 ## Coding
 
 Some code samples:
 
 * [R code snippets...](rcode.html)
-* [Initiation to Postgis...](postgis.html)
