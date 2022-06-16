@@ -7,18 +7,24 @@ output:
 
 Welcome to my github pages. Here you will find information on various projects that I'm involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.
 
-## Projects
+## Current projects
 
-* [index.md](index.md)
-* [Surrogates paper](https://github.com/prvernier/surrogates)
-* [Intactness paper](https://github.com/prvernier/intactness)
+* Disturbance and connectivity mapping in SE Yukon/Northern BC
+
+## Recently completed projects
+
 * [Northwest boreal LCC](http://nwb.ualberta.ca)
 * [Panboreal assessment](http://pba.ualberta.ca)
 * [SFI conservation value assessment tool](https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool/)
 
-## Datasets
+## Papers - supplementary materials
 
-* [Intactness and disturbance maps](intact_disturb.html)
+* [Surrogates paper (in prep)](https://github.com/prvernier/surrogates)
+* [Intactness paper (published)](https://github.com/prvernier/intactness)
+
+## Evaluating datasets
+
+* Canada landcover
 
 ## Coding
 
