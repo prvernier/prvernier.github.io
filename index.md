@@ -9,7 +9,7 @@ Welcome to my github pages. Here you will find information on various projects t
 
 ## Current projects
 
-* Disturbance and connectivity mapping in SE Yukon/Northern BC
+* [Regional disturbance and intactness mapping](https://github.com/beaconsproject/dc-mapping)
 
 ## Recently completed projects
 
