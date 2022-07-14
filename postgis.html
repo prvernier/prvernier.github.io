@@ -15,7 +15,8 @@
 
 <title>PostGIS</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -61,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -85,6 +87,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -310,7 +315,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -323,12 +328,15 @@ div.tocify {
   <a href="index.html">Home</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Projects
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://github.com/beaconsproject/dc-mapping">Regional disturbance mapping</a>
+    </li>
     <li>
       <a href="http://nwb.ualberta.ca">Northwest Boreal LCC</a>
     </li>
@@ -347,7 +355,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Data
      
     <span class="caret"></span>
@@ -359,7 +367,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Code
      
     <span class="caret"></span>
@@ -398,30 +406,58 @@ div.tocify {
 <p>Installing PostgreSQL/PostGIS and Anaconda on Windows.</p>
 <div id="installing-tools" class="section level1">
 <h1>Installing tools</h1>
-<p>In this section, I will describe how I installed PostgreSQL/PostGIS and Python (Anaconda) on a 64-bit Windows 10 machine. If you know of a simpler or more robust method, please let me know (<a href="mailto:pierre.vernier@gmail.com" class="email">pierre.vernier@gmail.com</a>). Even though I describe the process as steps, there are no requirements to install these in this particular order.</p>
+<p>In this section, I will describe how I installed PostgreSQL/PostGIS
+and Python (Anaconda) on a 64-bit Windows 10 machine. If you know of a
+simpler or more robust method, please let me know (<a
+href="mailto:pierre.vernier@gmail.com"
+class="email">pierre.vernier@gmail.com</a>). Even though I describe the
+process as steps, there are no requirements to install these in this
+particular order.</p>
 <div id="step-1---install-postgresql" class="section level2">
 <h2>Step 1 - Install PostgreSQL</h2>
 <p>You can download the latest version from here:</p>
 <ul>
-<li><a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads" class="uri">https://www.enterprisedb.com/downloads/postgres-postgresql-downloads</a></li>
+<li><a
+href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads"
+class="uri">https://www.enterprisedb.com/downloads/postgres-postgresql-downloads</a></li>
 </ul>
-<p>In my case I selected the latest version (11.0) for Windows 10 64-bit (Windows x86-64). Once downloaded, start the installation by double-clicking on the file. I selected all the default parameters and used “postgres” as the password for the “postgres” database that is created during the installation process. Towards the end of the installation, you can select extensions - namely the latest version of PostGIS. That’s all there is to it!</p>
+<p>In my case I selected the latest version (11.0) for Windows 10 64-bit
+(Windows x86-64). Once downloaded, start the installation by
+double-clicking on the file. I selected all the default parameters and
+used “postgres” as the password for the “postgres” database that is
+created during the installation process. Towards the end of the
+installation, you can select extensions - namely the latest version of
+PostGIS. That’s all there is to it!</p>
 </div>
 <div id="step-2---install-anaconda" class="section level2">
 <h2>Step 2 - Install Anaconda</h2>
-<p>Anaconda includes Python and various libraries that are useful for spatial data management and analysis e.g., GDAL/OGR. Specifically, the ogr2ogr utility includes most of the drivers needed to import vector datasets (e.g., shapefiles, file geodatabases) into PostGIS. You can download the latest version from here:</p>
+<p>Anaconda includes Python and various libraries that are useful for
+spatial data management and analysis e.g., GDAL/OGR. Specifically, the
+ogr2ogr utility includes most of the drivers needed to import vector
+datasets (e.g., shapefiles, file geodatabases) into PostGIS. You can
+download the latest version from here:</p>
 <ul>
-<li><a href="https://www.anaconda.com/download/" class="uri">https://www.anaconda.com/download/</a></li>
+<li><a href="https://www.anaconda.com/download/"
+class="uri">https://www.anaconda.com/download/</a></li>
 </ul>
-<p>I downloaded the Python 3.7 64-Bit Graphical Installer. Once downloaded, start the installation and select the default prompts. At this point, you should be able to start the Anaconda prompt. From there, you can run various utilities, Python scripts, and install additional libraries as needed (i.e., conda install …).</p>
+<p>I downloaded the Python 3.7 64-Bit Graphical Installer. Once
+downloaded, start the installation and select the default prompts. At
+this point, you should be able to start the Anaconda prompt. From there,
+you can run various utilities, Python scripts, and install additional
+libraries as needed (i.e., conda install …).</p>
 </div>
 </div>
 <div id="viewing-postgis-maps" class="section level1">
 <h1>Viewing PostGIS maps</h1>
-<p>It is often useful to have a look at intermediate results when running queries or conducting an analysis. There are no easy ways to do this within PostGIS, however I’ve come across a few approaches that are relatively simple.</p>
+<p>It is often useful to have a look at intermediate results when
+running queries or conducting an analysis. There are no easy ways to do
+this within PostGIS, however I’ve come across a few approaches that are
+relatively simple.</p>
 <div id="pgadmin-4" class="section level2">
 <h2>pgAdmin 4</h2>
-<p>With recent versions of PostGIS, it is now possible to view the geometry of a spatial table if it is in a geographic projectiong (epgs = 4326).</p>
+<p>With recent versions of PostGIS, it is now possible to view the
+geometry of a spatial table if it is in a geographic projectiong (epgs =
+4326).</p>
 </div>
 <div id="qgis" class="section level2">
 <h2>QGIS</h2>
@@ -472,6 +508,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
