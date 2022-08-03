@@ -9,10 +9,16 @@ navbar:
     menu:
     - text: Regional disturbance mapping
       href: https://github.com/beaconsproject/dc-mapping
+    - text: benchmarksbuilder (R package)
+      href: https://github.com/beaconsproject/dc-mapping
+    - text: beaconstools (R package)
+      href: https://github.com/beaconsproject/dc-mapping
     - text: Northwest Boreal LCC
       href: http://nwb.ualberta.ca
     - text: Pan-boreal assessment
       href: http://pba.ualberta.ca
+    - text: CASFRI
+      href: https://github.com/CASFRI/CASFRI
     - text: SFI conservation tool
       href: https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool
     - text: Intactness paper

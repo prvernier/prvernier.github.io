@@ -10,9 +10,12 @@ Welcome to my github pages. Here you will find information on various projects t
 ## Current projects
 
 * [Regional disturbance and intactness mapping](https://github.com/beaconsproject/dc-mapping)
+* [benchmarkbuilder](https://github.com/beaconsproject/benchmarkbuilder)
+* [beaconstools](https://github.com/beaconsproject/beaconstools)
 
 ## Recently completed projects
 
+* [CASFRI](https://github.com/CASFRI/CASFRI)
 * [Northwest boreal LCC](http://nwb.ualberta.ca)
 * [Panboreal assessment](http://pba.ualberta.ca)
 * [SFI conservation value assessment tool](https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool/)
