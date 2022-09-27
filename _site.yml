@@ -10,9 +10,9 @@ navbar:
     - text: Regional disturbance mapping
       href: https://github.com/beaconsproject/dc-mapping
     - text: benchmarksbuilder (R package)
-      href: https://github.com/beaconsproject/dc-mapping
+      href: https://github.com/beaconsproject/benchmarksbuilder
     - text: beaconstools (R package)
-      href: https://github.com/beaconsproject/dc-mapping
+      href: https://github.com/beaconsproject/beaconstools
     - text: Northwest Boreal LCC
       href: http://nwb.ualberta.ca
     - text: Pan-boreal assessment
