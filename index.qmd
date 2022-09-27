@@ -19,14 +19,3 @@ Welcome to my github pages. Here you will find information on various projects t
 
 * [Surrogates paper (in prep)](https://github.com/prvernier/surrogates)
 * [Intactness paper (published)](https://github.com/prvernier/intactness)
-
-## Evaluating datasets
-
-* Canada landcover
-
-## Coding
-
-Some code samples:
-
-* [R code snippets...](rcode.html)
-* [Initiation to Postgis...](postgis.html)
