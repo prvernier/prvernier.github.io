@@ -1,0 +1,35 @@
+body{
+  /*font-size: 12px;*/
+}
+td {
+  /*font-size: 8px;*/
+}
+h1.title {
+  font-size: 24px;
+  font-weight: normal;
+  color: black;
+}
+h1 {
+  font-size: 21px;
+  font-weight: normal;
+  color: black;
+}
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+}
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: blue;*/
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.45;
+}
+code.r{
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
