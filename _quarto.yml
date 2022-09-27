@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Pierre Vernier"
@@ -30,9 +31,9 @@ website:
           href: https://github.com/prvernier/surrogates
       - text: "Data"
         menu:
-          - href: docs/yt_data.qmd
+          - href: yt_data.qmd
             text: Yukon    
-          - href: docs/bc_data.qmd
+          - href: bc_data.qmd
             text: BC
       - about.qmd
 

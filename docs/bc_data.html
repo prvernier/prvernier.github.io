@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pierre Vernier - Lugdunum Bookmarks</title>
+<title>Pierre Vernier – bc_data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -54,6 +54,9 @@ ul.task-list{list-style: none;}
   }
 }</script>
 
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -83,7 +86,7 @@ ul.task-list{list-style: none;}
  <span class="dropdown-text">Regional disturbance mapping</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/beaconsproject/benchmarksbuilder">
+    <a class="dropdown-item" href="https://github.com/beaconsproject/benchmarkbuilder">
  <span class="dropdown-text">benchmarksbuilder (R package)</span></a>
   </li>  
         <li>
@@ -120,11 +123,11 @@ ul.task-list{list-style: none;}
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="button" data-bs-toggle="dropdown" aria-expanded="false">Data</a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
         <li>
-    <a class="dropdown-item" href="./docs/yt_data.html">
+    <a class="dropdown-item" href="./yt_data.html">
  <span class="dropdown-text">Yukon</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./docs/bc_data.html">
+    <a class="dropdown-item" href="./bc_data.html">
  <span class="dropdown-text">BC</span></a>
   </li>  
     </ul>
@@ -147,78 +150,146 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#social-media" id="toc-social-media" class="nav-link active" data-scroll-target="#social-media">Social media</a></li>
-  <li><a href="#news-sources" id="toc-news-sources" class="nav-link" data-scroll-target="#news-sources">News sources</a></li>
-  <li><a href="#travel" id="toc-travel" class="nav-link" data-scroll-target="#travel">Travel</a></li>
-  <li><a href="#banking" id="toc-banking" class="nav-link" data-scroll-target="#banking">Banking</a></li>
-  <li><a href="#recreation" id="toc-recreation" class="nav-link" data-scroll-target="#recreation">Recreation</a></li>
+  <li><a href="#bc-disturbance-datasets" id="toc-bc-disturbance-datasets" class="nav-link active" data-scroll-target="#bc-disturbance-datasets">BC disturbance datasets</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Lugdunum Bookmarks</h1>
+
+
+<section id="bc-disturbance-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="bc-disturbance-datasets">BC disturbance datasets</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<table class="table" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Class </th>
+   <th style="text-align:left;"> Layer </th>
+   <th style="text-align:left;"> Coverage </th>
+   <th style="text-align:left;"> Type </th>
+   <th style="text-align:left;"> Year </th>
+   <th style="text-align:left;"> Resolution </th>
+   <th style="text-align:left;"> Source </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Landcover </td>
+   <td style="text-align:left;"> Canada land cover </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> raster </td>
+   <td style="text-align:left;"> 1984-2019 </td>
+   <td style="text-align:left;"> 30 </td>
+   <td style="text-align:left;"> https://opendata.nfis.org/mapserver/nfis-change_eng.html </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Landcover </td>
+   <td style="text-align:left;"> EOSD land cover </td>
+   <td style="text-align:left;"> BC </td>
+   <td style="text-align:left;"> raster </td>
+   <td style="text-align:left;"> 2000 </td>
+   <td style="text-align:left;"> 30 </td>
+   <td style="text-align:left;"> https://ftp-env-public.gov.yk.ca/geo/EOSD/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fire and harvest </td>
+   <td style="text-align:left;"> Fires </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> vector </td>
+   <td style="text-align:left;"> 1980-2020 </td>
+   <td style="text-align:left;"> na </td>
+   <td style="text-align:left;"> https://cwfis.cfs.nrcan.gc.ca/datamart </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fire and harvest </td>
+   <td style="text-align:left;"> Fire and harvest </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> raster </td>
+   <td style="text-align:left;"> 1985-2011 </td>
+   <td style="text-align:left;"> 30 </td>
+   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/7d8bd844-04f0-4b47-9864-857dff62215e </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fire and harvest </td>
+   <td style="text-align:left;"> Fire and harvest </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> raster </td>
+   <td style="text-align:left;"> 2017 </td>
+   <td style="text-align:left;"> 30 </td>
+   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fire and harvest </td>
+   <td style="text-align:left;"> Wildfire year/dNBR/mask </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> raster </td>
+   <td style="text-align:left;"> 1985-2015 </td>
+   <td style="text-align:left;"> 30 </td>
+   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/9eb51c7b-5336-4b50-a9f8-a6791bad15a9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Topography </td>
+   <td style="text-align:left;"> Lidar-based high resolution DEM </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> raster </td>
+   <td style="text-align:left;"> 2020 </td>
+   <td style="text-align:left;"> 1641081600 </td>
+   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Transportation </td>
+   <td style="text-align:left;"> National road network </td>
+   <td style="text-align:left;"> BC </td>
+   <td style="text-align:left;"> vector </td>
+   <td style="text-align:left;"> varies </td>
+   <td style="text-align:left;"> na </td>
+   <td style="text-align:left;"> https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrn_rrn/bc/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Transportation </td>
+   <td style="text-align:left;"> National railway network </td>
+   <td style="text-align:left;"> BC </td>
+   <td style="text-align:left;"> vector </td>
+   <td style="text-align:left;"> varies </td>
+   <td style="text-align:left;"> na </td>
+   <td style="text-align:left;"> https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrwn_rfn/bc/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Cumulative disturbances </td>
+   <td style="text-align:left;"> Canada Human Access </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> vector </td>
+   <td style="text-align:left;"> 2010 </td>
+   <td style="text-align:left;"> na </td>
+   <td style="text-align:left;"> https://databasin.org/datasets/0c54d369b225471ea7e9f7999ce94cc0/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Cumulative disturbances </td>
+   <td style="text-align:left;"> Boreal ecosystem anthropogenic disturbances </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> vector </td>
+   <td style="text-align:left;"> 2008-2010 </td>
+   <td style="text-align:left;"> na </td>
+   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/afd0ce47-17c3-445c-b823-2f86409da2e0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Cumulative disturbances </td>
+   <td style="text-align:left;"> Boreal ecosystem anthropogenic disturbances </td>
+   <td style="text-align:left;"> Canada </td>
+   <td style="text-align:left;"> vector </td>
+   <td style="text-align:left;"> 2015 </td>
+   <td style="text-align:left;"> na </td>
+   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/a71ab99c-6756-4e56-9d2e-2a63246a5e94 </td>
+  </tr>
+</tbody>
+</table>
+
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-    
-  </div>
-  
-
-</header>
-
-<section id="social-media" class="level1">
-<h1>Social media</h1>
-<ul>
-<li><a href="https://mail.google.com">Gmail</a></li>
-<li><a href="https://www.facebook.com">Facebook</a></li>
-<li><a href="https://www.twitter.com">Twitter</a></li>
-<li><a href="https://www.strava.com">Strava</a></li>
-</ul>
-</section>
-<section id="news-sources" class="level1">
-<h1>News sources</h1>
-<ul>
-<li><a href="https://www.nytimes.com">The New York Times</a></li>
-<li><a href="https://www.guardian.co.uk">The Guardian</a></li>
-<li><a href="https://www.theglobeandmail.com">The Globe and Mail</a></li>
-<li><a href="https://www.cbc.ca/news">CBC news</a></li>
-<li><a href="https://www.thetyee.ca">The Tyee</a></li>
-<li><a href="https://theconversation.com/ca">The Conversation</a></li>
-<li><a href="https://www.hakaimagazine.com">Hakai Magazine</a></li>
-<li><a href="https://www.thenarwhal.ca">The Narwhal</a></li>
-</ul>
-</section>
-<section id="travel" class="level1">
-<h1>Travel</h1>
-<ul>
-<li><a href="https://acaeronet.aircanada.ca">Aeronet</a></li>
-</ul>
-</section>
-<section id="banking" class="level1">
-<h1>Banking</h1>
-<ul>
-<li><a href="https://www.bmo.com">BMO</a></li>
-<li><a href="https://www.caisse-epargne.fr/bourgogne-franche-comte">Caisse d’Epargne</a></li>
-<li><a href="https://www.rogersbank.com">Rogers Bank</a></li>
-<li><a href="https://banking.coastcapitalsavings.com/LogIn.aspx">Coast Capital</a></li>
-<li><a href="https://wise.com/login/">Wise</a></li>
-<li><a href="https://app.n26.com/login">N26</a></li>
-</ul>
-</section>
-<section id="recreation" class="level1">
-<h1>Recreation</h1>
-<ul>
-<li><a href="https://www.soccerstand.com">Soccerstand</a></li>
-<li><a href="https://global.espn.com/football">Soccernet</a></li>
-</ul>
+</div>
 
 
 </section>
