@@ -1,0 +1,13 @@
+## Yukon disturbance datasets
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width='100%'}
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(googlesheets4)
+yt_data <- read_sheet("https://docs.google.com/spreadsheets/d/1jrF-9GxjVUxCpmETts-CGrAiqsv6Wm407Qsez8uCN8k/edit#gid=521699518", sheet="YT")
+yt_data %>%
+  select(Layer, Class, Data_type, Source) %>%
+  kbl() %>%
+  kable_styling()
+```

@@ -1,0 +1,13 @@
+## BC disturbance datasets
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(googlesheets4)
+bc_data <- read_sheet("https://docs.google.com/spreadsheets/d/1jrF-9GxjVUxCpmETts-CGrAiqsv6Wm407Qsez8uCN8k/edit#gid=521699518", sheet="BC datasets")
+bc_data %>%
+  select(Class, Layer, Coverage, Type, Year, Resolution, Source) %>%
+  kbl() %>%
+  kable_styling()
+```
