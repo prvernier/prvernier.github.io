@@ -31,7 +31,7 @@ output:
 
 # Health
 
-- [SunLife](https://www.sunnet.sunlife.com/signin/mysunlife/home.wca_
+- [SunLife](https://www.sunnet.sunlife.com/signin/mysunlife/home.wca)
 
 # Banking
 
