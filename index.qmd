@@ -4,10 +4,11 @@ Welcome to my github pages. Here you will find information on various projects t
 
 ## Current projects
 
-* [Regional disturbance and intactness mapping](https://github.com/beaconsproject/dc-mapping)
+* [Yukon wolverines survey](https://github.com/prvernier/wolverines)
+* [Regional disturbance mapping explorer](https::/github.com/beaconsproject/RMDExplorer)
+* [Disturbance and connectivity mapping](https://github.com/beaconsproject/dc-mapping)
 * [benchmarkbuilder](https://github.com/beaconsproject/benchmarkbuilder)
 * [beaconstools](https://github.com/beaconsproject/beaconstools)
-* [wolverines](https://github.com/zcfogel/wolverines)
 
 ## Recently completed projects
 
