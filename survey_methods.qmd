@@ -1,0 +1,6 @@
+## R Packages
+
+ - Spbsampling
+ - sgsR
+ - secr
+   - https://www.scr-cameratrap.com/

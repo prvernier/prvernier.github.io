@@ -11,6 +11,10 @@ website:
         text: Home
       - text: "Projects"
         menu:
+        - text: wolverines survey
+          href: https://github.com/prvernier/wolverines
+        - text: RDMExplorer
+          href: https://github.com/beaconsproject/RMDExplorer
         - text: Regional disturbance mapping
           href: https://github.com/beaconsproject/dc-mapping
         - text: benchmarksbuilder (R package)

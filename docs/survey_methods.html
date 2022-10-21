@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pierre Vernier – bc_data</title>
+<title>Pierre Vernier – survey_methods</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,9 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-
-<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -165,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#bc-disturbance-datasets" id="toc-bc-disturbance-datasets" class="nav-link active" data-scroll-target="#bc-disturbance-datasets">BC disturbance datasets</a></li>
+  <li><a href="#r-packages" id="toc-r-packages" class="nav-link active" data-scroll-target="#r-packages">R Packages</a></li>
   </ul>
 </nav>
     </div>
@@ -174,137 +171,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="bc-disturbance-datasets" class="level2">
-<h2 class="anchored" data-anchor-id="bc-disturbance-datasets">BC disturbance datasets</h2>
-<div class="cell">
-<div class="cell-output-display">
-
-<table class="table" style="margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> Class </th>
-   <th style="text-align:left;"> Layer </th>
-   <th style="text-align:left;"> Coverage </th>
-   <th style="text-align:left;"> Type </th>
-   <th style="text-align:left;"> Year </th>
-   <th style="text-align:left;"> Resolution </th>
-   <th style="text-align:left;"> Source </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Landcover </td>
-   <td style="text-align:left;"> Canada land cover </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 1984-2019 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://opendata.nfis.org/mapserver/nfis-change_eng.html </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Landcover </td>
-   <td style="text-align:left;"> EOSD land cover </td>
-   <td style="text-align:left;"> BC </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 2000 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://ftp-env-public.gov.yk.ca/geo/EOSD/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Fires </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> 1980-2020 </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://cwfis.cfs.nrcan.gc.ca/datamart </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 1985-2011 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/7d8bd844-04f0-4b47-9864-857dff62215e </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 2017 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Wildfire year/dNBR/mask </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 1985-2015 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/9eb51c7b-5336-4b50-a9f8-a6791bad15a9 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Topography </td>
-   <td style="text-align:left;"> Lidar-based high resolution DEM </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 2020 </td>
-   <td style="text-align:left;"> 1641081600 </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Transportation </td>
-   <td style="text-align:left;"> National road network </td>
-   <td style="text-align:left;"> BC </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrn_rrn/bc/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Transportation </td>
-   <td style="text-align:left;"> National railway network </td>
-   <td style="text-align:left;"> BC </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrwn_rfn/bc/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cumulative disturbances </td>
-   <td style="text-align:left;"> Canada Human Access </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> 2010 </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://databasin.org/datasets/0c54d369b225471ea7e9f7999ce94cc0/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cumulative disturbances </td>
-   <td style="text-align:left;"> Boreal ecosystem anthropogenic disturbances </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> 2008-2010 </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/afd0ce47-17c3-445c-b823-2f86409da2e0 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cumulative disturbances </td>
-   <td style="text-align:left;"> Boreal ecosystem anthropogenic disturbances </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> 2015 </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/a71ab99c-6756-4e56-9d2e-2a63246a5e94 </td>
-  </tr>
-</tbody>
-</table>
-
-</div>
-</div>
+<section id="r-packages" class="level2">
+<h2 class="anchored" data-anchor-id="r-packages">R Packages</h2>
+<ul>
+<li>Spbsampling</li>
+<li>sgsR</li>
+<li>secr
+<ul>
+<li>https://www.scr-cameratrap.com/</li>
+</ul></li>
+</ul>
 
 
 </section>
