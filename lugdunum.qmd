@@ -1,5 +1,5 @@
 ---
-title: Lugdunum Bookmarks
+title: ""
 output:
   html_document:
     toc: TRUE
@@ -7,14 +7,14 @@ output:
     keep_md: no
 ---
 
-# Social media
+### Social media
 
 - [Gmail](https://mail.google.com)
 - [Facebook](https://www.facebook.com)
 - [Twitter](https://www.twitter.com)
 - [Strava](https://www.strava.com)
 
-# News sources
+### News sources
 
 - [The New York Times](https://www.nytimes.com)
 - [The Guardian](https://www.guardian.co.uk)
@@ -25,15 +25,15 @@ output:
 - [Hakai Magazine](https://www.hakaimagazine.com)
 - [The Narwhal](https://www.thenarwhal.ca)
 
-# Travel
+### Travel
 
 - [Aeronet](https://acaeronet.aircanada.ca)
 
-# Health
+### Health
 
 - [SunLife](https://www.sunnet.sunlife.com/signin/mysunlife/home.wca)
 
-# Banking
+### Banking
 
 - [BMO](https://www.bmo.com)
 - [Caisse d'Epargne](https://www.caisse-epargne.fr/bourgogne-franche-comte)
@@ -42,7 +42,7 @@ output:
 - [Wise](https://wise.com/login/)
 - [N26](https://app.n26.com/login)
 
-# Recreation
+### Recreation
 
 - [Soccerstand](https://www.soccerstand.com)
 - [Soccernet](https://global.espn.com/football)

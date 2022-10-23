@@ -1,8 +1,10 @@
-## Welcome!
+---
+title: "Welcome!"
+---
 
 Welcome to my github pages. Here you will find information on various projects that I'm involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.
 
-## Current projects
+### Current projects
 
 * [Yukon wolverines survey](https://github.com/prvernier/wolverines)
 * [Regional disturbance mapping explorer](https::/github.com/beaconsproject/RMDExplorer)
@@ -10,14 +12,14 @@ Welcome to my github pages. Here you will find information on various projects t
 * [benchmarkbuilder](https://github.com/beaconsproject/benchmarkbuilder)
 * [beaconstools](https://github.com/beaconsproject/beaconstools)
 
-## Recently completed projects
+### Recently completed projects
 
 * [CASFRI](https://github.com/CASFRI/CASFRI)
 * [Northwest boreal LCC](http://nwb.ualberta.ca)
 * [Panboreal assessment](http://pba.ualberta.ca)
 * [SFI conservation value assessment tool](https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool/)
 
-## Papers - supplementary materials
+### Papers - supplementary materials
 
 * [Surrogates paper (in prep)](https://github.com/prvernier/surrogates)
 * [Intactness paper (published)](https://github.com/prvernier/intactness)
