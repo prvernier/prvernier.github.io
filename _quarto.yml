@@ -14,7 +14,7 @@ website:
         - text: wolverines survey
           href: https://github.com/prvernier/wolverines
         - text: RDMExplorer
-          href: https://github.com/beaconsproject/RMDExplorer
+          href: https://github.com/beaconsproject/RDMExplorer
         - text: Regional disturbance mapping
           href: https://github.com/beaconsproject/dc-mapping
         - text: benchmarksbuilder (R package)
