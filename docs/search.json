@@ -7,11 +7,130 @@
     "text": "In addition to research, I enjoy trail running in the coastal mountains and forests of British Columbia and Washington State as well as the Jura and Alps in France.\n\nAcademic interests\n\nLandscape ecology\nConservation planning\nBiodiversity monitoring\nSpecies distribution modelling\n\n\n\nAcademic degrees\n\nMSc 1995, University of British Columbia\nBA 1983, University of British Columbia"
   },
   {
+    "objectID": "archive/about.html",
+    "href": "archive/about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a landscape ecologist with the Department of Renewable Resources at the University of Alberta. My research interests include biodiversity monitoring, systematic conservation planning, and species distribution modelling. I am a member of the BEACONs Project, which is developing a scientific framework for comprehensive conservation planning through the development and application of leading-edge conservation science that includes consideration of both protected areas and lands managed for other values.\nIn addition to research, I enjoy trail running in the coastal mountains and forests of British Columbia and Washington State as well as the Jura and Alps in France.\n\n\n\nLandscape ecology\nConservation planning\nBiodiversity monitoring\nSpecies distribution modelling\n\n\n\n\n\nMSc 1995, University of British Columbia\nBA 1983, University of British Columbia"
+  },
+  {
+    "objectID": "archive/index.html",
+    "href": "archive/index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Welcome to my github pages. Here you will find information on various projects that I’m involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest."
+  },
+  {
+    "objectID": "archive/index.html#current-projects",
+    "href": "archive/index.html#current-projects",
+    "title": "Welcome!",
+    "section": "Current projects",
+    "text": "Current projects\n\nRegional disturbance and intactness mapping\nbenchmarkbuilder\nbeaconstools"
+  },
+  {
+    "objectID": "archive/index.html#recently-completed-projects",
+    "href": "archive/index.html#recently-completed-projects",
+    "title": "Welcome!",
+    "section": "Recently completed projects",
+    "text": "Recently completed projects\n\nCASFRI\nNorthwest boreal LCC\nPanboreal assessment\nSFI conservation value assessment tool"
+  },
+  {
+    "objectID": "archive/index.html#papers---supplementary-materials",
+    "href": "archive/index.html#papers---supplementary-materials",
+    "title": "Welcome!",
+    "section": "Papers - supplementary materials",
+    "text": "Papers - supplementary materials\n\nSurrogates paper (in prep)\nIntactness paper (published)"
+  },
+  {
+    "objectID": "archive/index.html#evaluating-datasets",
+    "href": "archive/index.html#evaluating-datasets",
+    "title": "Welcome!",
+    "section": "Evaluating datasets",
+    "text": "Evaluating datasets\n\nCanada landcover"
+  },
+  {
+    "objectID": "archive/index.html#coding",
+    "href": "archive/index.html#coding",
+    "title": "Welcome!",
+    "section": "Coding",
+    "text": "Coding\nSome code samples:\n\nR code snippets…\nInitiation to Postgis…"
+  },
+  {
+    "objectID": "archive/intact_disturb.html",
+    "href": "archive/intact_disturb.html",
+    "title": "Pierre Vernier",
+    "section": "",
+    "text": "This is just a place holder for now"
+  },
+  {
+    "objectID": "archive/lugdunum.html",
+    "href": "archive/lugdunum.html",
+    "title": "Lugdunum Bookmarks",
+    "section": "",
+    "text": "News sources\n\nThe New York Times\nThe Guardian\nThe Globe and Mail\nCBC news\nThe Tyee\nThe Conversation\nHakai Magazine\nThe Narwhal\n\n\n\nTravel\n\nAeronet\n\n\n\nBanking\n\nBMO\nCaisse d’Epargne\nRogers Bank\nCoast Capital\nWise\nN26\n\n\n\nRecreation\n\nSoccerstand\nSoccernet"
+  },
+  {
+    "objectID": "archive/postgis.html",
+    "href": "archive/postgis.html",
+    "title": "PostGIS",
+    "section": "",
+    "text": "Installing PostgreSQL/PostGIS and Anaconda on Windows."
+  },
+  {
+    "objectID": "archive/postgis.html#step-1---install-postgresql",
+    "href": "archive/postgis.html#step-1---install-postgresql",
+    "title": "PostGIS",
+    "section": "Step 1 - Install PostgreSQL",
+    "text": "Step 1 - Install PostgreSQL\nYou can download the latest version from here:\n\nhttps://www.enterprisedb.com/downloads/postgres-postgresql-downloads\n\nIn my case I selected the latest version (11.0) for Windows 10 64-bit (Windows x86-64). Once downloaded, start the installation by double-clicking on the file. I selected all the default parameters and used “postgres” as the password for the “postgres” database that is created during the installation process. Towards the end of the installation, you can select extensions - namely the latest version of PostGIS. That’s all there is to it!"
+  },
+  {
+    "objectID": "archive/postgis.html#step-2---install-anaconda",
+    "href": "archive/postgis.html#step-2---install-anaconda",
+    "title": "PostGIS",
+    "section": "Step 2 - Install Anaconda",
+    "text": "Step 2 - Install Anaconda\nAnaconda includes Python and various libraries that are useful for spatial data management and analysis e.g., GDAL/OGR. Specifically, the ogr2ogr utility includes most of the drivers needed to import vector datasets (e.g., shapefiles, file geodatabases) into PostGIS. You can download the latest version from here:\n\nhttps://www.anaconda.com/download/\n\nI downloaded the Python 3.7 64-Bit Graphical Installer. Once downloaded, start the installation and select the default prompts. At this point, you should be able to start the Anaconda prompt. From there, you can run various utilities, Python scripts, and install additional libraries as needed (i.e., conda install …)."
+  },
+  {
+    "objectID": "archive/postgis.html#pgadmin-4",
+    "href": "archive/postgis.html#pgadmin-4",
+    "title": "PostGIS",
+    "section": "pgAdmin 4",
+    "text": "pgAdmin 4\nWith recent versions of PostGIS, it is now possible to view the geometry of a spatial table if it is in a geographic projectiong (epgs = 4326)."
+  },
+  {
+    "objectID": "archive/postgis.html#qgis",
+    "href": "archive/postgis.html#qgis",
+    "title": "PostGIS",
+    "section": "QGIS",
+    "text": "QGIS"
+  },
+  {
+    "objectID": "archive/postgis.html#r",
+    "href": "archive/postgis.html#r",
+    "title": "PostGIS",
+    "section": "R",
+    "text": "R"
+  },
+  {
+    "objectID": "archive/postgis.html#python",
+    "href": "archive/postgis.html#python",
+    "title": "PostGIS",
+    "section": "Python",
+    "text": "Python"
+  },
+  {
+    "objectID": "archive/rcode.html",
+    "href": "archive/rcode.html",
+    "title": "R snippets",
+    "section": "",
+    "text": "In this example, we show how to recode a numeric variable into a factor with meaningful labels.\nz = read_csv(paste0('code/output/tables/models_r2_by_ecoregion_rnr.csv')) %>%\n    select(ecozone, ecoregion, songbirds) %>%\n    mutate(ecozone = factor(ecozone, levels=c('4','5','6','9','11','12','14','15')),\n        ecozone=recode(ecozone, \n            `4`=\"Taiga Plains\",\n            `5`=\"Taiga Shield\",\n            `6`=\"Boreal Shield B\",\n            `9`=\"Boreal Plains\",\n            `11`=\"Taiga Cordillera\",\n            `12`=\"Boreal Cordillera\",\n            `14`=\"Montane Cordillera\",\n            `15`=\"Hudson Plains\"))"
+  },
+  {
     "objectID": "bc_data.html",
     "href": "bc_data.html",
     "title": "Pierre Vernier",
     "section": "",
-    "text": "Class \n    Layer \n    Coverage \n    Type \n    Year \n    Resolution \n    Source \n  \n \n\n  \n    Landcover \n    Canada land cover \n    Canada \n    raster \n    1984-2019 \n    30 \n    https://opendata.nfis.org/mapserver/nfis-change_eng.html \n  \n  \n    Landcover \n    EOSD land cover \n    BC \n    raster \n    2000 \n    30 \n    https://ftp-env-public.gov.yk.ca/geo/EOSD/ \n  \n  \n    Fire and harvest \n    Fires \n    Canada \n    vector \n    1980-2020 \n    na \n    https://cwfis.cfs.nrcan.gc.ca/datamart \n  \n  \n    Fire and harvest \n    Fire and harvest \n    Canada \n    raster \n    1985-2011 \n    30 \n    https://open.canada.ca/data/en/dataset/7d8bd844-04f0-4b47-9864-857dff62215e \n  \n  \n    Fire and harvest \n    Fire and harvest \n    Canada \n    raster \n    2017 \n    30 \n    https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad \n  \n  \n    Fire and harvest \n    Wildfire year/dNBR/mask \n    Canada \n    raster \n    1985-2015 \n    30 \n    https://open.canada.ca/data/en/dataset/9eb51c7b-5336-4b50-a9f8-a6791bad15a9 \n  \n  \n    Topography \n    Lidar-based high resolution DEM \n    Canada \n    raster \n    2020 \n    1641081600 \n    https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995 \n  \n  \n    Transportation \n    National road network \n    BC \n    vector \n    varies \n    na \n    https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrn_rrn/bc/ \n  \n  \n    Transportation \n    National railway network \n    BC \n    vector \n    varies \n    na \n    https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrwn_rfn/bc/ \n  \n  \n    Cumulative disturbances \n    Canada Human Access \n    Canada \n    vector \n    2010 \n    na \n    https://databasin.org/datasets/0c54d369b225471ea7e9f7999ce94cc0/ \n  \n  \n    Cumulative disturbances \n    Boreal ecosystem anthropogenic disturbances \n    Canada \n    vector \n    2008-2010 \n    na \n    https://open.canada.ca/data/en/dataset/afd0ce47-17c3-445c-b823-2f86409da2e0 \n  \n  \n    Cumulative disturbances \n    Boreal ecosystem anthropogenic disturbances \n    Canada \n    vector \n    2015 \n    na \n    https://open.canada.ca/data/en/dataset/a71ab99c-6756-4e56-9d2e-2a63246a5e94"
+    "text": "Class \n    Layer \n    Coverage \n    Type \n    Year \n    Resolution \n    Source \n  \n \n\n  \n    Landcover \n    Canada land cover \n    Canada \n    raster \n    1984-2019 \n    30 \n    https://opendata.nfis.org/mapserver/nfis-change_eng.html \n  \n  \n    Landcover \n    EOSD land cover \n    BC \n    raster \n    2000 \n    30 \n    https://ftp-env-public.gov.yk.ca/geo/EOSD/ \n  \n  \n    Fire and harvest \n    Fires \n    Canada \n    vector \n    1980-2020 \n    na \n    https://cwfis.cfs.nrcan.gc.ca/datamart \n  \n  \n    Fire and harvest \n    Fire and harvest \n    Canada \n    raster \n    1985-2011 \n    30 \n    https://open.canada.ca/data/en/dataset/7d8bd844-04f0-4b47-9864-857dff62215e \n  \n  \n    Fire and harvest \n    Fire and harvest \n    Canada \n    raster \n    2017 \n    30 \n    https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad \n  \n  \n    Fire and harvest \n    Wildfire year/dNBR/mask \n    Canada \n    raster \n    1985-2015 \n    30 \n    https://open.canada.ca/data/en/dataset/9eb51c7b-5336-4b50-a9f8-a6791bad15a9 \n  \n  \n    Topography \n    Lidar-based high resolution DEM \n    Canada \n    raster \n    2020 \n    1641081600 \n    https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995 \n  \n  \n    Transportation \n    National road network \n    BC \n    vector \n    varies \n    na \n    https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrn_rrn/bc/ \n  \n  \n    Transportation \n    National railway network \n    BC \n    vector \n    varies \n    na \n    https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrwn_rfn/bc/ \n  \n  \n    Cumulative disturbances \n    Canada Human Access \n    Canada \n    vector \n    2010 \n    na \n    https://databasin.org/datasets/0c54d369b225471ea7e9f7999ce94cc0/ \n  \n  \n    Cumulative disturbances \n    Boreal ecosystem anthropogenic disturbances \n    Canada \n    vector \n    2008-2010 \n    na \n    https://open.canada.ca/data/en/dataset/afd0ce47-17c3-445c-b823-2f86409da2e0 \n  \n  \n    Cumulative disturbances \n    Boreal ecosystem anthropogenic disturbances \n    Canada \n    vector \n    2015 \n    na \n    https://open.canada.ca/data/en/dataset/a71ab99c-6756-4e56-9d2e-2a63246a5e94 \n  \n  \n    Cumulative disturbances \n    Multiple datasets from BCOAGC \n    NEBC \n    vector \n    Current \n    na \n    https://www.bcogc.ca/files/gis/Zips/BCOGC_OPEN_DATA_DAILY_SHP.zip \n  \n  \n    Transportation \n    Digital road atlas of BC \n    BC \n    vector \n    Current \n    na \n    ftp://ftp.geobc.gov.bc.ca/sections/outgoing/bmgs/DRA_Public/ \n  \n  \n    Hydrology \n    Watershed atlas \n    BC \n    vector \n    Current \n    na \n    ftp://ftp.geobc.gov.bc.ca/sections/outgoing/bmgs/FWA_Public"
   },
   {
     "objectID": "index.html",
