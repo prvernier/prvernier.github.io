@@ -137,7 +137,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Current projects\n\nYukon wolverines survey\nRegional disturbance mapping explorer\nDisturbance and connectivity mapping\nbenchmarkbuilder\nbeaconstools\n\n\n\nRecently completed projects\n\nCASFRI\nNorthwest boreal LCC\nPanboreal assessment\nSFI conservation value assessment tool\n\n\n\nPapers - supplementary materials\n\nSurrogates paper (in prep)\nIntactness paper (published)"
+    "text": "Current projects\n\nWolverines survey (shiny app)\nRegional disturbance explorer (shiny app)\nRegional disturbance mapping\nRegional connectivity mapping\nConservation area explorer (shiny app)\nbenchmarkbuilder (R package)\nbeaconstools (R package)\n\n\n\nRecently completed projects\n\nCASFRI\nNorthwest boreal LCC\nPanboreal assessment\nSFI conservation value assessment tool\n\n\n\nPapers - supplementary materials\n\nSurrogates paper (in prep)\nIntactness paper (published)"
   },
   {
     "objectID": "lugdunum.html",
