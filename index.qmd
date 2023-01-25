@@ -6,11 +6,13 @@ Welcome to my github pages. Here you will find information on various projects t
 
 ### Current projects
 
-* [Yukon wolverines survey](https://github.com/prvernier/wolverines)
-* [Regional disturbance mapping explorer](https::/github.com/beaconsproject/RDMExplorer)
-* [Disturbance and connectivity mapping](https://github.com/beaconsproject/dc-mapping)
-* [benchmarkbuilder](https://github.com/beaconsproject/benchmarkbuilder)
-* [beaconstools](https://github.com/beaconsproject/beaconstools)
+* [Wolverines survey (shiny app)](https://github.com/beaconsproject/wolverines)
+* [Regional disturbance explorer (shiny app)](https::/github.com/beaconsproject/disturbance_explorer)
+* [Regional disturbance mapping](https://github.com/beaconsproject/disturbance_mapping)
+* [Regional connectivity mapping](https://github.com/beaconsproject/connectivity_mapping)
+* [Conservation area explorer (shiny app)](https://github.com/beaconsproject/conservation_area_explorer)
+* [benchmarkbuilder (R package)](https://github.com/beaconsproject/benchmarkbuilder)
+* [beaconstools (R package)](https://github.com/beaconsproject/beaconstools)
 
 ### Recently completed projects
 

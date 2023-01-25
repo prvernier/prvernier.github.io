@@ -11,12 +11,16 @@ website:
         text: Home
       - text: "Projects"
         menu:
-        - text: wolverines survey
-          href: https://github.com/prvernier/wolverines
-        - text: RDMExplorer
-          href: https://github.com/beaconsproject/RDMExplorer
-        - text: Regional disturbance mapping
-          href: https://github.com/beaconsproject/dc-mapping
+        - text: wolverines survey (R/Shiny app)
+          href: https://github.com/beaconsproject/wolverines
+        - text: Disturbance explorer
+          href: https://github.com/beaconsproject/disturbance_explorer
+        - text: Disturbance mapping
+          href: https://github.com/beaconsproject/disturbance_mapping
+        - text: Connectivity mapping
+          href: https://github.com/beaconsproject/connectivity_mapping
+        - text: conservation_area_explorer (R/Shiny app)
+          href: https://github.com/beaconsproject/beaconstools
         - text: benchmarksbuilder (R package)
           href: https://github.com/beaconsproject/benchmarkbuilder
         - text: beaconstools (R package)
