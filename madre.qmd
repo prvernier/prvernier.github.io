@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Madre's bookmarks"
 output:
   html_document:
     toc: TRUE
@@ -10,12 +10,17 @@ output:
 ### Social media
 
 - [Gmail](https://mail.google.com)
+- [Photos](https://photos.google.com/)
+- [WhatsApp](https://web.whatsapp.com/)
 
 ### News sources
 
-- [The Guardian](https://www.guardian.co.uk)
+- [France 24](https://www.france24.com/fr/)
+- [France TV](https://www.france.tv/)
+- [Le Monde](https://www.lemonde.fr)
 - [CBC news](https://www.cbc.ca/news)
 - [The Tyee](https://www.thetyee.ca)
+- [The Guardian](https://www.guardian.co.uk)
 
 ### Health
 
