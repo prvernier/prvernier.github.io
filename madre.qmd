@@ -16,6 +16,7 @@ output:
 ### News sources
 
 - [France 24](https://www.france24.com/fr/)
+- [TV5](https://www.tv5unis.ca/)
 - [France TV](https://www.france.tv/)
 - [Le Monde](https://www.lemonde.fr)
 - [CBC news](https://www.cbc.ca/news)
