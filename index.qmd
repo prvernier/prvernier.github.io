@@ -8,11 +8,13 @@ Welcome to my github pages. Here you will find information on various projects t
 
 ### Current projects
 
-* [Wolverines survey (shiny app)](https://github.com/beaconsproject/wolverines)
-* [Regional disturbance explorer (shiny app)](https://github.com/beaconsproject/disturbance_explorer)
 * [Regional disturbance mapping](https://github.com/beaconsproject/disturbance_mapping)
-* [Regional connectivity mapping](https://github.com/beaconsproject/connectivity_mapping)
+* [Geopackage creator (shiny app)](https://github.com/beaconsproject/geopackage_explorer)
+* [Regional disturbance explorer (shiny app)](https://github.com/beaconsproject/disturbance_explorer)
+* [Hydrology explorer (shiny app)](https://github.com/beaconsproject/beaconshydro_explorer)
+* [Regional connectivity analysis](https://github.com/beaconsproject/connectivity_analysis)
 * [Conservation area explorer (shiny app)](https://github.com/beaconsproject/conservation_area_explorer)
+* [Wolverines survey (shiny app)](https://github.com/beaconsproject/wolverines)
 * [benchmarkbuilder (R package)](https://github.com/beaconsproject/benchmarkbuilder)
 * [beaconstools (R package)](https://github.com/beaconsproject/beaconstools)
 
