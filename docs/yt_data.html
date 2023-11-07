@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.4.472">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,10 +61,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
@@ -70,23 +76,27 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Pierre Vernier</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
     <a class="dropdown-item" href="https://github.com/beaconsproject/wolverines">
@@ -143,7 +153,9 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="button" data-bs-toggle="dropdown" aria-expanded="false">Data</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
         <li>
     <a class="dropdown-item" href="./yt_data.html">
@@ -156,11 +168,13 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -182,602 +196,342 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <section id="yukon-disturbance-datasets" class="level2">
 <h2 class="anchored" data-anchor-id="yukon-disturbance-datasets">Yukon disturbance datasets</h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table" style="margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> Class </th>
-   <th style="text-align:left;"> Layer </th>
-   <th style="text-align:left;"> Coverage </th>
-   <th style="text-align:left;"> Type </th>
-   <th style="text-align:left;"> Year </th>
-   <th style="text-align:left;"> Resolution </th>
-   <th style="text-align:left;"> Source </th>
-  </tr>
- </thead>
+<table class="table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Layer</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Class</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Data_type</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Source</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> Landcover </td>
-   <td style="text-align:left;"> Canada land cover </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 1984-2019 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://opendata.nfis.org/mapserver/nfis-change_eng.html </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Landcover </td>
-   <td style="text-align:left;"> EOSD land cover </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 2000 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://ftp-env-public.gov.yk.ca/geo/EOSD/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Satellite imagery </td>
-   <td style="text-align:left;"> SPOT </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 2020-21 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Fires </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> 1980-2020 </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://cwfis.cfs.nrcan.gc.ca/datamart </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 1985-2011 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/7d8bd844-04f0-4b47-9864-857dff62215e </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 2017 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/add1346b-f632-4eb9-a83d-a662b38655ad </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fire and harvest </td>
-   <td style="text-align:left;"> Wildfire year/dNBR/mask </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 1985-2015 </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/9eb51c7b-5336-4b50-a9f8-a6791bad15a9 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Topography </td>
-   <td style="text-align:left;"> Lidar-based high resolution DEM </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> raster </td>
-   <td style="text-align:left;"> 2020 </td>
-   <td style="text-align:left;"> 1641081600 </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Transportation </td>
-   <td style="text-align:left;"> National road network </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrn_rrn/yt/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Transportation </td>
-   <td style="text-align:left;"> National railway network </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/geobase_nrwn_rfn/yt/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cumulative disturbances </td>
-   <td style="text-align:left;"> Canada Human Access </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> 2010 </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://databasin.org/datasets/0c54d369b225471ea7e9f7999ce94cc0/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cumulative disturbances </td>
-   <td style="text-align:left;"> Boreal ecosystem anthropogenic disturbances </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> 2008-2010 </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/afd0ce47-17c3-445c-b823-2f86409da2e0 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cumulative disturbances </td>
-   <td style="text-align:left;"> Boreal ecosystem anthropogenic disturbances </td>
-   <td style="text-align:left;"> Canada </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> 2015 </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://open.canada.ca/data/en/dataset/a71ab99c-6756-4e56-9d2e-2a63246a5e94 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cumulative disturbances </td>
-   <td style="text-align:left;"> Anthropogenic surface disturbances </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://ftp-env-public.gov.yk.ca/geo/Surface_Disturbance/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Administrative_Boundaries </td>
-   <td style="text-align:left;"> Various administrative boundaries datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Administrative_Boundaries/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Base </td>
-   <td style="text-align:left;"> Various base datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Base/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Places_1M </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Base/Places_1M/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Biological </td>
-   <td style="text-align:left;"> Various biological datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Biological/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Biophysical </td>
-   <td style="text-align:left;"> Various biophysical datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Biophysical/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Fire history </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Biophysical/Fire_History/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Culture_and_Heritage </td>
-   <td style="text-align:left;"> Various culture and heritage datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Culture_and_Heritage/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Cultural_Features_Camps_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Culture_and_Heritage/Cultural_Features_Polygon_50k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Cultural_Features_BuiltUp_Areas_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Culture_and_Heritage/Cultural_Features_Polygon_50k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Cultural_Features_Mining_Areas_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Culture_and_Heritage/Cultural_Features_Polygon_50k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Elevation </td>
-   <td style="text-align:left;"> Various elevation datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Elevation/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Emergency_Management </td>
-   <td style="text-align:left;"> Various emergency management datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Environmental_Management/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Fire history </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Emergency_Management/Fire_History/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Environmental_Monitoring </td>
-   <td style="text-align:left;"> Various environmental monitoring datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Environmental_Monitoring/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> First_Nations </td>
-   <td style="text-align:left;"> Various First Nations datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/First_Nations/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Forestry </td>
-   <td style="text-align:left;"> Various forestry datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Forestry/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Forest_Openings_Pre_1990 </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Forestry/Forest_Openings_Pre_1990/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Forest_Openings </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Forestry/Forest_Openings/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Forest_Health_Aerial_Overview_Pest_Disturbance </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Forestry/Forest_Health_Aerial_Overview_50k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Vegetation_Inventory_Roads_40k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Forestry/Vegetation_Inventory_Roads_40k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Geological </td>
-   <td style="text-align:left;"> Various geology datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Geological/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Imagery </td>
-   <td style="text-align:left;"> Air photo and satellite footprints </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Imagery/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Land_Planning </td>
-   <td style="text-align:left;"> Various land planning datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Land_Planning/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Municipal_Boundaries </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Land_Planning/Municipal_Boundaries/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Community_Boundaries </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Land_Planning/Community_Boundaries/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Land_Tenure </td>
-   <td style="text-align:left;"> Various land tenure datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Land_Tenure/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Agriculture_Land_Dispositions </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Land_Tenure/Agriculture_Land_Dispositions/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Communities_and_Subdivisions_Surveyed </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Land_Tenure/Communities_and_Subdivisions_Surveyed/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Mining </td>
-   <td style="text-align:left;"> Various mining datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Mining/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Placer_Land_Use_Permits_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Mining/Placer_Land_Use_Permits_50k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Oil_and_Gas </td>
-   <td style="text-align:left;"> Various oil and gas datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Oil_and_Gas/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Oil_and_Gas_Wells_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Oil_and_Gas/Oil_and_Gas_Wells_50k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Oil_and_Gas_Seismic_Lines </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Oil_and_Gas/Oil_and_Gas_Seismic_Lines/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Parks_and_Protected_Areas </td>
-   <td style="text-align:left;"> Various protected areas datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Parks_and_Protected_Areas/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Reference </td>
-   <td style="text-align:left;"> Various reference datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Reference/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Reference </td>
-   <td style="text-align:left;"> Yukon_Communities </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Reference/Yukon_Communities/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Transportation </td>
-   <td style="text-align:left;"> Various transportation datasets </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Gravel_Pits_25k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Gravel_Pits_25k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Roads_National_Road_Network </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Roads_National_Road_Network/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Bridges_25k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Bridges_25k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Blocked_Road_Passages_National_Road_Network </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Blocked_Road_Passages_National_Road_Network/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Whitehorse_Trails_10k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Whitehorse_Trails_10k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Trails_50k_Canvec </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Trails_50k_Canvec/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Trails_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Trails_50k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Cut_Lines_50k_Canvec </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Cut_Lines_50k_Canvec/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Railroads_50k_Canvec </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Transportation/Railroads_50k_Canvec/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Utilities_and_Communication </td>
-   <td style="text-align:left;"> pipelines, transmission lines </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Utilities_and_Communication/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Utilities_Pipelines_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Utilities_and_Communication/Utilities_Line_50k/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Utilities_Transmission_Line_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Utilities_and_Communication/Hydro_Energy/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Utilities_Polygon_50k </td>
-   <td style="text-align:left;"> Yukon </td>
-   <td style="text-align:left;"> vector </td>
-   <td style="text-align:left;"> varies </td>
-   <td style="text-align:left;"> na </td>
-   <td style="text-align:left;"> https://map-data.service.yukon.ca/geoyukon/Utilities_and_Communication/Utilities_Polygon_50k/ </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;">Surface_Disturbance_Areal_Features</td>
+<td style="text-align: left;">Multiple disturbances</td>
+<td style="text-align: left;">polygon</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Environmental_Monitoring/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Surface_Disturbance_Linear_Features</td>
+<td style="text-align: left;">Multiple disturbances</td>
+<td style="text-align: left;">line</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Environmental_Monitoring/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Surface_Disturbance_Mapping_Extent</td>
+<td style="text-align: left;">Multiple disturbances</td>
+<td style="text-align: left;">polygon</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Environmental_Monitoring/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various administrative boundaries datasets</td>
+<td style="text-align: left;">Administrative_Boundaries</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Administrative_Boundaries/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Various base datasets</td>
+<td style="text-align: left;">Base</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Base/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Places_1M</td>
+<td style="text-align: left;">Base</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Base/Places_1M/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Various biological datasets</td>
+<td style="text-align: left;">Biological</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Biological/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various biophysical datasets</td>
+<td style="text-align: left;">Biophysical</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Biophysical/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fire history</td>
+<td style="text-align: left;">Biophysical</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Biophysical/Fire_History/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various culture and heritage datasets</td>
+<td style="text-align: left;">Culture_and_Heritage</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Culture_and_Heritage/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cultural_Features_Camps_50k</td>
+<td style="text-align: left;">Culture_and_Heritage</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Culture_and_Heritage/Cultural_Features_Polygon_50k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cultural_Features_BuiltUp_Areas_50k</td>
+<td style="text-align: left;">Culture_and_Heritage</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Culture_and_Heritage/Cultural_Features_Polygon_50k/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cultural_Features_Mining_Areas_50k</td>
+<td style="text-align: left;">Culture_and_Heritage</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Culture_and_Heritage/Cultural_Features_Polygon_50k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various elevation datasets</td>
+<td style="text-align: left;">Elevation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Elevation/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Various emergency management datasets</td>
+<td style="text-align: left;">Emergency_Management</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Environmental_Management/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fire history</td>
+<td style="text-align: left;">Emergency_Management</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Emergency_Management/Fire_History/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Various environmental monitoring datasets</td>
+<td style="text-align: left;">Environmental_Monitoring</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Environmental_Monitoring/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various First Nations datasets</td>
+<td style="text-align: left;">First_Nations</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/First_Nations/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Various forestry datasets</td>
+<td style="text-align: left;">Forestry</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Forestry/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Forest_Openings_Pre_1990</td>
+<td style="text-align: left;">Forestry</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Forestry/Forest_Openings_Pre_1990/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Forest_Openings</td>
+<td style="text-align: left;">Forestry</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Forestry/Forest_Openings/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Forest_Health_Aerial_Overview_Pest_Disturbance</td>
+<td style="text-align: left;">Forestry</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Forestry/Forest_Health_Aerial_Overview_50k/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vegetation_Inventory_Roads_40k</td>
+<td style="text-align: left;">Forestry</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Forestry/Vegetation_Inventory_Roads_40k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various geology datasets</td>
+<td style="text-align: left;">Geological</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Geological/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Air photo and satellite footprints</td>
+<td style="text-align: left;">Imagery</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Imagery/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various land planning datasets</td>
+<td style="text-align: left;">Land_Planning</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Land_Planning/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Municipal_Boundaries</td>
+<td style="text-align: left;">Land_Planning</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Land_Planning/Municipal_Boundaries/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Community_Boundaries</td>
+<td style="text-align: left;">Land_Planning</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Land_Planning/Community_Boundaries/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Various land tenure datasets</td>
+<td style="text-align: left;">Land_Tenure</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Land_Tenure/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Agriculture_Land_Dispositions</td>
+<td style="text-align: left;">Land_Tenure</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Land_Tenure/Agriculture_Land_Dispositions/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Communities_and_Subdivisions_Surveyed</td>
+<td style="text-align: left;">Land_Tenure</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Land_Tenure/Communities_and_Subdivisions_Surveyed/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various mining datasets</td>
+<td style="text-align: left;">Mining</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Mining/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Placer_Land_Use_Permits_50k</td>
+<td style="text-align: left;">Mining</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Mining/Placer_Land_Use_Permits_50k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various oil and gas datasets</td>
+<td style="text-align: left;">Oil_and_Gas</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Oil_and_Gas/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oil_and_Gas_Wells_50k</td>
+<td style="text-align: left;">Oil_and_Gas</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Oil_and_Gas/Oil_and_Gas_Wells_50k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oil_and_Gas_Seismic_Lines</td>
+<td style="text-align: left;">Oil_and_Gas</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Oil_and_Gas/Oil_and_Gas_Seismic_Lines/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Various protected areas datasets</td>
+<td style="text-align: left;">Parks_and_Protected_Areas</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Parks_and_Protected_Areas/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various reference datasets</td>
+<td style="text-align: left;">Reference</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Reference/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Yukon_Communities</td>
+<td style="text-align: left;">Reference</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Reference/Yukon_Communities/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Various transportation datasets</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gravel_Pits_25k</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Gravel_Pits_25k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Roads_National_Road_Network</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Roads_National_Road_Network/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bridges_25k</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Bridges_25k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Blocked_Road_Passages_National_Road_Network</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Blocked_Road_Passages_National_Road_Network/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Whitehorse_Trails_10k</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Whitehorse_Trails_10k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Trails_50k_Canvec</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Trails_50k_Canvec/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Trails_50k</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Trails_50k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cut_Lines_50k_Canvec</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Cut_Lines_50k_Canvec/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Railroads_50k_Canvec</td>
+<td style="text-align: left;">Transportation</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Transportation/Railroads_50k_Canvec/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">pipelines, transmission lines</td>
+<td style="text-align: left;">Utilities_and_Communication</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Utilities_and_Communication/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Utilities_Pipelines_50k</td>
+<td style="text-align: left;">Utilities_and_Communication</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Utilities_and_Communication/Utilities_Line_50k/</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Utilities_Transmission_Line_50k</td>
+<td style="text-align: left;">Utilities_and_Communication</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Utilities_and_Communication/Hydro_Energy/</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Utilities_Polygon_50k</td>
+<td style="text-align: left;">Utilities_and_Communication</td>
+<td style="text-align: left;">vector</td>
+<td style="text-align: left;">https://map-data.service.yukon.ca/geoyukon/Utilities_and_Communication/Utilities_Polygon_50k/</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -813,9 +567,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -827,17 +595,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -847,8 +631,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -863,28 +656,282 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

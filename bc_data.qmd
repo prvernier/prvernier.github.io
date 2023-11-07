@@ -1,22 +1,14 @@
----
-title: "BC Data"
-format: 
-   html:
-     df-print: paged
----
-
 ## BC disturbance datasets
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width='100%'}
 library(dplyr)
 library(knitr)
 library(kableExtra)
 library(googlesheets4)
-gs4_deauth()
-x <- read_sheet("https://docs.google.com/spreadsheets/d/1jrF-9GxjVUxCpmETts-CGrAiqsv6Wm407Qsez8uCN8k/edit?usp=sharing", sheet="Data sources")
-bc_data <- x %>%
-    filter(Coverage=="BC") %>%
-    select(Class, Layer, Type, URL) %>%
+#gs4_deauth()
+bc_data <- read_sheet("https://docs.google.com/spreadsheets/d/1jrF-9GxjVUxCpmETts-CGrAiqsv6Wm407Qsez8uCN8k/edit?usp=sharing", sheet="BC")
+bc_data %>%
+    select(Layer, Class, Data_type, Source) %>%
     kbl() %>%
     kable_styling()
 ```
