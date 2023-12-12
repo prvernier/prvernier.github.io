@@ -32,4 +32,5 @@ output:
 ### Banking
 
 - [Caisse d'Epargne](https://www.caisse-epargne.fr/bourgogne-franche-comte)
+- [Societe Generale](https://particuliers.sg.fr/)
 - [Coast Capital](https://banking.coastcapitalsavings.com/LogIn.aspx)
