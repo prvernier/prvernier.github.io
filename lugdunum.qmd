@@ -57,3 +57,7 @@ output:
 
 - [Forest resilience](https://mooc.forestmoocforchange.eu)
 - [FUN MOOC](https://www.fun-mooc.fr/fr/)
+
+### France
+
+- [Madre](madre.html)
