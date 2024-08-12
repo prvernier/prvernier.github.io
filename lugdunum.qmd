@@ -10,6 +10,7 @@ output:
 ### Social media
 
 - [Gmail](https://mail.google.com)
+- [Proton Mail](https://account.proton.me/mail)
 - [Facebook](https://www.facebook.com)
 - [Twitter](https://www.twitter.com)
 - [Strava](https://www.strava.com)
