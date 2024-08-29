@@ -58,6 +58,7 @@ output:
 ### MOOCS
 
 - [FUN MOOC](https://www.fun-mooc.fr/fr/)
+- [Open WHO](https://openwho.org/)
 - [Forest resilience](https://mooc.forestmoocforchange.eu)
 - [MOOC Conservation](https://www.mooc-conservation.org/home)
 
