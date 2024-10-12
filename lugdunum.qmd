@@ -43,6 +43,7 @@ output:
 ### Banking
 
 - [BMO](https://www.bmo.com)
+- [Credit Agricole](https://www.credit-agricole.fr/ca-franchecomte/particulier/acceder-a-mes-comptes.html)
 - [Caisse d'Epargne](https://www.caisse-epargne.fr/bourgogne-franche-comte)
 - [Rogers Bank](https://www.rogersbank.com)
 - [Coast Capital](https://banking.coastcapitalsavings.com/LogIn.aspx)
