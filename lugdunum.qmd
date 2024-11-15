@@ -13,6 +13,7 @@ output:
 - [Proton Mail](https://account.proton.me/mail)
 - [Facebook](https://www.facebook.com)
 - [Twitter](https://www.twitter.com)
+- [Bluesky](https://bsky.app/)
 - [Strava](https://www.strava.com)
 
 ### News sources
