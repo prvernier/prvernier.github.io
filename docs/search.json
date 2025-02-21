@@ -25,7 +25,7 @@
     "href": "lugdunum.html",
     "title": "Pierre Vernier",
     "section": "",
-    "text": "Social media\n\nGmail\nProton Mail\nFacebook\nTwitter\nBluesky\nStrava\n\n\n\nNews sources\n\nThe New York Times\nThe Guardian\nThe Globe and Mail\nCBC news\nThe Tyee\nThe Conversation\nHakai Magazine\nThe Narwhal\n\n\n\nEntertainment\n\nARTE\nFrance TV\nSBS on demand\n\n\n\nTravel\n\nAeronet\n\n\n\nHealth\n\nSunLife\n\n\n\nBanking\n\nBMO\nCredit Agricole\nCaisse d’Epargne\nRogers Bank\nCoast Capital\nWise\nN26\nPH&N\n\n\n\nRecreation\n\nSoccerstand\nSoccernet\n\n\n\nMOOCS\n\nFUN MOOC\nOpen WHO\nForest resilience\nMOOC Conservation\n\n\n\nFrance\n\nMadre"
+    "text": "Social media\n\nGmail\nProton Mail\nFacebook\nTwitter\nBluesky\nStrava\n\n\n\nNews sources\n\nThe New York Times\nThe Guardian\nThe Globe and Mail\nCBC news\nThe Tyee\nThe Conversation\nHakai Magazine\nThe Narwhal\nFrance24\nRFI\n\n\n\nEntertainment\n\nARTE\nFrance TV\nSBS on demand\n\n\n\nTravel\n\nAeronet\n\n\n\nHealth\n\nSunLife\n\n\n\nBanking\n\nBMO\nCredit Agricole\nCaisse d’Epargne\nRogers Bank\nCoast Capital\nWise\nN26\nRBC\nPH&N\n\n\n\nRecreation\n\nSoccerstand\nSoccernet\n\n\n\nMOOCS\n\nFUN MOOC\nOpen WHO\nForest resilience\nMOOC Conservation\n\n\n\nFrance\n\nMadre"
   },
   {
     "objectID": "cv.html",
@@ -172,14 +172,14 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Welcome to my github pages. Here you will find information on various projects that I’m involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.\n\nBEACONs Project landing page\n\n\nCurrent projects\n\nRegional disturbance mapping\nGeopackage creator (shiny app)\nRegional disturbance explorer (shiny app)\nHydrology explorer (shiny app)\nRegional connectivity analysis\nConservation area explorer (shiny app)\nWolverines survey (shiny app)\nbenchmarkbuilder (R package)\nbeaconstools (R package)\n\n\n\nRecently completed projects\n\nCASFRI\nNorthwest boreal LCC\nPanboreal assessment\nSFI conservation value assessment tool\n\n\n\nPapers - supplementary materials\n\nSurrogates paper (in prep)\nIntactness paper (published)"
+    "text": "Welcome to my github pages. Here you will find information on various projects that I’m involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.\n\nBEACONs Project landing page\n[Notes](\n\n\nCurrent projects\n\nRegional disturbance mapping\nGeopackage creator (shiny app)\nRegional disturbance explorer (shiny app)\nHydrology explorer (shiny app)\nRegional connectivity analysis\nConservation area explorer (shiny app)\nWolverines survey (shiny app)\nbenchmarkbuilder (R package)\nbeaconstools (R package)\n\n\n\nRecently completed projects\n\nCASFRI\nNorthwest boreal LCC\nPanboreal assessment\nSFI conservation value assessment tool\n\n\n\nPapers - supplementary materials\n\nSurrogates paper (in prep)\nIntactness paper (published)"
   },
   {
     "objectID": "madre.html",
     "href": "madre.html",
     "title": "Madre’s bookmarks",
     "section": "",
-    "text": "Nouveau Tableau de Bord\n\n\nSocial media\n\nGmail\nPhotos\nWhatsApp\n\n\n\nNews & entertainment sources\n\nFrance 24\nTV5\nKTOTV\nARTE\nFrance TV\nLe Monde\nCBC news\nThe Tyee\nThe Guardian\n\n\n\nHealth\n\nSunLife\n\n\n\nBanking\n\nCaisse d’Epargne\nSociete Generale\nCoast Capital\nRBC\nPayFIP.gouv.fr"
+    "text": "Social media\n\nGmail\nPhotos\nWhatsApp\n\nNews & entertainment sources\n\nFrance 24\nTV5\nKTOTV\nARTE\nFrance TV\nLe Monde\nCBC news\nThe Tyee\nThe Guardian\n\nHealth\n\nSunLife\n\nBanking\n\nCaisse d’Epargne\nCredit Agricole\nSociete Generale\nCoast Capital\nRBC\nPayFIP.gouv.fr"
   },
   {
     "objectID": "survey_methods.html",

@@ -7,34 +7,33 @@ output:
     keep_md: no
 ---
 
-- [Nouveau Tableau de Bord](https://prvernier.github.io/madre/)
+**Social media**
 
-### Social media
+- [Gmail](https://mail.google.com){target="_blank"}
+- [Photos](https://photos.google.com/){target="_blank"}
+- [WhatsApp](https://web.whatsapp.com/){target="_blank"}
 
-- [Gmail](https://mail.google.com)
-- [Photos](https://photos.google.com/)
-- [WhatsApp](https://web.whatsapp.com/)
+**News & entertainment sources**
 
-### News & entertainment sources
+- [France 24](https://www.france24.com/fr/){target="_blank"}
+- [TV5](https://www.tv5unis.ca/){target="_blank"}
+- [KTOTV](https://www.ktotv.com/){target="_blank"}
+- [ARTE](https://www.arte.tv/fr/){target="_blank"}
+- [France TV](https://www.france.tv/){target="_blank"}
+- [Le Monde](https://www.lemonde.fr){target="_blank"}
+- [CBC news](https://www.cbc.ca/news){target="_blank"}
+- [The Tyee](https://www.thetyee.ca){target="_blank"}
+- [The Guardian](https://www.guardian.co.uk){target="_blank"}
 
-- [France 24](https://www.france24.com/fr/)
-- [TV5](https://www.tv5unis.ca/)
-- [KTOTV](https://www.ktotv.com/)
-- [ARTE](https://www.arte.tv/fr/)
-- [France TV](https://www.france.tv/)
-- [Le Monde](https://www.lemonde.fr)
-- [CBC news](https://www.cbc.ca/news)
-- [The Tyee](https://www.thetyee.ca)
-- [The Guardian](https://www.guardian.co.uk)
+**Health**
 
-### Health
+- [SunLife](https://www.sunnet.sunlife.com/signin/mysunlife/home.wca){target="_blank"}
 
-- [SunLife](https://www.sunnet.sunlife.com/signin/mysunlife/home.wca)
+**Banking**
 
-### Banking
-
-- [Caisse d'Epargne](https://www.caisse-epargne.fr/bourgogne-franche-comte)
-- [Societe Generale](https://particuliers.sg.fr/)
-- [Coast Capital](https://banking.coastcapitalsavings.com/LogIn.aspx)
-- [RBC](https://www.rbcroyalbank.com/personal.html)
-- [PayFIP.gouv.fr](payfip.gouv.fr)
+- [Caisse d'Epargne](https://www.caisse-epargne.fr/bourgogne-franche-comte){target="_blank"}
+- [Credit Agricole](https://www.credit-agricole.fr/ca-franchecomte/particulier/acceder-a-mes-comptes.html)
+- [Societe Generale](https://particuliers.sg.fr/){target="_blank"}
+- [Coast Capital](https://banking.coastcapitalsavings.com/LogIn.aspx){target="_blank"}
+- [RBC](https://www.rbcroyalbank.com/personal.html){target="_blank"}
+- [PayFIP.gouv.fr](payfip.gouv.fr){target="_blank"}

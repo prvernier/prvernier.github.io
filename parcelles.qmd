@@ -1,0 +1,34 @@
+---
+title: "Madre's Dashboard"
+format: dashboard
+---
+
+Properties in France.
+
+### Map view
+
+```{r}
+#| cache: true
+library(sf)
+library(dplyr)
+library(leaflet)
+google = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G"
+gpkg <- "vernier.gpkg"
+levier <- st_read(gpkg, "levier", quiet=T)
+map_bounds <- levier |> st_bbox() |> as.character()
+parcelles <- st_read(gpkg, "parcelles", quiet=T)
+m <- leaflet(options = leafletOptions(attributionControl=FALSE)) |> 
+    addProviderTiles("OpenStreetMap.France", group="OSM") |>
+    addProviderTiles("GeoportailFrance.orthos", group="Orthophotos") |>
+    addProviderTiles("Esri.WorldImagery", group="Esri Imagery") |>
+    addTiles(google, group="Google Imagery") |>
+    fitBounds(map_bounds[1], map_bounds[2], map_bounds[3], map_bounds[4]) |>
+    addPolygons(data=levier, color="black", fill=F, weight=2, group="Levier") |>
+    addPolygons(data=parcelles, color="red", fill=T, weight=2, fillOpacity=0, group="Parcelles", popup=~parcelles$numero) |>
+    addLayersControl(position = "topright",
+        baseGroups=c("OSM","Orthpotos","Google Imagery","Esri Imagery"),
+        overlayGroups = c("Levier","Parcelles"),
+        options = layersControlOptions(collapsed=F)) |>
+    hideGroup(c(""))
+m
+```

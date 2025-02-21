@@ -11,21 +11,7 @@ website:
         text: Home
       - text: "Projects"
         menu:
-        - text: wolverines survey
-          href: https://github.com/beaconsproject/wolverines
-        - text: Disturbance explorer
-          href: https://github.com/beaconsproject/disturbance_explorer
         - text: Disturbance mapping
-          href: https://github.com/beaconsproject/disturbance_mapping
-        - text: Connectivity mapping
-          href: https://github.com/beaconsproject/connectivity_mapping
-        - text: conservation_area_explorer
-          href: https://github.com/beaconsproject/beaconstools
-        - text: benchmarksbuilder
-          href: https://github.com/beaconsproject/benchmarkbuilder
-        - text: beaconstools
-          href: https://github.com/beaconsproject/beaconstools
-        - text: Northwest Boreal LCC
           href: http://nwb.ualberta.ca
         - text: Pan-boreal assessment
           href: http://pba.ualberta.ca
@@ -37,12 +23,12 @@ website:
           href: https://github.com/prvernier/intactness
         - text: Surrogates paper
           href: https://github.com/prvernier/surrogates
-      - text: "Data"
+      - text: "Apps"
         menu:
-          - href: yt_data.qmd
-            text: Yukon    
-          - href: bc_data.qmd
-            text: BC
+        - text: Disturbance explorer
+          href: https://github.com/beaconsproject/disturbance_explorer
+        - text: Test dashboard
+          href: https://github.com/prvernier/dashboards/testdash.html
       - about.qmd
 
 format:

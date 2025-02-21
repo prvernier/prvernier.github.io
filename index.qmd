@@ -5,6 +5,7 @@ title: "Welcome!"
 Welcome to my github pages. Here you will find information on various projects that I'm involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.
 
 * [BEACONs Project landing page](https://github.com/beaconsproject/beaconsproject.github.io)
+* [Notes](
 
 ### Current projects
 

@@ -9,61 +9,64 @@ output:
 
 ### Social media
 
-- [Gmail](https://mail.google.com)
-- [Proton Mail](https://account.proton.me/mail)
-- [Facebook](https://www.facebook.com)
-- [Twitter](https://www.twitter.com)
-- [Bluesky](https://bsky.app/)
-- [Strava](https://www.strava.com)
+-   [Gmail](https://mail.google.com)
+-   [Proton Mail](https://account.proton.me/mail)
+-   [Facebook](https://www.facebook.com)
+-   [Twitter](https://www.twitter.com)
+-   [Bluesky](https://bsky.app/)
+-   [Strava](https://www.strava.com)
 
 ### News sources
 
-- [The New York Times](https://www.nytimes.com)
-- [The Guardian](https://www.guardian.co.uk)
-- [The Globe and Mail](https://www.theglobeandmail.com)
-- [CBC news](https://www.cbc.ca/news)
-- [The Tyee](https://www.thetyee.ca)
-- [The Conversation](https://theconversation.com/ca)
-- [Hakai Magazine](https://www.hakaimagazine.com)
-- [The Narwhal](https://www.thenarwhal.ca)
+-   [The New York Times](https://www.nytimes.com)
+-   [The Guardian](https://www.guardian.co.uk)
+-   [The Globe and Mail](https://www.theglobeandmail.com)
+-   [CBC news](https://www.cbc.ca/news)
+-   [The Tyee](https://www.thetyee.ca)
+-   [The Conversation](https://theconversation.com/ca)
+-   [Hakai Magazine](https://www.hakaimagazine.com)
+-   [The Narwhal](https://www.thenarwhal.ca)
+- [France24](https://www.france24.com/fr/)
+- [RFI](https://www.rfi.fr/fr/)
 
 ### Entertainment
 
-- [ARTE](https://www.arte.tv/fr/)
-- [France TV](https://www.france.tv/)
-- [SBS on demand](https://www.sbs.com.au/ondemand/)
+-   [ARTE](https://www.arte.tv/fr/)
+-   [France TV](https://www.france.tv/)
+-   [SBS on demand](https://www.sbs.com.au/ondemand/)
 
 ### Travel
 
-- [Aeronet](https://acaeronet.aircanada.ca)
+-   [Aeronet](https://acaeronet.aircanada.ca)
 
 ### Health
 
-- [SunLife](https://www.sunnet.sunlife.com/signin/mysunlife/home.wca)
+-   [SunLife](https://www.sunnet.sunlife.com/signin/mysunlife/home.wca)
 
 ### Banking
 
-- [BMO](https://www.bmo.com)
-- [Credit Agricole](https://www.credit-agricole.fr/ca-franchecomte/particulier/acceder-a-mes-comptes.html)
-- [Caisse d'Epargne](https://www.caisse-epargne.fr/bourgogne-franche-comte)
-- [Rogers Bank](https://www.rogersbank.com)
-- [Coast Capital](https://banking.coastcapitalsavings.com/LogIn.aspx)
-- [Wise](https://wise.com/login/)
-- [N26](https://app.n26.com/login)
-- [PH&N](https://www1.royalbank.com/english/wm/sgne.html)
+-   [BMO](https://www.bmo.com)
+-   [Credit Agricole](https://www.credit-agricole.fr/ca-franchecomte/particulier/acceder-a-mes-comptes.html)
+-   [Caisse d'Epargne](https://www.caisse-epargne.fr/bourgogne-franche-comte)
+-   [Rogers Bank](https://www.rogersbank.com)
+-   [Coast Capital](https://banking.coastcapitalsavings.com/LogIn.aspx)
+-   [Wise](https://wise.com/login/)
+-   [N26](https://app.n26.com/login)
+-   [RBC](https://www.rbcroyalbank.com/personal.html)
+-   [PH&N](https://www1.royalbank.com/english/wm/sgne.html)
 
 ### Recreation
 
-- [Soccerstand](https://www.soccerstand.com)
-- [Soccernet](https://global.espn.com/football)
+-   [Soccerstand](https://www.soccerstand.com)
+-   [Soccernet](https://global.espn.com/football)
 
 ### MOOCS
 
-- [FUN MOOC](https://www.fun-mooc.fr/fr/)
-- [Open WHO](https://openwho.org/)
-- [Forest resilience](https://mooc.forestmoocforchange.eu)
-- [MOOC Conservation](https://www.mooc-conservation.org/home)
+-   [FUN MOOC](https://www.fun-mooc.fr/fr/)
+-   [Open WHO](https://openwho.org/)
+-   [Forest resilience](https://mooc.forestmoocforchange.eu)
+-   [MOOC Conservation](https://www.mooc-conservation.org/home)
 
 ### France
 
-- [Madre](madre.html)
+-   [Madre](madre.html)
