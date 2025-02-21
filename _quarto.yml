@@ -28,11 +28,11 @@ website:
         - text: Disturbance explorer
           href: https://github.com/beaconsproject/disturbance_explorer
         - text: Test dashboard
-          href: https://github.com/prvernier/dashboards/test
+          href: https://prvernier.github.io/dashboards/test/
         - text: Geopackage Explorer
-          href: https://github.com/prvernier/apps/gpkg-viewer
+          href: https://prvernier.github.io/apps/gpkg-viewer/
         - text: BC Atlas
-          href: https://github.com/prvernier/apps/bc-atlas
+          href: https://prvernier.github.io/apps/bc-atlas/
       - about.qmd
 
 format:
