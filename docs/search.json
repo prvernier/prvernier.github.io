@@ -172,7 +172,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Welcome to my github pages. Here you will find information on various projects that I’m involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.\n\nBEACONs Project landing page\n[Notes](\n\n\nCurrent projects\n\nRegional disturbance mapping\nGeopackage creator (shiny app)\nRegional disturbance explorer (shiny app)\nHydrology explorer (shiny app)\nRegional connectivity analysis\nConservation area explorer (shiny app)\nWolverines survey (shiny app)\nbenchmarkbuilder (R package)\nbeaconstools (R package)\n\n\n\nRecently completed projects\n\nCASFRI\nNorthwest boreal LCC\nPanboreal assessment\nSFI conservation value assessment tool\n\n\n\nPapers - supplementary materials\n\nSurrogates paper (in prep)\nIntactness paper (published)"
+    "text": "Welcome to my github pages. Here you will find information on various projects that I’m involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.\n\nBEACONs Project landing page\n\n\nCurrent projects\n\nRegional disturbance mapping\n\n\n\nShiny apps\n\nGeopackage creator (shiny app)\nRegional disturbance explorer (shiny app)\n\n\n\nRecently completed projects\n\nCASFRI\nNorthwest boreal LCC\nPanboreal assessment\nSFI conservation value assessment tool\n\n\n\nPapers - supplementary materials\n\nSurrogates paper (in prep)\nIntactness paper (published)"
   },
   {
     "objectID": "madre.html",

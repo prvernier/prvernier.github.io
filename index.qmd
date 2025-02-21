@@ -5,19 +5,15 @@ title: "Welcome!"
 Welcome to my github pages. Here you will find information on various projects that I'm involved with as well as webpages that I maintain on selected data and tools for useful for large scale conservation planning e.g., in the boreal forest.
 
 * [BEACONs Project landing page](https://github.com/beaconsproject/beaconsproject.github.io)
-* [Notes](
 
 ### Current projects
 
 * [Regional disturbance mapping](https://github.com/beaconsproject/disturbance_mapping)
+
+### Shiny apps
+
 * [Geopackage creator (shiny app)](https://github.com/beaconsproject/geopackage_explorer)
 * [Regional disturbance explorer (shiny app)](https://github.com/beaconsproject/disturbance_explorer)
-* [Hydrology explorer (shiny app)](https://github.com/beaconsproject/beaconshydro_explorer)
-* [Regional connectivity analysis](https://github.com/beaconsproject/connectivity_analysis)
-* [Conservation area explorer (shiny app)](https://github.com/beaconsproject/conservation_area_explorer)
-* [Wolverines survey (shiny app)](https://github.com/beaconsproject/wolverines)
-* [benchmarkbuilder (R package)](https://github.com/beaconsproject/benchmarkbuilder)
-* [beaconstools (R package)](https://github.com/beaconsproject/beaconstools)
 
 ### Recently completed projects
 

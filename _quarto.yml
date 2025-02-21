@@ -13,10 +13,12 @@ website:
         menu:
         - text: Disturbance mapping
           href: http://nwb.ualberta.ca
-        - text: Pan-boreal assessment
+        - text: Northwest Boreal assessment
+          href: http://nwb.ualberta.ca
+        - text: Pan-boreal Assessment
           href: http://pba.ualberta.ca
         - text: CASFRI
-          href: https://github.com/CASFRI/CASFRI
+          href: https://casfri.github.io/CASFRI/
         - text: SFI conservation tool
           href: https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool
         - text: Intactness paper
@@ -25,7 +27,9 @@ website:
           href: https://github.com/prvernier/surrogates
       - text: "Apps"
         menu:
-        - text: Disturbance explorer
+        - text: Geopackage Creator
+          href: https://github.com/beaconsproject/geopackage_creator
+        - text: Disturbance Explorer
           href: https://github.com/beaconsproject/disturbance_explorer
         - text: Test dashboard
           href: https://prvernier.github.io/dashboards/test/
