@@ -1,19 +1,13 @@
 ---
-title: "Madre's Dashboard"
 format: dashboard
 ---
 
-Properties in France.
-
-### Map view
-
 ```{r}
-#| cache: true
 library(sf)
 library(dplyr)
 library(leaflet)
 google = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G"
-gpkg <- "vernier.gpkg"
+gpkg <- "parcelles.gpkg"
 levier <- st_read(gpkg, "levier", quiet=T)
 map_bounds <- levier |> st_bbox() |> as.character()
 parcelles <- st_read(gpkg, "parcelles", quiet=T)

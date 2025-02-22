@@ -1,11 +1,16 @@
-Publications
-Journals
+---
+title: Publications
+---
 
-Vernier, M.C., MacKenzie, C.J.G., Schultzer, M., and Vernier, P.R. in press. Early (Unrecognized) Fetal Loss and Mother’s Preceding Pregnancies. American Journal of Human Biology
+Last updated - August 7, 2011
+
+### Journals
+
+Vernier, M.C., MacKenzie, C.J.G., Schultzer, M., and Vernier, P.R. in press. Early (Unrecognized) Fetal Loss and Mother's Preceding Pregnancies. American Journal of Human Biology
 
 Vernier, P.R. et al. in prep. Assessing Intactness in the Boreal Region of Canada: A Review of Global and Regional Maps. Frontiers in Ecology and the Environment.
 
-Vernier, M.C., MacKenzie, C.J.G., Schultzer, M., and Vernier, P.R. 2010. Influence of the Mother’s Preceding Pregnancies on Fetal Development and Postnatal Survival of the Neonate, in Normal Pregnancy. An Immunological Phenomenon? American Journal of Human Biology 22(5): 708-715. View Astract
+Vernier, M.C., MacKenzie, C.J.G., Schultzer, M., and Vernier, P.R. 2010. Influence of the Mother's Preceding Pregnancies on Fetal Development and Postnatal Survival of the Neonate, in Normal Pregnancy. An Immunological Phenomenon? American Journal of Human Biology 22(5): 708-715. View Astract
 
 Vernier, P.R., Preston, M.I., Bunnell, F.L., and Tyrell, A. 2009. Adaptive monitoring framework for warblers at risk in northeastern British Columbia: Using habitat models and expert opinion to refine monitoring. Wildlife Afield.
 
@@ -26,7 +31,7 @@ Boyce, M., Vernier, P.R., Nielsen, S.E., and Schmiegelow, F.K.A. 2002. Evaluatio
 Vernier, P.R. and Cumming, S.G. 1998. Predicting landscape patterns from stand attribute data in the Alberta boreal mixedwood. Working paper 1998-7. Sustainable Forest Management Network, Edmonton, Alberta.
 
 
-Reports
+### Reports
 
 Seely, B., Nelson, J., Vernier, P., Wells, R., and Moy, A. 2008. Exploring opportunities for mitigating the ecological impacts of current and future mountain pine beetle outbreaks through improved planning: A focus on Northeastern BC. Mountain Pine Beetle Working Paper 2008-08, Natural Resources Canada, Canadian Forest Service.
 
@@ -60,7 +65,7 @@ Vernier, P.R. 2003. Forest Songbird Modelling and Mapping using Bird Survery and
 
 Preston, M.I. and Vernier, P.R. 2003. Evaluation and Refinement of Habitat and Species Coverage for Summer Bird Surveys in TFL 48. Unpublished Report. Canfor, Chetwynd, British Columbia. Download PDF
 
-Vernier, P.R. and Bunnell, F.L. 2002. Habitat Associations of Northern Goshawk Nest Sites at Multiple Spatial Scales on Canfor’s Forest Tenure on Vancouver Island. Report prepared for Canadian Forest Products Ltd.
+Vernier, P.R. and Bunnell, F.L. 2002. Habitat Associations of Northern Goshawk Nest Sites at Multiple Spatial Scales on Canfor's Forest Tenure on Vancouver Island. Report prepared for Canadian Forest Products Ltd.
 
 Cumming, S.G. and Vernier, P.R.2000. A prototype spatial-dynamics model of forest harvesting, natural disturbance and habitat supply for the Stafford and Apple River drainages. Prepared for Western Forest Products Ltd.
 
@@ -69,7 +74,7 @@ Vernier, P.R., Bunnell, F.L., Walters, C.J., and Schmiegelow, F.K.A. 2000. Stati
 Wells, R.W., Valdal, E., Steeger, C., and Vernier, P.R. 1999. SIMFOR Habitat Analysis of Two FSSIM Harvest Scenarios in the Rocky Mountain Trench. Enhanced Forest Management Report No. 19. Invermere Forest District, Invermere, BC.
 
 
-Presentations
+### Presentations
 
 Vernier, P.R., Maguire, B., Kristiansen, C., Moy, A., Bunnell, F.L., Preston, M., and Harestad, A. 2007. Developing a Web-Based Habitat Assessment Tool to Explore the Effects of Forest Practices on Biodiversity Indicators: An Example from TFL 39 on Vancouver Island. Paper presented at the "Monitoring the Effectiveness of Biological Conservation" Conference, 2-4 November 2004, Richmond, BC. Download PDF
 
@@ -79,25 +84,25 @@ Nelson, J., Seely, B., Wells, R., M. Meitner, M., Sheppard, S., Bunnell, F., Har
 
 Boyce, M., Vernier, P.R., Nielsen, S.E., and Schmiegelow, F.K.A. 2002. Evaluating resource selection functions. The Wildlife Society 9th Annual Conference. Northwest Research and Outreach Center. Bismark, North Dakota.
 
-Dunsworth, G. and Vernier, P.R. 2002. Forest bird monitoring on Weyerhaeuser land. BC and Yukon-Partners in Flight Workshop: Landbird Conservation in BC’s Northern Pacific Rainforest Bird Conservation Region. Vancouver, BC.
+Dunsworth, G. and Vernier, P.R. 2002. Forest bird monitoring on Weyerhaeuser land. BC and Yukon-Partners in Flight Workshop: Landbird Conservation in BC's Northern Pacific Rainforest Bird Conservation Region. Vancouver, BC.
 
-Guisan, A., Pearce, J., Hirzel, A., Vernier, P.R., Boyce, M., Manel, S., and Elith, J. 2001. Model Evalution. Switzerland. Advances in GLM/GAM Modeling: From species’ distribution to environmental management. August 6-10, 2001. Centre Pro Natura Aletsch. Riederalp, Switzerland. Website
+Guisan, A., Pearce, J., Hirzel, A., Vernier, P.R., Boyce, M., Manel, S., and Elith, J. 2001. Model Evalution. Switzerland. Advances in GLM/GAM Modeling: From species distribution to environmental management. August 6-10, 2001. Centre Pro Natura Aletsch. Riederalp, Switzerland. Website
 
 Vernier, P.R. and Bunnell, F.L. 2001. Building and Testing Habitat Models Using Forest Inventory Data: Examples from B.C. and Alberta. Annual Meeting of the Society for Northwestern Vertebrate Biology March 30, 2001, Victoria, B.C.
 
-Vernier, P.R., Dunsworth, G., and Bunnell, F.L. 2001. Habitat Modelling in an Adaptive Framework on Weyerhaeuser’s Coastal Tenure. Spatial Analysis Techniques Workshop. February 27, 2001, Richmond, B.C. Website
+Vernier, P.R., Dunsworth, G., and Bunnell, F.L. 2001. Habitat Modelling in an Adaptive Framework on Weyerhaeuser's Coastal Tenure. Spatial Analysis Techniques Workshop. February 27, 2001, Richmond, B.C. Website
 
-Vernier, P.R., Dunsworth, G., and Bunnell, F.L. 2001. Forest-level Biodiversity Assessment on Weyerhaeuser’s Coastal Tenure. Habitat Supply Decision Support Workshop. February 28, 2001, Richmond, B.C. Website
+Vernier, P.R., Dunsworth, G., and Bunnell, F.L. 2001. Forest-level Biodiversity Assessment on Weyerhaeuser's Coastal Tenure. Habitat Supply Decision Support Workshop. February 28, 2001, Richmond, B.C. Website
 
 Cumming, S.G., Schmiegelow, F.K.A., and Vernier, P.R. 2001. Fire, Harvesting, and the Natural Range of Variability in the Distribution of Forest Birds. March 2001.
 
-Cumming, S.G., Schmiegelow, F.K.A., and Vernier, P.R. 2000. Habitat assessment and cross-scale integration. Building an ecological foundation for evaluating sustainable forest management. “Forest Sustainability beyond 2000: Building a Common Vision for Canada’s Forests.” May 17, 2000. Thunder Bay, Ontario.
+Cumming, S.G., Schmiegelow, F.K.A., and Vernier, P.R. 2000. Habitat assessment and cross-scale integration. Building an ecological foundation for evaluating sustainable forest management. Forest Sustainability beyond 2000: Building a Common Vision for Canada's Forests. May 17, 2000. Thunder Bay, Ontario.
 
 Wielgus, R.B., Vernier, P.R., and Schivatcheva, T. 2000. Effects of Forestry on Grizzly Bear Habitat Use. Carnivore Conference.
 
-Cumming, S.G., Vernier, P.R., and Schmiegelow, F.K.A. 1999. A Cross-scale approach to wildlife habitat assessment. Presented at “Predicting species occurrences: Issues of scale and accuracy.” October 18-22, 1999. Snowbird, Utah, USA.
+Cumming, S.G., Vernier, P.R., and Schmiegelow, F.K.A. 1999. A Cross-scale approach to wildlife habitat assessment. Presented at Predicting species occurrences: Issues of scale and accuracy. October 18-22, 1999. Snowbird, Utah, USA.
 
-Cumming, S.G., Schmiegelow, F.K.A., and Vernier, P.R. 1999. A Cross-scale approach to wildlife habitat assessment. Presented at “Habitat Loss: Ecological, Evolutionary and Genetic Consequences,” September 5–11, 1999. Helsinki, Finland.
+Cumming, S.G., Schmiegelow, F.K.A., and Vernier, P.R. 1999. A Cross-scale approach to wildlife habitat assessment. Presented at Habitat Loss: Ecological, Evolutionary and Genetic Consequences, September 5-11, 1999. Helsinki, Finland.
 
 Vernier, P.R. and Cumming, S.G. 1999. Predicting landscape patterns from stand attribute data in the Alberta boreal mixedwood. Presented as part of a Natural Disturbance Modelling Workshop at the SFM Conference, Edmonton Alberta, February 16 1999.
 
@@ -112,17 +117,13 @@ Salkie and G.A. Larkin (eds), Science and Practice: Sustaining the Boreal Forest
 Galindo-Leal, C., Vernier, P.R., and Bunnell, F.L. 1993. Wildlife and vegetation responses to landscape patterns in managed and protected forest of the Rocky Mountains. Western States and Provinces Watchable Wildlife and Non-game Symposium.
 
 
-Posters
+### Posters
 
 Vernier, P.R., Maguire, B., Kristiansen, C., Moy, A., Bunnell, F.L., Preston, M., and Harestad, A. 2007. Developing a Web-Based Habitat Assessment Tool to Explore the Effects of Forest Practices on Biodiversity Indicators: An Example from TFL 39 on Vancouver Island. Paper presented at the "Monitoring the Effectiveness of Biological Conservation" Conference, 2-4 November 2004, Richmond, BC. Download PDF
 
 Preston, M.I., Vernier, P.R., Harestad, A.S., and Campbell, R.W. 2004. Monitoring songbirds in coastal forest landscapes: from baselines to variable retention. Poster presented at Science Forum: Variable Retention Forestry. Malaspina College, Nanaimo, British Columbia. 21-24 April 2004.
 
 
-Thesis
+### Thesis
 
 Vernier, P.R. 1995. Landscape Structural Changes and Wildlife Habitat Supply in the Rocky Mountains, British Columbia. M.Sc. Thesis, University of British Columbia.
-
-
-Last updated - 07 Augustl 2011
-pierre.vernier@gmail.com

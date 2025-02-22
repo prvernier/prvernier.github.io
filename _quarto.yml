@@ -27,16 +27,20 @@ website:
           href: https://github.com/prvernier/surrogates
       - text: "Apps"
         menu:
-        - text: Geopackage Creator
+        - text: Geopackage creator
           href: https://github.com/beaconsproject/geopackage_creator
-        - text: Disturbance Explorer
+        - text: Disturbance explorer
           href: https://github.com/beaconsproject/disturbance_explorer
         - text: Test dashboard
           href: https://prvernier.github.io/dashboards/test/
-        - text: Geopackage Explorer
+        - text: Geopackage viewer
           href: https://prvernier.github.io/apps/gpkg-viewer/
-        - text: BC Atlas
+        - text: BC watershed atlas
           href: https://prvernier.github.io/apps/bc-atlas/
+      - text: "Other"
+        menu:
+        - text: Parcelles
+          href: https://prvernier.github.io/parcelles.html
       - about.qmd
 
 format:

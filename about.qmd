@@ -4,17 +4,22 @@ about:
   template: trestles
   image: profile.jpg
   links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/vernier
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/
     - icon: github
       text: Github
       href: https://github.com/prvernier
+    - icon: googlescholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=EaEz3uQAAAAJ&hl=en
 ---
 
 I am a landscape ecologist with the [Department of Renewable Resources](http://www.rr.ualberta.ca) at the University of Alberta. My research interests include biodiversity monitoring, systematic conservation planning, and species distribution modelling. I am a member of the [BEACONs Project](http://www.beaconsproject.ca/), which is developing a scientific framework for comprehensive conservation planning through the development and application of leading-edge conservation science that includes consideration of both protected areas and lands managed for other values.
 
 In addition to research, I enjoy trail running in the coastal mountains and forests of British Columbia and Washington State as well as the Jura and Alps in France.
+
+Most recent publications are listed on Google Scholar. Otherwise, [here is an older](pubs.html), but more comprehensive, list.
 
 ### Academic interests
 
