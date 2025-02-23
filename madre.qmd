@@ -7,6 +7,14 @@ output:
     keep_md: no
 ---
 
+**General**
+
+- [To do list]("https://docs.google.com/document/d/1F-y6hzaYPqXR7jkvQPS1pn8XReH122_gqNqR58MsDOM/edit")
+- [Banking]("https://docs.google.com/spreadsheets/d/130LIPBLvEUcWk72fcbmgxa5LzBIVnXucX-bP0JWtpYE/edit#gid=0")
+- [Levier - procedure]("https://docs.google.com/document/d/1wToFWNLcBQvldzfTx0g81NI_BbBze_YBRfvgGtG8PoQ/edit?usp=sharing")
+- [Levier - parc]("https://docs.google.com/presentation/d/19W2wyc6uQXBCuCjZFHO0xLd5-Hr7NbTGADe0aEkQvm4/edit?usp=sharing")
+- [Levier - parcelles]("https://docs.google.com/spreadsheets/d/1hVY-mEx9PcMSiSNSPVvu6D-QWgUeuFjHUBuKULHIssU/edit?usp=sharing")
+
 **Social media**
 
 - [Gmail](https://mail.google.com){target="_blank"}
