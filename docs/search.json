@@ -215,5 +215,12 @@
     "title": "Pierre Vernier",
     "section": "",
     "text": "library(sf)\n\nLinking to GEOS 3.12.2, GDAL 3.9.3, PROJ 9.4.1; sf_use_s2() is TRUE\n\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(leaflet)\ngoogle = \"https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G\"\ngpkg &lt;- \"vernier.gpkg\"\nlevier &lt;- st_read(gpkg, \"levier\", quiet=T)\nmap_bounds &lt;- levier |&gt; st_bbox() |&gt; as.character()\nparcelles &lt;- st_read(gpkg, \"parcelles\", quiet=T)\nm &lt;- leaflet(options = leafletOptions(attributionControl=FALSE)) |&gt; \n    addProviderTiles(\"OpenStreetMap.France\", group=\"OSM\") |&gt;\n    addProviderTiles(\"GeoportailFrance.orthos\", group=\"Orthophotos\") |&gt;\n    addProviderTiles(\"Esri.WorldImagery\", group=\"Esri Imagery\") |&gt;\n    addTiles(google, group=\"Google Imagery\") |&gt;\n    fitBounds(map_bounds[1], map_bounds[2], map_bounds[3], map_bounds[4]) |&gt;\n    addPolygons(data=levier, color=\"black\", fill=F, weight=2, group=\"Levier\") |&gt;\n    addPolygons(data=parcelles, color=\"red\", fill=T, weight=2, fillOpacity=0, group=\"Parcelles\", popup=~parcelles$numero) |&gt;\n    addLayersControl(position = \"topright\",\n        baseGroups=c(\"OSM\",\"Orthpotos\",\"Google Imagery\",\"Esri Imagery\"),\n        overlayGroups = c(\"Levier\",\"Parcelles\"),\n        options = layersControlOptions(collapsed=F)) |&gt;\n    hideGroup(c(\"\"))\nm"
+  },
+  {
+    "objectID": "madre/madre.html",
+    "href": "madre/madre.html",
+    "title": "Madre’s bookmarks",
+    "section": "",
+    "text": "General\n\nTo do list\nBanking\nLevier - procedure\nLevier - parc\nLevier - parcelles\n\nSocial media\n\nGmail\nPhotos\nWhatsApp\n\nNews & entertainment sources\n\nFrance 24\nTV5\nKTOTV\nARTE\nFrance TV\nLe Monde\nCBC news\nThe Tyee\nThe Guardian\n\nHealth\n\nSunLife\n\nBanking\n\nCaisse d’Epargne\nCredit Agricole\nSociete Generale\nCoast Capital\nRBC\nPayFIP.gouv.fr"
   }
 ]
