@@ -14,18 +14,21 @@ output:
 - [Levier - procedure](https://docs.google.com/document/d/1wToFWNLcBQvldzfTx0g81NI_BbBze_YBRfvgGtG8PoQ/edit?usp=sharing)
 - [Levier - parc](https://docs.google.com/presentation/d/19W2wyc6uQXBCuCjZFHO0xLd5-Hr7NbTGADe0aEkQvm4/edit?usp=sharing)
 - [Levier - parcelles](https://docs.google.com/spreadsheets/d/1hVY-mEx9PcMSiSNSPVvu6D-QWgUeuFjHUBuKULHIssU/edit?usp=sharing)
+- [Save-on-Foods](https://www.saveonfoods.com/sm/planning/rsid/1982)
 
 **Social media**
 
 - [Gmail](https://mail.google.com){target="_blank"}
 - [Photos](https://photos.google.com/){target="_blank"}
 - [WhatsApp](https://web.whatsapp.com/){target="_blank"}
+- [Signal](https://signal.org/)
 
 **News & entertainment sources**
 
 - [France 24](https://www.france24.com/fr/){target="_blank"}
 - [TV5](https://www.tv5unis.ca/){target="_blank"}
 - [KTOTV](https://www.ktotv.com/){target="_blank"}
+- [Daily mass](https://dailytvmass.com/){target="_blank"}
 - [ARTE](https://www.arte.tv/fr/){target="_blank"}
 - [France TV](https://www.france.tv/){target="_blank"}
 - [Le Monde](https://www.lemonde.fr){target="_blank"}
