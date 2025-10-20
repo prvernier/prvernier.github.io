@@ -15,19 +15,24 @@ output:
 -   [Twitter](https://www.twitter.com)
 -   [Bluesky](https://bsky.app/)
 -   [Strava](https://www.strava.com)
+-   [Substack](https://substack.com/home)
 
 ### News sources
 
--   [The New York Times](https://www.nytimes.com)
--   [The Guardian](https://www.guardian.co.uk)
--   [The Globe and Mail](https://www.theglobeandmail.com)
--   [CBC news](https://www.cbc.ca/news)
--   [The Tyee](https://www.thetyee.ca)
--   [The Conversation](https://theconversation.com/ca)
--   [Hakai Magazine](https://www.hakaimagazine.com)
--   [The Narwhal](https://www.thenarwhal.ca)
+- [The New York Times](https://www.nytimes.com)
+- [The Guardian](https://www.guardian.co.uk)
+- [The Globe and Mail](https://www.theglobeandmail.com)
+- [CBC news](https://www.cbc.ca/news)
+- [The Tyee](https://www.thetyee.ca)
+- [The Conversation](https://theconversation.com/ca)
+- [EU Observer](https://euobserver.com/)
+- [The Narwhal](https://www.thenarwhal.ca)
 - [France24](https://www.france24.com/fr/)
 - [RFI](https://www.rfi.fr/fr/)
+
+### Newsletters
+
+- [Anthropocene magazine](https://www.anthropocenemagazine.org/)
 
 ### Entertainment
 
