@@ -33,6 +33,9 @@ output:
 
 ### Newsletters
 
+- [NYT newsletters](https://www.nytimes.com/newsletters)
+- [Wealthsimple](https://tldr-archive.wealthsimple.com)
+- [Lesfrancais.press](https://lesfrancais.press/)
 - [Anthropocene magazine](https://www.anthropocenemagazine.org/)
 
 ### Entertainment
