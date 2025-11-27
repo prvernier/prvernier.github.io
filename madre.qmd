@@ -22,6 +22,8 @@ output:
 - [Photos](https://photos.google.com/){target="_blank"}
 - [WhatsApp](https://web.whatsapp.com/){target="_blank"}
 - [Signal](https://signal.org/)
+- [Levier - Facebook](https://www.facebook.com/levier.fr)
+- [Nautica - Facebook](https://www.facebook.com/groups/436315297071721)
 
 **News & entertainment sources**
 
