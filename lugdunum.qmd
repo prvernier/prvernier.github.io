@@ -30,6 +30,7 @@ output:
 - [France24](https://www.france24.com/fr/)
 - [RFI](https://www.rfi.fr/fr/)
 - [Reporterre](https://reporterre.net/)
+- [Ricochet](https://ricochet.media/)
 
 ### Newsletters
 
