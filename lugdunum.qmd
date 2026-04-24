@@ -26,11 +26,11 @@ output:
 - [The Tyee](https://www.thetyee.ca)
 - [The Conversation](https://theconversation.com/ca)
 - [EU Observer](https://euobserver.com/)
+- [EuroNews](https://www.euronews.com/)
 - [The Narwhal](https://www.thenarwhal.ca)
 - [France24](https://www.france24.com/fr/)
 - [RFI](https://www.rfi.fr/fr/)
 - [Reporterre](https://reporterre.net/)
-- [Ricochet](https://ricochet.media/)
 
 ### Newsletters
 

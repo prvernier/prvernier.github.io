@@ -2,3 +2,5 @@
 /.obsidian/
 archive
 google_sites
+
+**/*.quarto_ipynb
