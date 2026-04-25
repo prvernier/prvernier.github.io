@@ -31,6 +31,7 @@ output:
 - [France24](https://www.france24.com/fr/)
 - [RFI](https://www.rfi.fr/fr/)
 - [Reporterre](https://reporterre.net/)
+- [Skeptical Science](https://skepticalscience.com/)
 
 ### Newsletters
 
