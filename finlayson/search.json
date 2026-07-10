@@ -1,0 +1,482 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Finlayson Caribou and the KZK Mine Project",
+    "section": "",
+    "text": "1 Introduction\nThe workbook contains a summary of information sources on the Finlayson Caribou Herd, especially in the context of the Kudz Ze Kayah mine project. In this section, we review the findings of the 2020 report. The other sections provide technical summaries of population estimates, seasonal ranges, and habitat suitability in and around the project area.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#kzk-screen-report-finlayson-caribou-herd",
+    "href": "index.html#kzk-screen-report-finlayson-caribou-herd",
+    "title": "Finlayson Caribou and the KZK Mine Project",
+    "section": "1.1 KZK Screen Report: Finlayson caribou herd",
+    "text": "1.1 KZK Screen Report: Finlayson caribou herd\nThe section regarding the Finlayson caribou herd (FCH) in the Screening Report identifies the Kudz Ze Kayah Project as a source of significant adverse effects to the herd, primarily through habitat displacement and interference with seasonal movements.\n\n1.1.1 Summary of the FCH Assessment\n\nCultural and Ecological Importance: Caribou are a “cultural keystone species” for the Kaska Dena, as reflected in the project’s name, Kudz Ze Kayah, meaning “land of the caribou”. They are also an umbrella species, meaning protections for them benefit the broader ecosystem.\nCurrent Status: The FCH is a sub-type of woodland caribou designated as a “population of special concern”. The herd is in a persistent decline, dropping approximately 12% between 2007 and 2017 to an estimated 2,700 animals.\nProject Impacts:\n\nHabitat Loss: The project is uniquely situated at the intersection of late winter, calving, post-calving, rut, and movement habitats. It will remove approximately 5% of high-quality rutting habitat and 4% of post-calving habitat.\nMovement Barriers: The project area is a “caribou crossing” and a portal to critical calving areas; disruptions here affect a significant proportion of the population.\nIncreased Predation: Clearing the access road in winter facilitates easier movement for wolves, likely increasing predation on caribou.\n\nRecommended Mitigations: The report recommends establishing an oversight body with First Nations representation to manage caribou-specific mitigations adaptively. It also requires the Government of Yukon to develop a comprehensive long-term range management plan for the herd.\n\n\n\n1.1.2 Critique of the FCH Section\nThe report offers a rigorous assessment but highlights several critical information gaps and methodological tensions:\n\nReliance on Poor Data: The Executive Committee (EC) explicitly notes that available information regarding the FCH is “poor” compared to other Yukon herds. There have been no collaring efforts since the 1980s, and there is a significant lack of data regarding adult mortality.\nUnmodeled Impacts: While some habitats were quantified, the EC notes that effects on calving habitat and movement corridors were not modeled, which they describe as a “significant knowledge gap”. This suggests the actual consequences to the population might be higher than the report’s statistics indicate.\nConservative “Zone of Influence”: The Proponent applied a 3 km zone of influence for their models, which the EC notes is on the “lower end” of estimates seen in scientific literature; other studies have shown caribou avoiding mines by up to 23 km.\nConflict Over Significance: There is a clear divergence between the Proponent and the EC. The Proponent argued that because the “human footprint” in the range is only 12%, the project’s magnitude of effect should be considered “low”. The EC countered that caribou may be “naive” to the risks of new industrial footprints, and the herd’s continued decline warrants high caution regardless of the total percentage of disturbed land.\nUncertainty of Reversibility: While the Proponent suggests effects are reversible through reclamation, the EC points out that the effectiveness of many mitigations during operations is largely unknown, and the loss of the open pit and waste storage facilities is permanent and irreversible.\n\nUltimately, the report concludes that if the project proceeds, the FCH population will likely be lower than it would have been otherwise, placing the herd’s long-term sustainability at risk.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "yesab.html",
+    "href": "yesab.html",
+    "title": "2  YESAB Report 2020",
+    "section": "",
+    "text": "2.1 Strategic Context and Assessment Framework for the FCH\nTechnical Review and Evolutionary Analysis: Finlayson Caribou Herd (FCH) Assessment for the Kudz Ze Kayah Project\nThe Finlayson Caribou Herd (FCH) is not merely a biological population; it is a Valued Environmental and Socio-economic Component (VESEC) that serves as the nexus for ecological integrity and the Kaska Way of Life. The 2020 Yukon Environmental and Socio-economic Assessment Board (YESAB) screening represents a landmark in the territory’s regulatory history, as the Executive Committee was forced to reconcile a 38-year industrial lifecycle with the long-term viability of a sensitive woodland caribou population. Under the Yukon Environmental and Socio-economic Assessment Act (YESAA) and the Species at Risk Act (SARA), the assessment framework transitioned from standard project-level mitigation to a rigorous evaluation of the herd’s role in cultural and ecological stability.\nBy utilizing the Valued Component methodology, the Executive Committee elevated the FCH from a set of isolated biological metrics to a cornerstone of jurisdictional policy. This approach acknowledges that for the Liard First Nation (LFN) and Ross River Dena Council (RRDC), caribou conservation is inseparable from Traditional Land Use and the exercise of Aboriginal rights. The assessment was framed not just by the project footprint, but by the legal necessity to protect the “special relationship between Yukon Indian persons and the wilderness environment.” The 2020 determination was ultimately driven by baseline findings that revealed a herd characterized by significant vulnerability, necessitating a shift toward landscape-level oversight.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>YESAB Report 2020</span>"
+    ]
+  },
+  {
+    "objectID": "yesab.html#summary-and-evaluation-of-section-6.1-findings-2020",
+    "href": "yesab.html#summary-and-evaluation-of-section-6.1-findings-2020",
+    "title": "2  YESAB Report 2020",
+    "section": "2.2 Summary and Evaluation of Section 6.1 Findings (2020)",
+    "text": "2.2 Summary and Evaluation of Section 6.1 Findings (2020)\nThe 2020 baseline findings established that the FCH was in a precarious state long before the proposed commencement of the Kudz Ze Kayah (KZK) Project. A technical understanding of these population trends and spatial requirements was critical to justifying the “Significant Adverse Effect” determination.\nPopulation Metrics and Recruitment Trends\nA primary indicator of the herd’s health is the ratio of calves per 100 cows during fall rut surveys, which serves as a proxy for recruitment. Analysis of the data in Figure 17 reveals a critical historical trend: recruitment was significantly higher during the wolf control period (1983-1991). Following the cessation of active predator management, recruitment showed high variability and a general downward pressure. This data highlights the precarious nature of the FCH; the herd lacks the surplus resiliency to absorb additional stressors, making any industrial impact on adult survival or calf recruitment a threat to the population’s self-sustaining status.\nHabitat Mapping and the Zone of Influence (ZOI)\nSpatial modeling identified that the project directly intersects with high-quality habitat essential for the caribou life cycle:\n\nSeasonal Distribution: The project footprint sits on high-quality suitable habitat used during the Rut and Post-calving periods (Figures 14 and 15), which are the most sensitive phases for population replacement.\nGame Management Subzones (GMS): The mine is situated within GMS 10-07, an area that serves as a vital corridor for winter and post-rutting activity.\nThe 3 km Buffer: Modeling identifies a Zone of Influence (ZOI) extending 3 km from the project boundary (Figure 20). Within this ZOI, sensory disturbances-noise, light, and traffic-are predicted to alter caribou behavior, leading to effective habitat loss and increased energetic costs of displacement.\n\nSignificance Determination: The 38-Year Risk\nThe Executive Committee determined that the project would result in Significant Adverse Effects despite the Proponent’s initial mitigation designs. From a policy perspective, the permanence of the risk is the deciding factor. With a project lifespan of 38 years (construction through post-closure), the duration of displacement exceeds the reproductive lifespan of several generations of caribou. This long-term exclusion from high-quality habitat in GMS 10-07 constitutes a significant threat that standard site-level mitigations cannot resolve. Because the project footprint sits directly on critical Rut and Post-calving habitat, the Committee determined that only the power to seasonally suspend operations could potentially reduce these risks to an acceptable level.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>YESAB Report 2020</span>"
+    ]
+  },
+  {
+    "objectID": "yesab.html#critical-analysis-of-mandated-mitigations-and-oversight",
+    "href": "yesab.html#critical-analysis-of-mandated-mitigations-and-oversight",
+    "title": "2  YESAB Report 2020",
+    "section": "2.3 Critical Analysis of Mandated Mitigations and Oversight",
+    "text": "2.3 Critical Analysis of Mandated Mitigations and Oversight\nThe 2020 Recommendation fundamentally altered the regulatory landscape by moving from “siloed project mitigation” to landscape-level management. This shift moved the primary burden of caribou protection from a Proponent-led model to a government-led co-management framework.\nThe Oversight Body (Mitigation #10)\nThe creation of an Oversight Body is a sophisticated regulatory tool designed to manage the energetic costs of displacement in real-time. This body, comprised of the Proponent, Government of Yukon, LFN, and RRDC, possesses the authority to override operational schedules based on caribou presence.\n\nPower to Suspend: The body can mandate the temporary suspension of blasting, crushing, and truck transportation based on seasonal sensitivity.\nSensory Disturbance: Prioritization of methods to reduce noise and light within the ZOI.\nAviation Control: Authority to modify flight paths or enforce a suspension of helicopter use.\nAdaptive Triggers: Identification of biological “triggers” that necessitate immediate corrective action and the identification of mitigations based on “New Knowledge” (Mitigation 10.a.v).\n\nFCH Range Management Plan (Mitigation #11)\nA significant policy shift occurs in Mitigation #11, which mandates the Government of Yukon to develop a comprehensive plan. This forces a cumulative-effects management style onto the territorial government, ensuring the KZK project is managed within the context of the entire herd range.\n\n\n\n\n\n\n\nComponent\nPolicy Requirement and Scope\n\n\na. Management Principles\nMust be informed by Traditional Knowledge and the Kaska relationship with caribou.\n\n\nb. Current Conditions\nIdentify the health, trend, and condition of the population and habitat using best available info.\n\n\nc. Limiting Factors\nIdentify factors including habitat, predation, climate change, and human activities (harvest/land-use).\n\n\nd. Future Conditions\nScenarios for future impacts from development, wildfire, and climate.\n\n\ne. Objectives & Thresholds\nSpecific population/habitat objectives and thresholds of change that cannot be exceeded.\n\n\nf. Management Tools\nIdentify voluntary and non-voluntary tools, linked to regulatory and land-use planning.\n\n\ng. Implementation\nDetailed plan for collaborative and timely execution of management actions.\n\n\nh. Monitoring\nIdentify ongoing needs, uncertainties, and time-bound learning plans to address data gaps.\n\n\ni. Adaptive Management\nMechanism for incorporating monitoring results and “new knowledge” into plan revisions.\n\n\nj. Communication\nEstablishing methods for sharing results and guidance with communities and decision-makers.\n\n\n\nAnalytical Insight: By tethering the project’s success to this Range Management Plan, the Yukon Government has effectively ended the era of “site-only” mining assessments. Long-term accountability for the FCH now rests on a collaborative, landscape-wide effort where the Proponent’s social license is contingent upon the broader health of the herd.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>YESAB Report 2020</span>"
+    ]
+  },
+  {
+    "objectID": "yesab.html#post-2020-literature-review-the-evolving-landscape-of-fch-conservation",
+    "href": "yesab.html#post-2020-literature-review-the-evolving-landscape-of-fch-conservation",
+    "title": "2  YESAB Report 2020",
+    "section": "2.4 Post-2020 Literature Review: The Evolving Landscape of FCH Conservation",
+    "text": "2.4 Post-2020 Literature Review: The Evolving Landscape of FCH Conservation\nAs per Mitigation 10.a.v, the “New Knowledge” trigger is the primary mechanism for the project to adapt to shifting environmental realities. Since the 2020 screening, the intersection of climate change and industrial disturbance has become even more acute.\nClimate-Induced Habitat Shifts and Trigger Application\nThe 2020 projections-specifically the 2 degree Celsius temperature rise and the trend of snowfall arriving later (Section 5.2)-are no longer distant threats but active management concerns.\n\nEnergetic Costs: Warmer, more variable winters lead to increased icing events and deeper, heavier snow. This restricts access to ground lichen and increases the energetic costs of displacement for caribou forced to move away from the project ZOI.\nTrigger Mechanism: The “New Knowledge” trigger must now account for the fact that the FCH may be forced to utilize the project area more intensely if surrounding ranges are lost to wildfire or if traditional wintering grounds become energetically too costly to access due to snow conditions.\n\nIndigenous-Led Conservation and Modern Standards\nSince 2020, the “Kaska Way of Life” has evolved into a more formal framework for Indigenous-led conservation. Collaborative co-management models have moved beyond simple consultation to active, on-the-ground stewardship. Modern caribou conservation standards now emphasize that sensory disturbance modeling must be coupled with Indigenous observations of herd behavior.\nConclusion: The Necessity of Adaptive Management\nThe 2020 “Significance Determination” remains robust precisely because it anticipated these shifts. The mitigations provided a “learning loop” via the Oversight Body and the Range Management Plan. However, as climate change accelerates the degradation of caribou habitat, the thresholds of change defined in Mitigation #11 become even more critical. In the current landscape, adaptive management is not an optional administrative process; it is a vital survival mechanism for the Finlayson Caribou Herd and a non-negotiable requirement for the project’s ongoing regulatory compliance.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>YESAB Report 2020</span>"
+    ]
+  },
+  {
+    "objectID": "kzk.html",
+    "href": "kzk.html",
+    "title": "3  Kudz Ze Kayah",
+    "section": "",
+    "text": "3.1 Predicted residual effects on the FCH\nThe Kudz Ze Kayah (KZK) project (BMC Minerals Ltd.) is a proposed polymetallic mine located within the Finlayson caribou herd’s spring, summer, and fall range in the Pelly Mountains — the core rut and post-calving habitat. EDI Environmental Dynamics Inc. was retained by YESAB in 2019 to provide an independent review of BMC’s environmental assessment predictions for caribou, moose, and furbearers. The summary below reflects EDI’s findings (Johannesen & Setterington 2019), which largely validated BMC’s conclusions while adding context on cumulative effects and limiting factors.\nEDI assessed Project effects using the FCH home range as the Regional Study Area (RSA), applying the same criteria as BMC’s environmental assessment.\nDirection: Adverse across all pathways assessed.\nMagnitude: Low — the Project footprint affects a small fraction of available FCH habitat within the RSA:\nHabitat type\n% RSA affected\n\n\n\n\nRut habitat (mod-high/high suitability)\n0.83\n\n\nPost-calving habitat (mod-high/high suitability)\n0.85\nGeographic extent: Local to regional — effects on movement corridors or habitat avoidance could extend beyond the immediate footprint into the broader RSA.\nDuration: Long-term — some effects extend into the post-closure phase.\nReversibility: Reversible in the short to long term, except direct mortality events.\nOverall significance: EDI agreed with BMC’s conclusion that residual effects are not significant — they are adverse but low in magnitude, and the FCH population is not expected to be affected at the regional scale given effective mitigation.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kudz Ze Kayah</span>"
+    ]
+  },
+  {
+    "objectID": "kzk.html#predicted-effect-pathways",
+    "href": "kzk.html#predicted-effect-pathways",
+    "title": "3  Kudz Ze Kayah",
+    "section": "3.2 Predicted effect pathways",
+    "text": "3.2 Predicted effect pathways\n\n\n\n\n\nPathway\nEDI assessment\n\n\n\n\nLoss of high-suitability rut habitat\nLow magnitude; affected habitat not limiting within RSA\n\n\nLoss of high-suitability post-calving habitat\nLow magnitude; calving caribou not found within Project footprint\n\n\nDisturbance of movement corridors (Pelly River lowlands ↔︎ alpine)\nLocal; avoidance up to 500 m from roads, not significant beyond\n\n\nDirect mortality — vehicle collisions on Access Road\nLow probability with traffic management mitigation\n\n\nDisturbance from aircraft using Finlayson Lake airstrip\nLocalized; existing airstrip already present\n\n\nInduced hunting pressure (increased access via Access Road)\nMitigated by restricting public access from Robert Campbell Highway",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kudz Ze Kayah</span>"
+    ]
+  },
+  {
+    "objectID": "kzk.html#habitat-loss-in-context-bar-chart",
+    "href": "kzk.html#habitat-loss-in-context-bar-chart",
+    "title": "3  Kudz Ze Kayah",
+    "section": "3.3 Habitat loss in context — bar chart",
+    "text": "3.3 Habitat loss in context — bar chart",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kudz Ze Kayah</span>"
+    ]
+  },
+  {
+    "objectID": "kzk.html#key-limiting-factors-and-mitigation-context",
+    "href": "kzk.html#key-limiting-factors-and-mitigation-context",
+    "title": "3  Kudz Ze Kayah",
+    "section": "3.4 Key limiting factors and mitigation context",
+    "text": "3.4 Key limiting factors and mitigation context\nWhat actually limits the FCH?\nEDI noted that habitat is not the primary limiting factor for the FCH. The response of the herd to the 1983–1989 wolf control program — growing from ~2,000 to ~5,950 animals — clearly demonstrates that predation and hunting mortality are the dominant drivers of population dynamics. The Project, by contrast, directly affects less than 1% of key seasonal habitat.\nWhy indirect effects are discounted at 50%\nFollowing Dyer et al. (2001), who studied woodland caribou avoidance of industrial roads in Alberta: caribou significantly avoided habitat within 0–250 m of roads, but avoidance was not statistically significant beyond 250 m. This means that indirect habitat effects do not constitute a complete functional loss — hence the 50% weighting applied to indirect habitat loss in the EA.\nMitigation measures proposed by BMC (and endorsed by EDI)\n\n\n\n\n\n\n\nMeasure\nTarget effect\n\n\n\n\nTraffic management plan\nReduce vehicle collision risk\n\n\nRestricting public access from Robert Campbell Highway\nPrevent induced hunting\n\n\nUsing existing disturbed areas (Tote Road, exploration footprint)\nLimit new habitat loss\n\n\nAvoiding core alpine rut/post-calving habitat where possible\nReduce disturbance to key life stages\n\n\nWildlife monitoring program with adaptive management triggers\nAllow timely response to unexpected effects\n\n\n\nEDI’s overall conclusion (2019)\n\n“In EDI’s opinion, based on the information presented in the Project Proposal and the AAR1 and AAR2 responses, the predicted residual effects of the Project, relative to baseline conditions, are not likely to affect the viability of the FCH within their home range in Yukon.”\nEDI also noted: “If mortality factors such as wolf predation and hunting are managed, caribou may be able to co-exist with well managed developments.”\n\nNote that this assessment was conducted in 2019 using the 2017 census (2,712 animals) as baseline. The 2022 census (3,359 animals) indicates the herd has since grown, which would further support a conclusion of low project-level significance relative to herd viability.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kudz Ze Kayah</span>"
+    ]
+  },
+  {
+    "objectID": "population.html",
+    "href": "population.html",
+    "title": "4  Population Estimates",
+    "section": "",
+    "text": "5 Overview",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#key-metrics",
+    "href": "population.html#key-metrics",
+    "title": "4  Population Estimates",
+    "section": "5.1 Key metrics",
+    "text": "5.1 Key metrics\n\n\n\n\n\nMetric\nValue\n\n\n\n\n2022 population estimate\n3,359\n\n\nChange since 2017\n+24%\n\n\nGrowth rate (λ) 2017–2022\n1.044\n\n\nCalves per 100 cows (2022)\n18.2\n\n\nBulls per 100 cows (2022)\n47.1",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#population-estimates-19822022",
+    "href": "population.html#population-estimates-19822022",
+    "title": "4  Population Estimates",
+    "section": "5.2 Population estimates, 1982–2022",
+    "text": "5.2 Population estimates, 1982–2022",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#herd-composition-februarymarch-2022",
+    "href": "population.html#herd-composition-februarymarch-2022",
+    "title": "4  Population Estimates",
+    "section": "5.3 Herd composition — February/March 2022",
+    "text": "5.3 Herd composition — February/March 2022",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#key-ratios-across-censuses",
+    "href": "population.html#key-ratios-across-censuses",
+    "title": "4  Population Estimates",
+    "section": "5.4 Key ratios across censuses",
+    "text": "5.4 Key ratios across censuses",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#calf-recruitment-calves-per-100-cows-surveyed-years-19862022",
+    "href": "population.html#calf-recruitment-calves-per-100-cows-surveyed-years-19862022",
+    "title": "4  Population Estimates",
+    "section": "6.1 Calf recruitment (calves per 100 cows), surveyed years 1986–2022",
+    "text": "6.1 Calf recruitment (calves per 100 cows), surveyed years 1986–2022",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#how-the-surveys-work",
+    "href": "population.html#how-the-surveys-work",
+    "title": "4  Population Estimates",
+    "section": "7.1 How the surveys work",
+    "text": "7.1 How the surveys work\nAll seven population estimates of the Finlayson caribou herd (1986, 1990, 1996, 1999, 2007, 2017, 2022) have used the same core approach: a stratified random block (SRB) survey originally developed for moose by Farnell & Gauthier (1988) and adapted for woodland caribou in the Yukon.\n\n\n7.1.1 Step 1 — Stratification (fixed-wing)\nPrior to the intensive count, experienced observers fly a small fixed-wing aircraft (typically a Cessna 206) through all ~214 survey blocks covering the ~6,780 km² winter range. Each block is classified into one of three strata based on caribou presence and fresh sign (tracks, feeding craters):\n\nPrimary (high use) — ≥ 12 caribou observed or abundant fresh sign\nSecondary (low use) — &lt; 12 caribou, or limited fresh sign\nOut — no caribou and no recent sign\n\nSnow conditions are critical here. In 2022, recent snowfall before the survey made fresh tracks easy to distinguish from old ones — conditions were described as ideal. In 2017, a gap of several weeks without snowfall made track interpretation difficult; the initial stratification had to be redone post-hoc using a density threshold of 1 caribou/km².\n\n\n\n7.1.2 Step 2 — Census (helicopter)\nTwo helicopters (typically Bell Jet Rangers with three observers each) fly all primary blocks and a random selection of secondary blocks, running parallel transects approximately 400 m apart across each block at an intensity of roughly 2 minutes per km². Two helicopters operate simultaneously to minimise the chance of animals moving between blocks during the survey. Each caribou group is:\n\nCounted\nClassified into cows, calves, young bulls, and mature bulls\nLocated by GPS\n\n\n\n\n7.1.3 Step 3 — Extrapolation for unsurveyed secondaries\nBecause only a subset of secondary blocks is flown, the average caribou density observed in surveyed secondaries is applied to all secondary blocks (surveyed and unsurveyed) to estimate total abundance in that stratum. This is the main source of statistical uncertainty — if sampled secondaries happen to have atypically high or low densities, the extrapolation will be biased. The 2022 report notes this may have slightly inflated the final estimate, since bull-dominated groups (more broadly distributed) were likely over-represented in randomly selected secondary blocks.\n\n\n\n7.1.4 Step 4 — Sightability correction factor (SCF)\nAerial surveys inevitably miss some animals. A sightability correction factor is applied to scale up the raw counts. In 1986, 1990, 1996, and 1999, dedicated sightability trials were run (n = 43 total): an area just counted was immediately re-flown at higher intensity to find missed animals. A logistic regression model fitted to all 43 trials estimated a sightability rate of 77.6% (SE = 0.037), equivalent to a correction multiplier of 1.289 (SE = 0.061). This same factor — derived from the historic trials — was applied in both 2017 and 2022, since resources were not available for new trials.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#survey-by-survey-comparison",
+    "href": "population.html#survey-by-survey-comparison",
+    "title": "4  Population Estimates",
+    "section": "7.2 Survey-by-survey comparison",
+    "text": "7.2 Survey-by-survey comparison\n\n\n\n\n\nSurvey\nBlocks (n)\nArea (km²)\nPrimary blocks\nSecondary surveyed\nSCF\nSightability basis\n\n\n\n\n1986\n216\n~6,671\nNA\nNA\n1.22*\nYes\n\n\n1990\n216\n~6,671\nNA\nNA\n1.22*\nYes\n\n\n1996\n216\n~6,671\nNA\nNA\n1.24\nYes (n=43)\n\n\n1999\n216\n~6,671\nNA\nNA\n1.20\nYes (n=43)\n\n\n2007\n216\n~6,671\n42\n16\n1.22†\nNo — used avg 1996+1999\n\n\n2017\n214\n6,779\n37\n35\n1.289‡\nNo — logistic regression\n\n\n2022\n214\n6,778\n31\n14\n1.289‡\nNo — logistic regression\n\n\n\n* 1986 and 1990 SCF values based on trials conducted in those years.\n\n\n\n\n\n\n\n\n† 2007 SCF = average of 1996 (1.24) and 1999 (1.20) trials under similar conditions.\n\n\n\n\n\n\n\n\n‡ 2017 and 2022 SCF derived from logistic regression across all 43 historic trials (melogit, Stata 14.2 / lme4 in R); year treated as a random effect.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#why-winter-surveys-and-why-not-mark-resight",
+    "href": "population.html#why-winter-surveys-and-why-not-mark-resight",
+    "title": "4  Population Estimates",
+    "section": "7.3 Why winter surveys? And why not mark-resight?",
+    "text": "7.3 Why winter surveys? And why not mark-resight?\nWhy survey in late winter?\nFCH census surveys are conducted in late February to mid-March, when animals are grouped on their lowland winter range. This has practical advantages: animals are concentrated in a fraction of the total range (~1,400–1,800 km² out of ~6,780 km²), making intensive helicopter coverage feasible; fresh snow improves track detection during stratification; and sightability is generally better in open, low-canopy lichen woodland than in alpine terrain.\nAlternative timing is possible but harder. Calving and post-calving surveys face three key challenges noted by Environment Yukon (Morgan, pers. comm. 2025): cows are widely dispersed across the range during calving; individual cows are solitary and difficult to locate; and sightability in rugged alpine terrain is lower. These factors would substantially reduce survey efficiency and increase cost.\nWhy not use mark-resight?\nSince the mid-2000s, Yukon’s caribou program has used a mark-resight approach for all other Northern Mountain herds: GPS collars are deployed on adult females, who serve as known “marks.” During the fall rut — when animals concentrate at high-elevation sub-alpine habitats — observers record the ratio of marked to unmarked animals, producing a statistically more precise population estimate and yielding multiple years of detailed annual distribution and movement data (Morgan, pers. comm. 2025; see also Coal River Caribou Herd 2022 Population Estimate).\nThe Finlayson herd cannot use this method for two reasons:\n\nCultural: The Kaska First Nations, in whose traditional territory the herd lives, have not supported the collaring of animals since the 1990s. Between 1982 and 1987, 52 VHF collars were deployed with at least 20 relocations per collar, providing useful survival and distribution data; however, collaring was not continued as it did not receive support from community partners (Russell et al. 2022). The Government of Yukon has respected this position since.\nConsistency: Maintaining the SRB method preserves direct comparability with all seven previous censuses back to 1986, making the long-term trend reliable even if the absolute numbers carry some systematic bias.\n\nThe 2022 report recommends exploring novel survey methods that do not require collared animals — options might include aerial photogrammetry or distance sampling — to improve precision while respecting community values.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#key-thresholds-government-of-yukon-2016-guidelines",
+    "href": "population.html#key-thresholds-government-of-yukon-2016-guidelines",
+    "title": "4  Population Estimates",
+    "section": "7.4 Key thresholds (Government of Yukon 2016 guidelines)",
+    "text": "7.4 Key thresholds (Government of Yukon 2016 guidelines)\n\n\n\n\n\n\n\n\nMetric\nThreshold\nInterpretation\n\n\n\n\nCalves per 100 cows (fall)\n20–25\nMinimum for stable population growth\n\n\nBulls per 100 cows\n≥ 30\nEnsures all females have breeding opportunity\n\n\nHarvest rate (declining herd)\n≤ 1% of population\nBull-only harvest only\n\n\nCow harvest equivalence\n1 cow = 3 bulls\nCow removal disproportionately affects herd",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#key-indicators",
+    "href": "population.html#key-indicators",
+    "title": "4  Population Estimates",
+    "section": "8.1 Key indicators",
+    "text": "8.1 Key indicators\n\n\n\n\n\nMetric\nValue\n\n\n\n\nSpecies listing\nSpecial Concern (SARA)\n\n\nWolf control program\n1983–1989\n\n\nResident harvest closed\n2018\n\n\nNon-resident harvest closed\n2019\n\n\nRadio collaring on herd\nSuspended (Kaska request)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#timeline-of-key-events",
+    "href": "population.html#timeline-of-key-events",
+    "title": "4  Population Estimates",
+    "section": "8.2 Timeline of key events",
+    "text": "8.2 Timeline of key events\n\n\n\n\n\nYear\nEvent\n\n\n\n\nLate 1970s\nHerd thought to be declining; estimated ~2,000 animals (no formal survey)\n\n\n1982\nWolf control program initiated; herd at ~2,000\n\n\n1983–1989\nAerial wolf control reduces wolves by ~85% from pre-control estimate of 245\n\n\n1990\nHerd peaks at ~5,950 following wolf control; collaring program ends\n\n\n1996\nPost-rebound decline confirmed; herd at ~4,537\n\n\n1998\nPermit Hunt Authorization (PHA) introduced for licensed residents; outfitter quotas set\n\n\n1999\nCensus estimates 4,130 animals\n\n\n2007\nCensus estimates 3,077 — roughly half the 1990 peak\n\n\n2017\nCensus estimates 2,712 — lowest recorded; rate of decline slowing\n\n\n2018\nResident licensed harvest closed\n\n\n2019\nNon-resident harvest closed\n\n\n2022\nCensus estimates 3,359 — first confirmed increase since 1990 (λ = 1.044)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "population.html#harvest-history-and-regulations",
+    "href": "population.html#harvest-history-and-regulations",
+    "title": "4  Population Estimates",
+    "section": "8.3 Harvest history and regulations",
+    "text": "8.3 Harvest history and regulations\nThe Finlayson herd is an important subsistence resource for the Ross River Dena Council and Liard First Nation (Kaska). Harvest management has evolved as the herd declined:\n\nPre-1998: Open licensed hunting; outfitters active. Highest licensed harvest occurred in the early 1990s, coinciding with the post-wolf-control population peak.\n1996–2004: A winter game guardian program along the Robert Campbell Highway documented subsistence harvest — including cow harvest, which has a disproportionate population impact (1 cow ≈ 3 bulls in harvest equivalence terms).\n1998: PHA introduced — 30 permits for resident hunters; outfitters placed on quota. The sustainable harvest level was set at 3% of the ~4,000-animal 1996 estimate (120 animals), split 75% First Nations / 25% licensed.\n2018–2019: All licensed and non-resident harvest closed following continued decline to 2,712 animals in 2017.\nCurrent: Subsistence harvest by First Nations continues. Historical estimates suggest subsistence alone may equal or exceed the 1% bull-only threshold (≈27 animals) considered sustainable for a declining herd.\n\n\nWinter range characteristics\nThe core winter range lies north of the Pelly Mountains east of Ross River — a lowland forested area with abundant ground lichens under open black spruce, white spruce, and lodgepole pine. The Pelly Mountains create a snow-shadow effect, producing low snow cover ideal for lichen access. The spring/summer/fall range in the Pelly Mountains overlaps an active mineral exploration belt, creating ongoing concerns about cumulative industrial effects on the herd.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Population Estimates</span>"
+    ]
+  },
+  {
+    "objectID": "ranges.html",
+    "href": "ranges.html",
+    "title": "5  Seasonal Ranges",
+    "section": "",
+    "text": "5.1 Seasonal Habitat Ranges\nThe Finlayson Caribou Herd (FCH), a sub-type of woodland caribou designated as a population of Special Concern, requires large, contiguous landscapes to support its survival as it migrates between seasonally distinct but overlapping ranges. The Kudz Ze Kayah Project is uniquely situated at the intersection of these critical ranges, including late winter, calving, post-calving, rut, and early winter habitats.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Seasonal Ranges</span>"
+    ]
+  },
+  {
+    "objectID": "ranges.html#seasonal-habitat-ranges",
+    "href": "ranges.html#seasonal-habitat-ranges",
+    "title": "5  Seasonal Ranges",
+    "section": "",
+    "text": "Winter Range: During late winter, the herd primarily occupies lowland areas around the Robert Campbell Highway and north toward Ross River. In recent years, there has been a shift in use toward the area surrounding Finlayson Lake, which overlaps the northern portion of the Project area. This range is vital because it supports a high density of animals during a period when snow depth and cold temperatures make foraging energetically demanding.\nCalving Range: In late May and early June, pregnant cows disperse into high mountainous terrain to increase calf survival by avoiding predators. Suitable and occupied calving habitat exists at higher elevations throughout the Project area.\nPost-Calving Range: Following calving, caribou utilize subalpine and alpine areas, often seeking snow patches to avoid insects. The Project area contains core post-calving habitat where cows and calves congregate to access high-quality forage necessary for calf development.\nRutting Range: The rut occurs in October, primarily on alpine ridges and plateaus. A large proportion of the total FCH population congregates in areas immediately adjacent to the mine site during this time, utilizing traditional sites with high site fidelity.\n\n\n\n\nFigure 5-1 – Finlayson caribou herd seasonal distribution and habitat ranges",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Seasonal Ranges</span>"
+    ]
+  },
+  {
+    "objectID": "ranges.html#movement-corridors-and-connectivity",
+    "href": "ranges.html#movement-corridors-and-connectivity",
+    "title": "5  Seasonal Ranges",
+    "section": "5.2 Movement Corridors and Connectivity",
+    "text": "5.2 Movement Corridors and Connectivity\nThe Project is located in an area recognized by Kaska knowledge holders as a “caribou crossing” and an essential portal to calving grounds in the mountains to the south. A well-documented migration corridor extends approximately 4 km above and below the confluence of Geona and Finlayson Creeks. Maintaining landscape connectivity is crucial for the herd to move effectively between these seasonal ranges to fulfill their life cycle requirements.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Seasonal Ranges</span>"
+    ]
+  },
+  {
+    "objectID": "ranges.html#project-impacts-on-distribution",
+    "href": "ranges.html#project-impacts-on-distribution",
+    "title": "5  Seasonal Ranges",
+    "section": "5.3 Project Impacts on Distribution",
+    "text": "5.3 Project Impacts on Distribution\nModeling conducted by the Proponent indicates that the project will result in the direct removal of 5% of high-quality rutting habitat and 4% of high-quality post-calving habitat within the core of the herd’s range. While these percentages were quantified, the Executive Committee highlighted that calving habitat and movement corridors were not modeled, which they characterized as a “significant knowledge gap”. The concentration of caribou in the region during the rut makes a significant proportion of the population vulnerable to sensory disturbances from project activities, which may lead to displacement and permanent avoidance of these traditional ranges.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Seasonal Ranges</span>"
+    ]
+  },
+  {
+    "objectID": "habitat.html",
+    "href": "habitat.html",
+    "title": "6  Habitat requirements",
+    "section": "",
+    "text": "6.1 Seasonal range overview\nThe Finlayson caribou herd (FCH) is a Northern Mountain (NM) woodland caribou population (Rangifer tarandus caribou) that undertakes pronounced seasonal migrations between low-elevation winter range and high-elevation alpine/subalpine summer range. Northern Mountain caribou migrate seasonally, moving from the open boreal forest in winter up into the subalpine and alpine in summer — though some herds also spend much of the winter on windswept alpine slopes. The table below summarises the FCH’s known seasonal habitat associations, drawn from the population survey reports and the broader Northern Mountain caribou literature.\nSeason\nElevation / terrain\nKey habitat features\nPrimary forage\n\n\n\n\nWinter (Dec – Mar)\nLow-elevation lowland forest; sheltered from prevailing SW weather by Pelly Mountains\nOpen black spruce, white spruce, lodgepole pine forest with abundant ground lichens; low snow due to mountain rain shadow\nTerrestrial lichens (Cladonia/Cladina spp.) excavated by cratering through snow\n\n\nSpring (Apr – May)\nTransitional; animals move from lowland winter range upward; females typically lead\nSouth-facing slopes and riparian areas that snow-free early; access to fresh green vegetation\nEarly green-up: forbs, sedges, new shrub growth; supplemented by lichens\n\n\nCalving / post-calving (May – Jun)\nHigh elevation subalpine/alpine; females disperse widely and are largely solitary\nIsolated subalpine/parkland habitat; low moose density reduces wolf presence (predator avoidance)\nForbs, sedges, graminoids; diverse high-quality forage to support lactation\n\n\nSummer (Jul – Sep)\nUpper subalpine and alpine plateaus south of Finlayson Lake; ~1/3 of herd uses alpine north of Robert Campbell Hwy\nOpen alpine tundra, sedge meadows, insect-relief habitat (ridges, icefalls, snowfields)\nForbs, graminoids, dwarf shrubs, fungi, sedges; diverse diet\n\n\nRut / fall (Oct – Nov)\nAlpine plateaus in Pelly Mountains; animals concentrate at higher elevations\nSub-alpine rut habitat; bulls seek concentrated cow groups; overlaps Pelly Mountains mineral belt\nResidual forbs, shrubs; energy reserves built for rut and approaching winter",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitat requirements</span>"
+    ]
+  },
+  {
+    "objectID": "habitat.html#winter-habitat-the-critical-season",
+    "href": "habitat.html#winter-habitat-the-critical-season",
+    "title": "6  Habitat requirements",
+    "section": "6.2 Winter habitat — the critical season",
+    "text": "6.2 Winter habitat — the critical season\nLichen as the keystone winter resource\nNorthern Mountain caribou are the only animals that forage substantially on lichen in the winter. Terrestrial lichens are the winter forage species of most importance to northern caribou. Caribou excavate these through the snowpack using their broad hooves in a behaviour called cratering — consuming roughly 3 kg of lichen per day. Snow depth significantly affects access to this critical food: once snow exceeds approximately 50 centimetres, even high-lichen areas become inaccessible.\nThe FCH’s core winter range east of Ross River benefits from a pronounced snow-shadow effect created by the Pelly Mountains intercepting moisture-laden weather systems from the southwest, keeping snow shallow and making lichen accessible throughout the winter. This is precisely why snow-depth anomalies matter: in 2007, deeper-than-normal snow near Caribou Lakes pushed the majority of the herd east toward the shallower snowpack around Finlayson Lake — an unusual distribution not seen in any previous survey.\nLichen characteristics and recovery time\nWinter lichen availability is critical to evaluating caribou habitat. Highest densities are associated with mature forests, as lichen is very slow growing. Growth rates of reindeer lichen groups (Cladonia spp.) are approximately 5 mm per year, and the long recovery time for lichen forage has been suggested as a limiting factor for caribou populations. This slow recovery makes lichen mats highly vulnerable to disturbance — whether from fire, industrial footprint, or overgrazing — and explains why old-growth and mature forest stands are disproportionately important.\nNorthern mountain caribou rely on old growth forests because they have abundant amounts of terrestrial and arboreal lichen, and shallow snow depth due to interception by the canopy. Windswept areas also have shallow snow due to wind, which allows access to terrestrial lichen. Winter habitat is often in areas where a rain or snow shadow is present, which results in reduced precipitation.\nFlexibility between lichen types\nIn winter, caribou forage on terrestrial lichens in both lowland lodgepole pine flats and on windswept alpine slopes, and on arboreal lichens in upper elevation Engelmann spruce and subalpine fir forests. In a year of record heavy snowfall, all collared caribou wintered on windswept alpine slopes, while during the below-average snowfall year, many remained in forested habitats. In late winter, when increased snow depths make cratering for terrestrial lichens difficult, caribou feed increasingly on arboreal lichens.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitat requirements</span>"
+    ]
+  },
+  {
+    "objectID": "habitat.html#predator-avoidance-as-a-habitat-driver",
+    "href": "habitat.html#predator-avoidance-as-a-habitat-driver",
+    "title": "6  Habitat requirements",
+    "section": "6.3 Predator avoidance as a habitat driver",
+    "text": "6.3 Predator avoidance as a habitat driver\nFor Northern Mountain caribou, habitat selection is not solely about forage — predator avoidance is an equally powerful force shaping where and when caribou use the landscape. This is especially important for understanding the FCH, whose primary limiting factor has been wolf predation rather than food availability.\nSpatial separation from moose and wolves\nThe core mechanism is apparent competition: wolves primarily hunt moose, but will take caribou opportunistically. Where moose are abundant, wolf numbers are sustained at levels that inflict significant mortality on caribou. Caribou avoid predation primarily by spatially segregating from other ungulate species that are the primary prey of their shared predators. Selection of fen/bog complexes by caribou and selection of well-drained habitats by moose and wolves results in spatial separation, which in turn reduces wolf predation pressure on caribou — but does not provide a total refuge from wolves.\nFor mountain herds like the FCH, the equivalent mechanism is elevational separation: caribou use high alpine and subalpine habitat during calving and summer — terrain that wolves travel through less efficiently and where moose are largely absent. During calving, females are dispersed from moose and other wolf prey by selecting high elevation subalpine and parkland habitats.\nResponse to industrial linear features\nAll large mammal predator and prey species move faster on linear features (roads, cutlines). Wolves and bears are attracted towards linear features, whereas prey species avoid them. These findings are consistent with the hypothesis that linear features facilitate predator movement and increase hunting efficiency, while prey perceive such features as risky.\nThis has direct relevance to the KZK mine Access Road: while caribou avoidance beyond 250 m is not statistically significant (Dyer et al. 2001), the road may still elevate effective predation risk by enabling faster wolf travel through the FCH’s rut and early winter range.\nDisturbance avoidance and range fidelity\nIn summer, caribou avoided mines by 2 km and cabins and camps by 1.5 km, while in winter, when human activity was low, avoidance of these features was minor. This seasonal asymmetry is relevant to the FCH: the KZK mine would be most active during seasons when caribou are present for rutting and post-calving — the periods of highest avoidance response.\nGeneral caribou-habitat relationships — selection of conifer-dominated forests and treed lowlands, and avoidance of disturbed, settled and open areas and roads — are consistent with current management guidance. Fidelity is strongest for calving sites and home ranges used during the calving and post-calving seasons.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitat requirements</span>"
+    ]
+  },
+  {
+    "objectID": "habitat.html#key-habitat-threats-and-climate-context",
+    "href": "habitat.html#key-habitat-threats-and-climate-context",
+    "title": "6  Habitat requirements",
+    "section": "6.4 Key habitat threats and climate context",
+    "text": "6.4 Key habitat threats and climate context\n\n\n\n\n\n\n\n\nThreat\nMechanism\nRelevance to FCH\n\n\n\n\nIndustrial development (roads, mines)\nHabitat avoidance, facilitated predator movement, direct mortality\nKZK mine in rut/post-calving range; Robert Campbell Hwy through winter range\n\n\nWildfire\nDestroys terrestrial lichen mats; recovery takes decades\nLichen-rich lowland winter range vulnerable; fire exclusion historically maintained range quality\n\n\nSnow depth anomalies\nDeep snow prevents cratering; shifts distribution\nDocumented shift in 2007; Pelly Mountain snow shadow critical buffer\n\n\nLichen overgrazing\nSlow growth rate means mats can degrade under sustained grazing pressure\nLess acute for FCH given large range, but relevant if herd grows significantly\n\n\nShrub encroachment (climate warming)\nReduces lichen cover in tundra and open forest; benefits moose which supports more wolves\nEmerging threat; satellite data show lichen cover declined in 62% of a large eastern Canadian study region since the 1980s, with warming-induced shrub encroachment a likely contributor\n\n\nPredator-prey dynamics\nWolf numbers track moose, not caribou; caribou suffer collateral predation\nDominant limiting factor for FCH historically; wolf control 1983–1989 demonstrated dramatic response\n\n\n\nWhy habitat is not the current limiting factor for the FCH\nThe EDI review (2019) and the population reports both emphasise that, unlike many boreal caribou populations in southern Canada where habitat loss from logging is the primary driver of decline, the FCH’s trajectory has been governed principally by mortality — specifically wolf predation and harvest. The Pelly Mountains winter range remains largely intact old-growth lichen forest with low industrial footprint, and the snow-shadow microclimate has not substantially changed. This distinction is important for management: actions targeting predation and harvest regulation (as implemented 2018–2019) are expected to be more effective than habitat protection alone at stabilising this particular herd.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitat requirements</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html",
+    "href": "hsi.html",
+    "title": "7  Habitat suitability",
+    "section": "",
+    "text": "8 Introduction\nThe Kudz Ze Kayah (KZK) Project is a proposed base-metal mine in the Yukon Plateau-North Ecoregion of the Canadian Boreal Cordillera Ecozone, approximately 260 km northwest of Watson Lake and 115 km southeast of Ross River, Yukon. The Project lies within the traditional home range of the Finlayson caribou herd (FCH), a population of Northern Mountain caribou (Rangifer tarandus caribou) assessed by the Committee on the Status of Endangered Wildlife in Canada (COSEWIC) as a Species of Special Concern, and listed as such under the federal Species at Risk Act (SARA) in 2005. The FCH is of significant ecological, economic, and cultural importance to the Kaska First Nation, resident and guided hunters, and the general public.\nThe federal Management Plan for the Northern Mountain Population of Woodland Caribou directs responsible agencies to (i) identify and assess the quality, quantity, and distribution of important caribou habitats, and (ii) manage and conserve those habitats. To meet these objectives at the KZK Project site, Alexco Environmental Group Inc. (AEG) developed a series of habitat suitability index (HSI) models for the FCH, built from over three decades of Yukon Government survey data supplemented by project-specific surveys carried out by AEG between 2015 and 2017.\nThree life-requisite seasons were modelled:\nThe purpose of each HSI was to predict the spatial distribution of suitable caribou habitat within the Local Study Area (LSA) — a 3 km buffer around proposed mine infrastructure and a 1.5 km buffer around the Tote/Access Road — and across the FCH’s traditional home range (~23,000 km²), in order to support the design of avoidance and mitigation measures and to assess potential residual effects of the Project on caribou habitat.\nThis workbook consolidates the background, methods, and results reported across these documents and reproduces the key summary statistics, membership functions, and results tables using R.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html#study-area",
+    "href": "hsi.html#study-area",
+    "title": "7  Habitat suitability",
+    "section": "8.1 Study Area",
+    "text": "8.1 Study Area\nThe Project sits in the Geona Creek valley in the northeastern foothills of the Pelly Mountains, straddling the subalpine and lower alpine zones. Treeline occurs at approximately 1,550 m above sea level (masl); above 1,700 masl the landscape transitions to alpine tundra dominated by dwarf shrub, graminoid, and lichen cover. The Tote Road/Access Road corridor parallels the lower reaches of Finlayson Creek through open white and black spruce forest.\nThe FCH is an elevational, migratory ecotype. In spring, roughly two-thirds of the herd move from wintering grounds near the Pelly River to calve in the highlands of the southeastern Pelly Mountains; the remainder travel to mountains northeast of Finlayson Lake. Through summer, caribou disperse onto alpine plateaus and ridges to avoid predators and to seek relief from insects and heat, aggregating again in open alpine/subalpine habitat for the fall rut (peaking mid-October). In late fall the herd migrates northwest back toward the Pelly lowlands, becoming increasingly reliant on terrestrial lichen (roughly 70% of the winter diet) as green forage senesces. In late winter, the FCH concentrates in the low-elevation forest and shrublands around the Pelly River and Finlayson Lake, an area that sits in an orographic rain/snow-shadow north of the Pelly Mountains and typically receives less than 30 cm of precipitation annually — far below snow depths (50–90 cm) known to impede caribou mobility.\n\n\n\nTable 2.1 – Study area extents\n\n\nStudy Area\nExtent\n\n\n\n\nPost-calving study area\n2,036,919 ha\n\n\nRut study area\n2,037,259 ha\n\n\nFCH traditional home range\n~2,300,000 ha (23,000 km²)\n\n\nLocal Study Area (LSA)\n3 km buffer around mine infrastructure; 1.5 km buffer around Tote/Access Road",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html#habitat-selection",
+    "href": "hsi.html#habitat-selection",
+    "title": "7  Habitat suitability",
+    "section": "8.2 Habitat Selection",
+    "text": "8.2 Habitat Selection\nCaribou habitat requirements vary strongly by season, which is the ecological basis for building season-specific HSI models rather than a single year-round model:\n\nSpring/calving (Apr–Jun): migration to calving grounds; solitary, high-visibility alpine sites or concealing subalpine cover, away from alternate prey (e.g., moose) that support predator populations.\nSummer/post-calving (Jun–Sep): dispersal into small groups on upper subalpine/alpine ridges, plateaus and upper-elevation streams; forage on forbs, deciduous leaves, lichens, fungi, grasses, and sedges; use of windy ridges and snow patches for insect and heat relief.\nFall/rut (peaks mid-October): aggregation in open alpine and subalpine habitat; 2015–2016 early winter surveys found FCH remaining on rutting grounds in the Project area until mid-December.\nMigration (late fall/spring): transit through boreal forest, subalpine, shrubland, and alpine tundra; diet shifts toward terrestrial lichen as herbaceous forage dies off.\nLate winter: concentration in low-elevation, low-snowpack forest/shrubland in the Pelly River–Finlayson Lake snow-shadow, where shallow snow allows cratering to access terrestrial lichen.\n\nWinter habitat suitability was not modelled in the original 2016 report because the traditional core winter range lies ~100 km northwest of the Project site, outside the Project’s zone of influence (ZOI); the model was added later at YESAB’s request because the herd’s late-winter range overlaps the Access Road corridor.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html#data-sources",
+    "href": "hsi.html#data-sources",
+    "title": "7  Habitat suitability",
+    "section": "9.1 Data Sources",
+    "text": "9.1 Data Sources\nEach HSI combined spatial environmental layers with independently collected caribou location data used for calibration (satellite collar and VHF telemetry relocation data — higher positional accuracy, lower sample size) and evaluation (aerial survey data — lower positional accuracy but far larger sample size). This split allowed an independent cross-validation approach (calibrate on one dataset, evaluate on another) rather than testing the model against the same data used to build it.\n\n\n\nTable 4.1 – Habitat Suitability Index data sources\n\n\nDataset\nDescription\nUsed in\n\n\n\n\nDigital Elevation Model (DEM)\nElevation raster, resampled to 25 m\nRut / Post-calving / Late winter\n\n\nSlope\nDegrees of slope derived from DEM (25 m)\nRut / Post-calving / Late winter\n\n\nAspect\nDegrees of aspect derived from DEM (25 m)\nRut / Post-calving only\n\n\nVegetation cover\nDominant class from Predictive Ecosystem Map (PEM), 25 m\nRut / Post-calving / Late winter\n\n\nWinter precipitation\n1961–1990 climate normal, 1,672 m resampled to 25 m (PRISM/SNAP)\nLate winter only\n\n\nCaribou satellite collar points\nFCH satellite locations, 2004–2011 (3 individuals)\nCalibration\n\n\nCaribou VHF relocation collar points\nFixed-wing telemetry relocations, 1982–1987, 2004\nCalibration\n\n\nCaribou aerial survey points (YG)\nHelicopter/fixed-wing survey locations, 1982–2014/2017\nEvaluation\n\n\nCaribou aerial survey points (AEG/EDI)\nProject-acquired survey locations, 2015–2017\nEvaluation\n\n\n\n\n\n\n\n\nTable 4.2 – Caribou location observations used per season\n\n\nSurvey methodology\nRut\nPost-calving\nLate winter\n\n\n\n\nSatellite collar\n15\n17\n14 (3 from FCH)\n\n\nTelemetry/VHF relocation\n104\n51\n136\n\n\nAerial survey\n2,129\n577\n1,827\n\n\nTotal\n2,248\n645\n1,977\n\n\n\n\n\nKnown biases affecting each survey type: satellite-collared animals were originally deployed to track the adjacent Nahanni herd, so only 3 FCH individuals were represented and their locations were sometimes biased toward the Nahanni range to the east; VHF relocation data have ~200 m positional accuracy because animals were located from a fixed-wing aircraft; and aerial survey flights deliberately targeted areas of expected high caribou density for demographic counts, over-representing those areas in the evaluation dataset.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html#variables-and-fuzzy-membership-functions",
+    "href": "hsi.html#variables-and-fuzzy-membership-functions",
+    "title": "7  Habitat suitability",
+    "section": "9.2 Variables and Fuzzy Membership Functions",
+    "text": "9.2 Variables and Fuzzy Membership Functions\nFour environmental variables were evaluated for the rut and post-calving models — elevation, slope, aspect, and vegetation cover — chosen because they are ecologically meaningful, well supported in the literature, and available continuously across the entire FCH home range. The late-winter model substituted winter precipitation for aspect (aspect showed no distributional signal in low-relief winter range and was dropped).\nElevation, slope, and precipitation were treated as continuous variables and rescaled to a 0–1 suitability index using a linear fuzzy membership function, with breakpoints set from the frequency distribution of calibration-data locations along each variable. Aspect and vegetation cover are discrete/categorical variables, ranked 0–1 directly from observation frequency in each class and refined with expert opinion.\n\n9.2.1 Elevation\n\n\n\n\n\nFuzzy membership functions for elevation suitability, by season\n\n\n\n\nPost-calving suitability peaks at higher elevation (1,600–1,900 masl) than rut (1,500–1,800 masl), consistent with caribou seeking high ridges/plateaus for predator, heat, and insect avoidance during summer. Late-winter suitability is highest at low elevation (≤1,000 masl) and declines to zero by 1,500 masl, reflecting the herd’s descent into the Pelly River/Finlayson Lake lowlands.\n\n\n9.2.2 Slope\n\n\n\n\n\nFuzzy membership functions for slope suitability, by season\n\n\n\n\nRut habitat is most suitable on gentle terrain (≤25°), falling to zero by 60°. Post-calving habitat tolerates a wider plateau of moderate slope (10°–50°), consistent with use of ridges and upper plateaus. Late-winter habitat is essentially flat-terrain habitat, with suitability collapsing above ~12.5°, reflecting use of the lowland forest/shrub mosaic rather than mountain terrain.\n\n\n9.2.3 Aspect (rut and post-calving only)\n\n\n\nTable 4.4 – Aspect suitability class rankings\n\n\nAspect class (degrees)\nRut suitability\nPost-calving suitability\n\n\n\n\n≤0\n0.4\n0.4\n\n\n0–90\n0.5\n0.7\n\n\n90–180\n0.7\n0.7\n\n\n180–270\n0.7\n0.2\n\n\n270–360\n0.5\n0.5\n\n\n\n\n\nAspect showed the weakest discriminating signal of any variable in the rut/post-calving models (observation frequency varied only modestly across the four quadrants) and consequently received a lower variable weighting than elevation, slope, or vegetation. It was dropped altogether from the late-winter model because winter range is largely flat terrain, where aspect has little ecological meaning.\n\n\n9.2.4 Vegetation Cover\n\n\n\nTable 4.5 – Vegetation cover suitability class rankings\n\n\nVegetation class\nRut\nPost-calving\nLate winter\n\n\n\n\nHerb/Bryoid\n1.0\n1.0\n0.0\n\n\nShrub\n0.8\n0.5\n1.0\n\n\nDeciduous\n0.0\n0.0\n0.0\n\n\nMixedwood\n0.0\n0.0\n0.0\n\n\nConiferous\n0.5\n0.1\n1.0\n\n\nTreed wetland\nNA\nNA\n0.0\n\n\nWater/Ice\n0.0\n0.0\n0.5\n\n\nRock\n0.0\n0.3\nNA\n\n\n\n\n\nVegetation classes were derived from the Regional Ecosystems of East-Central Yukon Predictive Ecosystem Map (PEM; Makonis Consulting Ltd. 2013), reclassified to dominant cover type. Herb/bryoid and shrub classes dominate suitable rut and post-calving habitat, while coniferous and shrub cover — the principal terrestrial-lichen-bearing habitat — dominate suitable late-winter habitat.\n\n\n9.2.5 Winter Precipitation (late winter only)\n\n\n\n\n\nFuzzy membership function for winter precipitation suitability\n\n\n\n\nWinter precipitation (a proxy for snow depth) was added specifically for the late-winter model, since shallow snowpack is critical to caribou cratering access to terrestrial lichen. Suitability is highest below 70 mm and falls to zero by 85 mm, consistent with the FCH winter range’s position in the Pelly Mountains’ rain/snow-shadow (long-term average snowpack along the Robert Campbell Highway ≈ 40 cm, well below the 50–90 cm reported to impede caribou mobility).",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html#model-development",
+    "href": "hsi.html#model-development",
+    "title": "7  Habitat suitability",
+    "section": "9.3 Model Development",
+    "text": "9.3 Model Development\nFor each season, the reclassified variable layers (each rescaled 0–1) were resampled to a common 25 m grid, multiplied by an importance weight, and summed to produce a single continuous suitability surface (0–1). Aspect and vegetation (categorical, less discriminating) generally received lower weights than elevation and slope; for the late-winter model, all four variables were weighted evenly:\n\\[\\text{Late winter HSI} = 0.25 \\times \\text{Elevation} + 0.25 \\times \\text{Slope} + 0.25 \\times \\text{Vegetation} + 0.25 \\times \\text{Precipitation}\\]\nFocal statistics (a 100 m / 4-cell radius smoothing window) were then applied to remove isolated single-cell artifacts and produce a spatially continuous surface, and the result was reclassified into six ordinal habitat classes (Nil, Very Low, Low, Moderate, Moderately High, High) following the British Columbia Wildlife Habitat Rating Standards (RIC 1999).\n\nPost-calving and RutWinter\n\n\n\n\n\n\n\n\nFigure 9.1: Figure 4-1 013 Habitat Suitability Index process workflow (BMC_APPENDIX_E-8_(Part_16)_WILDLIFE_BASELINE_REPORT_caribou habitat suitability, December 2016).\n\n\n\n\n\n\n\n\n\n\n\nFigure 9.2: Figure 4-1 013 Habitat Suitability Index process workflow (BMC KZK Response Report IR6, January 2018).",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html#model-evaluation",
+    "href": "hsi.html#model-evaluation",
+    "title": "7  Habitat suitability",
+    "section": "9.4 Model Evaluation",
+    "text": "9.4 Model Evaluation\nModels were evaluated using the non-parametric Kendall tau test, chosen over Spearman’s rank correlation because it is less sensitive to error and performs better with smaller sample sizes. The test assessed whether the six ordinal HSI classes were correlated with the density of independent aerial survey observations (i.e., data withheld from model calibration). A model was accepted as statistically significant at α = 0.05, and where multiple candidate weighting/breakpoint schemes were tested, the version with the highest tau coefficient (strongest correlation) was retained as final. All statistics were computed in R (R Core Team 2014).\n\n\n\nTable 4.6 – Model evaluation statistics (Kendall's tau, six-class ranking vs. aerial survey density)\n\n\nSeason\nKendall's tau\np-value\nInterpretation\n\n\n\n\nPost-calving\n1.0000\n0.0014\nSignificant, very strong positive correlation\n\n\nRut\n0.7333\n0.0278\nSignificant, strong positive correlation\n\n\nLate winter\n1.0000\n0.0014\nSignificant, very strong positive correlation\n\n\n\n\n\n\n\n\n\n\nModel evaluation strength by season",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html#rut-and-post-calving-habitat-suitability",
+    "href": "hsi.html#rut-and-post-calving-habitat-suitability",
+    "title": "7  Habitat suitability",
+    "section": "10.1 Rut and Post-Calving Habitat Suitability",
+    "text": "10.1 Rut and Post-Calving Habitat Suitability\n\n\n\n\n\n\nFigure 10.1: Figure 5-1 – Finlayson Caribou Herd rut habitat suitability, home range and study area (BMC Appendix E-8, Part 17, November 2016).\n\n\n\n\n\n\n\n\n\nFigure 10.2: Figure 5-2 – Finlayson Caribou Herd post-calving habitat suitability, home range and study area (BMC Appendix E-8, Part 17, November 2016).\n\n\n\nAcross the FCH home range (~2,037,000 ha), the final HSI rasters were summarized into the six ordinal suitability classes and cross-tabulated against the independent aerial survey observation counts:\n\n\n\nTable 5.1 – Habitat suitability results for the FCH home range (rut and post-calving)\n\n\nHabitat suitability\nRut area (ha)\nRut % of range\nRut occurrences\nPost-calving area (ha)\nPost-calving % of range\nPost-calving occurrences\n\n\n\n\nNil\n2,938\n1\n2\n467,929\n23\n2\n\n\nVery low\n631,895\n31\n29\n1,012,818\n50\n12\n\n\nLow\n830,922\n41\n89\n224,298\n11\n14\n\n\nModerate\n213,789\n10\n149\n102,307\n5\n59\n\n\nModerately high\n192,737\n9\n474\n101,316\n5\n124\n\n\nHigh\n164,978\n8\n1,381\n128,251\n6\n337\n\n\n\n\n\n\n\n\n\n\nOccurrence density rises sharply with habitat suitability class, for both seasons\n\n\n\n\nThe proportion of observations climbs steeply through the higher suitability classes for both seasons — the High class contains only 8% of the rut range area but captures 65% of rut occurrences (1,381 of 2,124), and only 6% of the post-calving range area but captures 61% of post-calving occurrences (337 of 548) — supporting the models’ predictive validity.\n\n\n\nTable 5.2 – Summary of direct and indirect Project effects on moderately-high to high suitability rut and post-calving habitat\n\n\nMetric\nRut\nPost-calving\n\n\n\n\nModerately high–high suitability habitat in FCH range\n357,715 ha (17%)\n229,567 ha (11%)\n\n\n...of which directly affected by Project footprint\n777 ha (0.42%)\n118 ha (0.12%)\n\n\n...of which indirectly affected within LSA\n4,771 ha (2.72%)\n2,778 ha (2.39%)\n\n\nDirectly affected as % of same-quality habitat within LSA\n~15%\n~4%\n\n\n\n\n\n\n\n\n\n\nModerately-high/high suitability habitat: FCH range vs. directly/indirectly affected proportions\n\n\n\n\nWithin the LSA specifically, moderately-high and high suitability rut habitat was concentrated close to the Project footprint — where the direct footprint overlaps rut habitat, the impact reaches ~15% of the same-quality habitat available within the LSA, compared with only ~4% for post-calving habitat. Applying a 100 m focal-statistics smoothing pass to the raw suitability surface (Figure 4-2 of the original report) removed isolated single-cell artifacts and produced a more spatially coherent (and more conservative, in terms of contiguous suitable-habitat patches) representation of the landscape than the unsmoothed output.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "hsi.html#late-winter-habitat-suitability",
+    "href": "hsi.html#late-winter-habitat-suitability",
+    "title": "7  Habitat suitability",
+    "section": "10.2 Late Winter Habitat Suitability",
+    "text": "10.2 Late Winter Habitat Suitability\n\n\n\n\n\n\nFigure 10.3: Figure 5-1 – Finlayson Caribou Herd late winter habitat suitability, home range (BMC KZK Response Report IR6, January 2018).\n\n\n\nThe late-winter model, added in 2018 in response to a YESAB Adequacy Review request, covered the same ~2,036,800 ha FCH home range extent.\n\n\n\nTable 5.3 – Late winter habitat suitability results for the FCH home range\n\n\nHabitat suitability\nArea (ha)\n% of FCH range\n\n\n\n\nNil\n198,867\n10\n\n\nVery low\n275,813\n14\n\n\nLow\n370,714\n18\n\n\nModerate\n488,971\n24\n\n\nModerately high\n431,098\n21\n\n\nHigh\n271,315\n13\n\n\n\n\n\n\n\n\nTable 5.4 – Late winter habitat directly and indirectly affected by the Project Access Road\n\n\nHabitat suitability\nIndirectly affected - LSA (ha)\nDirectly affected - Access Road (ha)\n\n\n\n\nNil\n1,601\n35\n\n\nVery low\n2,713\n403\n\n\nLow\n2,975\n456\n\n\nModerate\n3,582\n90\n\n\nModerately high\n1,583\n11\n\n\nHigh\n0\n0\n\n\n\n\n\n\n\n\n\n\nDistribution of late winter habitat suitability across the FCH home range\n\n\n\n\nUnlike the rut and post-calving models — where suitable habitat is concentrated in a relatively small fraction of the range — late winter suitability is more evenly distributed, with moderately-high/high habitat covering 34% (702,413 ha) of the FCH range. Critically, no high-suitability late winter habitat occurs within the LSA, and the proposed mine footprint does not overlap any moderately-high or high-suitability late winter habitat at all — only the Access Road corridor intersects moderate (90 ha direct / 3,582 ha indirect) and moderately-high (11 ha direct / 1,583 ha indirect) winter habitat, representing less than 1% of all moderate-to-high suitability late winter habitat range-wide.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitat suitability</span>"
+    ]
+  },
+  {
+    "objectID": "movement.html",
+    "href": "movement.html",
+    "title": "8  Seasonal movements",
+    "section": "",
+    "text": "8.1 Annual migration cycle\nThe FCH undertakes a pronounced annual elevational migration between its low-elevation winter range and high-elevation summer range — a pattern typical of Northern Mountain woodland caribou but distinct from more sedentary boreal populations. The seasonal cycle is driven by three interacting forces: forage availability, predator avoidance, and insect relief. The ability to move freely between seasonal ranges is considered vitally important for Northern Mountain caribou populations (Environment Canada 2012).\nThe diagram below summarises the approximate timing and direction of seasonal movements for the FCH based on survey report observations, radio-collar data from the 1982–1987 collaring program, and the broader Northern Mountain caribou literature.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Seasonal movements</span>"
+    ]
+  },
+  {
+    "objectID": "movement.html#phase-by-phase-movement-description",
+    "href": "movement.html#phase-by-phase-movement-description",
+    "title": "8  Seasonal movements",
+    "section": "8.2 Phase-by-phase movement description",
+    "text": "8.2 Phase-by-phase movement description\nLate winter (December – March)\nThe majority of the FCH winters on the lowland lichen-rich forests east of Ross River, north of the Pelly Mountains. Animals are most concentrated during this period — a key reason why late-winter surveys are logistically feasible. The core winter range lies on both sides of the Robert Campbell Highway. Approximately one-third of the herd uses a separate group of alpine blocks north of the Highway, ranging close to the NWT border. This spatial split appears consistent across survey years.\nThe precise location of wintering animals within the range shifts between years depending on snow depth. In most years, the bulk of the herd winters near Caribou Lakes; however, in 2007 deeper-than-normal snow there pushed animals east toward Finlayson Lake — an unusual distribution not documented in any prior survey (Adamczewski et al. 2010). More recently (2022), the herd was again concentrated south of the Highway in the Caribou Lakes area, more consistent with the historical 1986–1999 pattern.\n\nSpring migration (April – May)\nAs snow begins to melt, caribou move from lowland winter range upward toward spring and summer range. In spring, caribou move from high elevation winter ranges to lower elevation habitat, primarily lodgepole pine and lodgepole pine–white spruce dominated stands. In early spring, caribou seek new green vegetation in bogs, riparian areas, and open meadows. Use of habitats such as south-facing deciduous hillsides and meadows that become snow-free earlier than heavily timbered areas is common. Pregnant females typically lead the spring migration, ascending to summer ranges before males.\n\nCalving (late May – June)\nCalving occurs in late May to early June on high-elevation subalpine and alpine/parkland habitats, primarily on alpine plateaus south of Finlayson Lake. During calving, females are widely dispersed and largely solitary — making this the most difficult season for aerial survey work. The isolation of calving females from other ungulates (and thus from wolves, whose numbers are sustained by moose) is considered an active anti-predator strategy. Calving caribou were not found within the Kudz Ze Kayah project footprint during wildlife baseline surveys (BMC 2017).\n\nPost-calving summer (July – September)\nAfter calving, cows with calves aggregate into larger groups, often seeking wind-exposed ridges, icefalls, and snowfields to escape harassment by insects (mosquitoes, black flies, bot flies, warble flies). Summer range consists primarily of upper-elevation spruce/fir forest and subalpine/alpine areas. Summer diet is more diverse than in winter, consisting of forbs, deciduous leaves, lichens, fungi, grasses, and sedges. The FCH’s core summer and fall range is on alpine plateaus south of Finlayson Lake, overlapping the Pelly Mountains mineral exploration belt.\n\nRut / fall (October – November)\nThe annual rut occurs in October–November on alpine and subalpine range. During this period bulls seek out concentrated cow groups, and animals aggregate at higher elevations — the timing exploited by the mark-resight method used for all other Yukon Northern Mountain herds. The FCH’s rut range overlaps significantly with the proposed Kudz Ze Kayah mine area, making this the period of greatest potential Project–caribou interaction (BMC 2017; Johannesen & Setterington 2019).\n\nEarly winter descent (November – December)\nAs winter weather sets in and snow deepens at higher elevations, caribou descend back to their lowland winter range to access terrestrial lichens. The timing and route of this descent may vary by individual, with some animals lingering at mid-elevations before moving fully to the winter range.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Seasonal movements</span>"
+    ]
+  },
+  {
+    "objectID": "movement.html#sex-specific-spatial-segregation-in-winter",
+    "href": "movement.html#sex-specific-spatial-segregation-in-winter",
+    "title": "8  Seasonal movements",
+    "section": "8.3 Sex-specific spatial segregation in winter",
+    "text": "8.3 Sex-specific spatial segregation in winter\nA consistent and ecologically important pattern documented across all FCH surveys is the spatial segregation of bulls from cows and calves during winter. This was first documented in early March surveys and is now well-established:\n\nBull-dominated groups (&gt; 50% bulls) tend to be smaller (averaging 3–22 individuals in 2022), distributed more broadly, often north of the Robert Campbell Highway, and in the more western portion of the study area.\nCow-dominated groups (&lt; 50% bulls) tend to be larger (averaging 13 individuals in 2022), concentrated south of the Highway, with distribution extending further east.\n\nIn 2007, of the 228 mature bulls counted, 198 (86.8%) were in all-bull groups, mostly north and west of the Pelly River (Adamczewski et al. 2010). This pattern has been consistently observed across the 1986, 1990, 1996, 1999, 2007, 2017, and 2022 surveys.\nWhy does segregation occur?\nSex-biased winter distribution in caribou is well-documented and is believed to result from antlered cows (who retain their antlers through winter, unlike bulls who shed theirs in November) gathering and defending limited, high-quality foraging areas to ensure adequate nutrition during pregnancy. This gives pregnant cows priority access to the richest lichen patches, with bulls displaced to secondary areas. The pattern has important survey implications: randomly selected secondary blocks have a higher probability of containing bull-only groups, which may inflate population estimates when those densities are extrapolated to unsurveyed blocks (Russell & Russell 2022).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Seasonal movements</span>"
+    ]
+  },
+  {
+    "objectID": "movement.html#range-fidelity-and-variability",
+    "href": "movement.html#range-fidelity-and-variability",
+    "title": "8  Seasonal movements",
+    "section": "8.4 Range fidelity and variability",
+    "text": "8.4 Range fidelity and variability\nSite fidelity across years\nFCH animals display moderate range fidelity — returning to the same general seasonal ranges across years, but with considerable within-season flexibility depending on snow conditions, lichen availability, and disturbance. Fidelity is strongest for calving sites and weakest for winter home ranges (Ontario Ministry of Natural Resources 2023), a pattern consistent with the FCH’s documented inter-annual variation in winter distribution.\nThe 2007 distributional anomaly\nThe 2007 census documented a striking departure from the established pattern: nearly two-thirds of the herd (1,645 of 2,522 uncorrected animals) was found near Finlayson Lake, whereas in all previous surveys (1986, 1990, 1996, 1999) the majority wintered near Caribou Lakes. Post-survey snow-depth measurements along the Robert Campbell Highway confirmed that snow was deeper than normal near Caribou Lakes in 2007, while conditions near Finlayson Lake were unusually shallow — consistent with animals tracking accessible lichen rather than exhibiting true fidelity to a specific site (Adamczewski et al. 2010).\nThe 2022 return to historical distribution\nBy 2022 the distribution had reverted toward the historical pattern, with most animals concentrated south of the Highway in the Caribou Lakes area and few near Finlayson Lake. This shift was noted as analogous to observations from the 1986–1999 surveys. It may reflect a return to normal snow conditions, or could indicate that animals making less predictable use of winter locations have higher survival by avoiding wolf ambush — consistent with evidence that reduced range fidelity in winter can be an adaptive predator-avoidance strategy (Lafontaine et al. 2017).\nMovement rates and distances\nFormal movement data are limited for this herd given the absence of collars since the 1990s. The 52 VHF collars deployed from 1982 to 1987 (with ≥ 20 relocations per collar) provided foundational data on adult female survival rates and seasonal distribution patterns (Farnell et al. 2008), but detailed step-length or daily movement data comparable to GPS-collar studies on other herds are not available. This represents a key knowledge gap that novel non-invasive survey technologies could help address.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Seasonal movements</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "9  Literature cited",
+    "section": "",
+    "text": "9.1 Primary sources - Finlayson caribou herd\nAdamczewski, J., R. Florkiewicz, R. Farnell, C. Foster, and K. Egli. 2010. Finlayson caribou herd late-winter population survey, 2007. Yukon Fish and Wildlife Branch Report SR-10-01. Whitehorse, Yukon, Canada.\nBMC Minerals (No.1) Ltd. (BMC). 2017. Kudz Ze Kayah Project - Project Proposal for YESAB Executive Committee Screening. Report prepared by Alexco Environmental Group. March 2017.\nFarnell, R., R.D. Hayes, A.M. Baer, R. Florkiewicz, J. Adamczewski, and N. Barichello. 2008. Effects of reducing the number of wolves and human hunting on a population of caribou in the east-central Yukon, from 1983-2007. Unpublished Yukon Fish and Wildlife Branch Report. Whitehorse, Yukon, Canada.\nFarnell, R. and D.A. Gauthier. 1988. Utility of the random quadrat sampling census technique for woodland caribou in Yukon. Proceedings of the 3rd North American Caribou Workshop. Alaska Department of Fish and Game, Wildlife Technical Bulletin Number 8: 119-132. Juneau, Alaska.\nFrancis, A., K.J. Russell, T. Morgan, T. Hegel, and K.L. Russell. 2022. Finlayson caribou herd late winter population survey 2017. Yukon Fish and Wildlife Branch Report SR-22-05. Whitehorse, Yukon, Canada.\nGovernment of Yukon. 2016. Science-based guidelines for management of Northern Mountain caribou in Yukon. Yukon Fish and Wildlife Branch Report MR-16-01. Whitehorse, Yukon, Canada.\nJohannesen, D. and M. Setterington (EDI Environmental Dynamics Inc.). 2019. Opinion on issues related to caribou, moose and furbearers (Kudz Ze Kayah Project). Prepared for Yukon Environmental and Socio-economic Assessment Board. EDI Project 17Y0479. Whitehorse, Yukon, Canada.\nMorgan, T. 2025. Personal communication - survey methods for the Finlayson caribou herd. Email to R. Mennell (YESAB), June 18, 2025. Fish and Wildlife Branch, Environment Yukon, Whitehorse.\nRussell, K.L. and K.J. Russell. 2022. Finlayson Caribou Herd Population Estimate - 2022. Yukon Fish and Wildlife Branch Report SR-22-05. Whitehorse, Yukon, Canada.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Literature cited</span>"
+    ]
+  },
+  {
+    "objectID": "references.html#northern-mountain-caribou---ecology-and-management",
+    "href": "references.html#northern-mountain-caribou---ecology-and-management",
+    "title": "9  Literature cited",
+    "section": "9.2 Northern Mountain caribou - ecology and management",
+    "text": "9.2 Northern Mountain caribou - ecology and management\nBergerud, A.T., H.E. Butler, and D.R. Miller. 1984. Antipredator tactics of calving caribou: dispersion in mountains. Canadian Journal of Zoology 62: 1566-1575.\nEnvironment Canada. 2012. Recovery Strategy for the Woodland Caribou, Northern Mountain population (Rangifer tarandus caribou) in Canada. Species at Risk Act Recovery Strategy Series. Environment Canada, Ottawa. vi + 67 pp.\nFarnell, R., N. Barichello, K. Egli, and G. Kuzyk. 1996. Population ecology of two woodland caribou herds in the southern Yukon. Rangifer Special Issue No. 9: 63-72.\nGovernment of Northwest Territories. 2020. Status of northern mountain caribou (Rangifer tarandus caribou) in the Northwest Territories. Species Status Report. NWT Species at Risk. Yellowknife, NWT.\nSeip, D.R. 1992. Factors limiting woodland caribou populations and their interrelationships with wolves and moose in southeastern British Columbia. Canadian Journal of Zoology 70: 1494-1503.\nWood, A.K. 1996. Northern caribou (Rangifer tarandus caribou) species account. In: Wildlife Habitat Relationships. Ministry of Environment, Lands and Parks, Victoria, British Columbia.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Literature cited</span>"
+    ]
+  },
+  {
+    "objectID": "references.html#predation-spatial-ecology-and-habitat-use",
+    "href": "references.html#predation-spatial-ecology-and-habitat-use",
+    "title": "9  Literature cited",
+    "section": "9.3 Predation, spatial ecology, and habitat use",
+    "text": "9.3 Predation, spatial ecology, and habitat use\nCourtois, R., J.P. Ouellet, L. Breton, A. Gingras, and C. Dussault. 2007. Effects of forest disturbance on density, space use, and mortality of woodland caribou. Ecoscience 14: 491-498.\nDickie, M., S.R. Hinton, A. Rezansoff, A. Serrouya, and S. Boutin. 2020. Corridors or risk? Movement along, and use of, linear features varies predictably among large mammal predator and prey species. Journal of Animal Ecology 89: 623-634.\nDyer, S.J., J.P. O’Neill, S.M. Wasel, and S. Boutin. 2001. Avoidance of industrial development by woodland caribou. Journal of Wildlife Management 65: 531-542.\nJames, A.R.C., S. Boutin, D.M. Hebert, and A.B. Rippin. 2004. Spatial separation of caribou from moose and its relation to predation by wolves. Journal of Wildlife Management 68: 799-809.\nLafontaine, A., P. Drapeau, D. Fortin, and M.-H. St-Laurent. 2017. Many places called home: the adaptive value of seasonal adjustments in range fidelity. Journal of Animal Ecology 86: 624-633.\nLeblond, M., C. Dussault, and J.-P. Ouellet. 2013. Disentangling woodland caribou movements in response to clearcuts and roads across temporal scales. PLOS ONE 8(10): e77514.\nLeclerc, M., C. Dussault, and M.-H. St-Laurent. 2012. Multiscale assessment of the impacts of roads and cutovers on calving site selection in woodland caribou. Forest Ecology and Management 286: 59-65.\nPolfus, J.L., M. Hebblewhite, and K. Heinemeyer. 2011. Identifying indirect habitat loss and avoidance of human infrastructure by northern mountain woodland caribou. Biological Conservation 144: 2637-2646.\nPulliam, H.R. 1988. Sources, sinks, and population regulation. The American Naturalist 132: 652-661.\nRettie, W.J. and F. Messier. 2000. Hierarchical habitat selection by woodland caribou: its relationship to limiting factors. Ecography 23: 466-478.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Literature cited</span>"
+    ]
+  },
+  {
+    "objectID": "references.html#winter-forage-and-snow-ecology",
+    "href": "references.html#winter-forage-and-snow-ecology",
+    "title": "9  Literature cited",
+    "section": "9.4 Winter forage and snow ecology",
+    "text": "9.4 Winter forage and snow ecology\nBeaupre, C. and E. Gurarie. 2026. Winter survival shaped by forage abundance and snow depth for a long-distance migratory ungulate. Polar Biology (in press). DOI: 10.1007/s00300-026-03481-4.\nCollins, W.B. and T.S. Smith. 1991. Effects of wind-hardened snow on foraging by reindeer (Rangifer tarandus). Arctic 44: 217-222.\nCoxson, D.S., K.A. MacKenzie, and S. Stevenson. 1998. Abundance and productivity of forest-floor lichens in different stages of forest succession in engebretson boreal forests, British Columbia. Ecoscience 5: 281-290.\nMcMullin, S.T. and S.B. Rapai. 2020. Lichens of the West Coast. University of Washington Press, Seattle. 448 pp.\nSeip, D.R. and D.B. Cichowski. 1996. Population ecology of caribou in British Columbia. Rangifer Special Issue No. 9: 73-80.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Literature cited</span>"
+    ]
+  }
+]
