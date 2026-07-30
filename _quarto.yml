@@ -12,35 +12,25 @@ website:
       - text: "Projects"
         menu:
         - text: Disturbance mapping
-          href: http://nwb.ualberta.ca
-        - text: Northwest Boreal assessment
-          href: http://nwb.ualberta.ca
-        - text: Pan-boreal Assessment
-          href: http://pba.ualberta.ca
-        - text: CASFRI
-          href: https://casfri.github.io/CASFRI/
-        - text: SFI conservation tool
-          href: https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool
-        - text: Intactness paper
-          href: https://github.com/prvernier/intactness
-        - text: Surrogates paper
-          href: https://github.com/prvernier/surrogates
+          href: https://github.com/beaconsproject/disturbance_mapping
+        - text: Caribou workbook
+          href: https://github.com/beaconsproject/caribou_workbook
       - text: "Apps"
         menu:
+        - text: Caribou apps
+          href: https://github.com/beaconsproject/caribou_apps
+        - text: Caribou dashboard
+          href: https://github.com/beaconsproject/caribou_dashboard
         - text: Geopackage creator
           href: https://github.com/beaconsproject/geopackage_creator
         - text: Disturbance explorer
           href: https://github.com/beaconsproject/disturbance_explorer
-        - text: Test dashboard
-          href: https://prvernier.github.io/dashboards/test/
-        - text: Geopackage viewer
-          href: https://prvernier.github.io/apps/gpkg-viewer/
-        - text: BC watershed atlas
-          href: https://prvernier.github.io/apps/bc-atlas/
       - text: "Other"
         menu:
         - text: Parcelles
           href: https://prvernier.github.io/parcelles.html
+        - text: Parcelles (new version)
+          href: https://prvernier.github.io/levier/dashboard.html
       - about.qmd
 
 format:

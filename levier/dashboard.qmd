@@ -1,0 +1,407 @@
+---
+title: "Levier"
+format:
+  dashboard:
+    orientation: columns
+    nav-buttons: []
+---
+
+```{r}
+#| context: setup
+#| include: false
+
+library(leaflet)
+library(htmlwidgets)
+
+library(dplyr)
+library(jsonlite)
+library(ggplot2)
+library(plotly)
+library(DT)
+library(forcats)
+
+levier_geojson <- paste(readLines("data/levier.geojson", warn = FALSE), collapse = "\n")
+parcelles_geojson <- paste(readLines("data/parcelles.geojson", warn = FALSE), collapse = "\n")
+gbif_geojson <- paste(readLines("data/gbif_occurrences_levier.geojson", warn = FALSE), collapse = "\n")
+
+# species -> common name lookup (built by code/fetch_vernacular_names.R), used
+# to label the sidebar dropdowns with common names instead of Latin names
+vernacular <- read.csv("data/gbif_vernacular_names.csv", stringsAsFactors = FALSE) %>%
+  filter(!is.na(commonName), commonName != "")
+vernacular_json <- toJSON(setNames(as.list(vernacular$commonName), vernacular$species), auto_unbox = TRUE)
+
+# GeoJSON is loaded client-side (via L.geoJSON) rather than through sf, so that
+# each polygon keeps its `feature.properties` and can drive the click handler below.
+map_js <- r"(
+function(el, x) {
+  var map = this;
+
+  var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 19,
+    attribution: 'Tiles &copy; Esri, Maxar, Earthstar Geographics'
+  });
+
+  var ignOrtho = L.tileLayer('https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=ORTHOIMAGERY.ORTHOPHOTOS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/jpeg', {
+    maxZoom: 19,
+    minZoom: 0,
+    attribution: '&copy; IGN-F/Geoportail'
+  });
+
+  var ignCadastre = L.tileLayer('https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=CADASTRALPARCELS.PARCELS&STYLE=bdparcellaire&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/png', {
+    maxZoom: 19,
+    minZoom: 0,
+    attribution: '&copy; IGN-F/Geoportail, DGFiP'
+  });
+
+  var communeLayer = L.geoJSON(__LEVIER_GEOJSON__, {
+    style: { fillColor: 'transparent', color: '#3182bd', weight: 2, fillOpacity: 0 }
+  }).addTo(map);
+
+  var parcellesLayer = L.geoJSON(__PARCELLES_GEOJSON__, {
+    style: { fillColor: '#fdae6b', fillOpacity: 0.3, color: '#e6550d', weight: 1 },
+    onEachFeature: function(feature, layer) {
+      layer.on('click', function(e) {
+        var p = feature.properties;
+        var rows = '';
+        Object.keys(p).forEach(function(k) {
+          rows += '<tr><th>' + k + '</th><td>' + p[k] + '</td></tr>';
+        });
+        document.getElementById('parcelle-info').innerHTML =
+          '<table class="table table-sm table-striped">' + rows + '</table>';
+      });
+      layer.on('mouseover', function(e) { e.target.setStyle({ weight: 3, color: '#000000' }); });
+      layer.on('mouseout', function(e) { parcellesLayer.resetStyle(e.target); });
+    }
+  }).addTo(map);
+
+  map.fitBounds(communeLayer.getBounds());
+
+  var layersControl = L.control.layers(
+    { 'OpenStreetMap': osm, 'Imagerie (ESRI)': esri, 'Photos aeriennes (IGN)': ignOrtho },
+    { 'Commune': communeLayer, 'Parcelles': parcellesLayer, 'Parcelles cadastrales (IGN)': ignCadastre },
+    { collapsed: false }
+  ).addTo(map);
+
+  // -- GBIF occurrences: embedded directly (like the other layers) so the
+  // dashboard works when opened as a plain file, without a web server --
+  var gbifLayer = L.layerGroup();
+  var gbifMarkers = [];
+
+  var vernacular = __VERNACULAR_JSON__;
+  var kingdomLabels = { Animalia: 'Animaux', Plantae: 'Plantes', Fungi: 'Champignons', Protozoa: 'Protozoaires' };
+
+  function commonName(species) { return species ? vernacular[species] : undefined; }
+
+  function speciesLabel(species) {
+    var common = commonName(species);
+    if (!common) return species;
+    return common.charAt(0).toUpperCase() + common.slice(1) + ' (' + species + ')';
+  }
+
+  function gbifPopup(p) {
+    return '<strong>' + speciesLabel(p.species || p.scientificName) + '</strong><br>' +
+      (p.eventDate ? p.eventDate + '<br>' : '') +
+      (p.recordedBy ? 'Observateur : ' + p.recordedBy + '<br>' : '') +
+      (p.datasetTitle ? '<span class="text-muted">' + p.datasetTitle + '</span>' : '');
+  }
+
+  function gbifAttributeTable(p) {
+    var rows = '';
+    if (p.species) rows += '<tr><th>Nom commun</th><td>' + (commonName(p.species) || '&mdash;') + '</td></tr>';
+    Object.keys(p).forEach(function(k) {
+      var val = p[k];
+      if (val === null || val === undefined || val === '') return;
+      rows += '<tr><th>' + k + '</th><td>' + val + '</td></tr>';
+    });
+    return '<table class="table table-sm table-striped">' + rows + '</table>';
+  }
+
+  function updateGbifCount(shown) {
+    var el = document.getElementById('gbif-count');
+    if (el) el.textContent = shown + ' / ' + gbifMarkers.length + ' observations affichees';
+  }
+
+  function applyGbifFilter() {
+    var kingdom = document.getElementById('gbif-kingdom').value;
+    var species = document.getElementById('gbif-species').value;
+    var shown = 0;
+    gbifMarkers.forEach(function(m) {
+      var p = m.feature.properties;
+      var match = (!kingdom || p.kingdom === kingdom) && (!species || p.species === species);
+      if (match) {
+        if (!gbifLayer.hasLayer(m)) gbifLayer.addLayer(m);
+        shown++;
+      } else if (gbifLayer.hasLayer(m)) {
+        gbifLayer.removeLayer(m);
+      }
+    });
+    updateGbifCount(shown);
+  }
+
+  function populateSelect(id, values, placeholder, labelFn) {
+    var select = document.getElementById(id);
+    select.innerHTML = '';
+    var opt0 = document.createElement('option');
+    opt0.value = '';
+    opt0.textContent = placeholder;
+    select.appendChild(opt0);
+    values.forEach(function(v) {
+      var opt = document.createElement('option');
+      opt.value = v;
+      opt.textContent = labelFn ? labelFn(v) : v;
+      select.appendChild(opt);
+    });
+  }
+
+  function refreshSpeciesOptions() {
+    var kingdom = document.getElementById('gbif-kingdom').value;
+    var species = gbifMarkers
+      .map(function(m) { return m.feature.properties; })
+      .filter(function(p) { return !kingdom || p.kingdom === kingdom; })
+      .map(function(p) { return p.species; })
+      .filter(function(s) { return !!s; });
+    var uniqueSpecies = Array.from(new Set(species)).sort(function(a, b) {
+      return speciesLabel(a).localeCompare(speciesLabel(b), 'fr');
+    });
+    populateSelect('gbif-species', uniqueSpecies, 'Toutes les especes', speciesLabel);
+  }
+
+  (function(data) {
+    data.features.forEach(function(f) {
+      if (!f.geometry || !f.geometry.coordinates) return;
+      var latlng = [f.geometry.coordinates[1], f.geometry.coordinates[0]];
+      var marker = L.circleMarker(latlng, {
+        radius: 4, weight: 1, color: '#238b45', fillColor: '#74c476', fillOpacity: 0.7
+      });
+      marker.feature = f;
+      marker.bindPopup(gbifPopup(f.properties));
+      marker.on('click', function() {
+        var info = document.getElementById('gbif-info');
+        if (info) info.innerHTML = gbifAttributeTable(f.properties);
+      });
+      gbifMarkers.push(marker);
+      gbifLayer.addLayer(marker);
+    });
+
+    gbifLayer.addTo(map);
+    layersControl.addOverlay(gbifLayer, 'Observations GBIF');
+
+    var kingdoms = Array.from(new Set(
+      gbifMarkers.map(function(m) { return m.feature.properties.kingdom; }).filter(function(k) { return !!k; })
+    )).sort(function(a, b) {
+      return (kingdomLabels[a] || a).localeCompare(kingdomLabels[b] || b, 'fr');
+    });
+    populateSelect('gbif-kingdom', kingdoms, 'Tous les regnes', function(k) { return kingdomLabels[k] || k; });
+    refreshSpeciesOptions();
+    updateGbifCount(gbifMarkers.length);
+
+    document.getElementById('gbif-kingdom').addEventListener('change', function() {
+      refreshSpeciesOptions();
+      applyGbifFilter();
+    });
+    document.getElementById('gbif-species').addEventListener('change', applyGbifFilter);
+    document.getElementById('gbif-reset').addEventListener('click', function() {
+      document.getElementById('gbif-kingdom').value = '';
+      refreshSpeciesOptions();
+      document.getElementById('gbif-species').value = '';
+      applyGbifFilter();
+    });
+  })(__GBIF_GEOJSON__);
+}
+)"
+
+map_js <- gsub("__LEVIER_GEOJSON__", levier_geojson, map_js, fixed = TRUE)
+map_js <- gsub("__PARCELLES_GEOJSON__", parcelles_geojson, map_js, fixed = TRUE)
+map_js <- gsub("__GBIF_GEOJSON__", gbif_geojson, map_js, fixed = TRUE)
+map_js <- gsub("__VERNACULAR_JSON__", vernacular_json, map_js, fixed = TRUE)
+
+# Data frame form of the GBIF occurrences, for the summary tables/charts on
+# the second page (as opposed to the raw GeoJSON text used by the map above).
+gbif_df <- read.csv("data/gbif_occurrences_levier.csv", stringsAsFactors = FALSE) |>
+  left_join(vernacular %>% select(species, commonName), by = "species") |>
+  mutate(
+    kingdom_fr = recode(kingdom,
+      Animalia = "Animaux", Plantae = "Plantes", Fungi = "Champignons", Protozoa = "Protozoaires",
+      .missing = "Inconnu"
+    ),
+    common_name_cap = ifelse(
+      !is.na(commonName) & commonName != "",
+      paste0(toupper(substr(commonName, 1, 1)), substr(commonName, 2, nchar(commonName))),
+      NA_character_
+    ),
+    display_name = ifelse(!is.na(common_name_cap), paste0(common_name_cap, " (", species, ")"), species)
+  )
+```
+
+# Carte
+
+## {.sidebar}
+
+**Observations GBIF**
+
+<div class="mb-2">
+<label for="gbif-kingdom" class="form-label">Regne</label>
+<select id="gbif-kingdom" class="form-select form-select-sm">
+<option value="">Chargement...</option>
+</select>
+</div>
+
+<div class="mb-2">
+<label for="gbif-species" class="form-label">Espece</label>
+<select id="gbif-species" class="form-select form-select-sm">
+<option value="">Chargement...</option>
+</select>
+</div>
+
+<button id="gbif-reset" class="btn btn-sm btn-outline-secondary">Reinitialiser</button>
+
+<p class="small text-muted mt-2" id="gbif-count">Chargement des observations...</p>
+
+## Column {width=65%}
+
+```{r}
+#| title: "Carte"
+
+leaflet(options = leafletOptions(preferCanvas = TRUE)) |>
+  onRender(map_js)
+```
+
+## Column {width=35%}
+
+### Row {height=50%}
+
+::: {.card title="Informations parcelle"}
+
+<div id="parcelle-info">
+<p><em>Cliquez sur une parcelle pour afficher ses informations.</em></p>
+</div>
+
+:::
+
+### Row {height=50%}
+
+::: {.card title="Observation GBIF"}
+
+<div id="gbif-info">
+<p><em>Cliquez sur un point d'observation pour afficher ses informations.</em></p>
+</div>
+
+:::
+
+# Resume GBIF {orientation="rows"}
+
+## Row {height=15%}
+
+```{r}
+#| content: valuebox
+#| title: "Observations"
+list(value = format(nrow(gbif_df), big.mark = " "), icon = "binoculars", color = "primary")
+```
+
+```{r}
+#| content: valuebox
+#| title: "Especes"
+list(value = n_distinct(gbif_df$species[gbif_df$species != ""]), icon = "collection", color = "success")
+```
+
+```{r}
+#| content: valuebox
+#| title: "Familles"
+list(value = n_distinct(gbif_df$family[gbif_df$family != ""]), icon = "diagram-3-fill", color = "info")
+```
+
+```{r}
+#| content: valuebox
+#| title: "Periode"
+list(
+  value = paste0(min(gbif_df$year, na.rm = TRUE), " - ", max(gbif_df$year, na.rm = TRUE)),
+  icon = "calendar3",
+  color = "warning"
+)
+```
+
+## Row {height=40%}
+
+### Column {width=50%}
+
+```{r}
+#| title: "Especes les plus observees"
+
+top_species <- gbif_df |>
+  filter(!is.na(species), species != "") |>
+  count(display_name, name = "n", sort = TRUE) |>
+  slice_head(n = 15)
+
+p <- ggplot(top_species, aes(x = n, y = fct_reorder(display_name, n))) +
+  geom_col(fill = "#238b45") +
+  labs(x = "Observations", y = NULL) +
+  theme_minimal(base_size = 11)
+
+ggplotly(p, tooltip = c("x", "y")) |>
+  layout(margin = list(l = 220))
+```
+
+### Column {width=50%}
+
+```{r}
+#| title: "Repartition par regne"
+
+kingdom_counts <- gbif_df |>
+  filter(!is.na(kingdom_fr)) |>
+  count(kingdom_fr, name = "n", sort = TRUE)
+
+p <- ggplot(kingdom_counts, aes(x = fct_reorder(kingdom_fr, n), y = n, fill = kingdom_fr)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  labs(x = NULL, y = "Observations") +
+  theme_minimal(base_size = 11)
+
+ggplotly(p, tooltip = c("x", "y"))
+```
+
+## Row {height=20%}
+
+```{r}
+#| title: "Observations par annee"
+
+year_counts <- gbif_df |>
+  filter(!is.na(year)) |>
+  count(year, name = "n")
+
+p <- ggplot(year_counts, aes(x = year, y = n)) +
+  geom_col(fill = "#3182bd") +
+  labs(x = NULL, y = "Observations") +
+  theme_minimal(base_size = 11)
+
+ggplotly(p, tooltip = c("x", "y"))
+```
+
+## Row {height=25%}
+
+```{r}
+#| title: "Toutes les especes observees"
+
+species_table <- gbif_df |>
+  filter(!is.na(species), species != "") |>
+  group_by(species, common_name_cap, kingdom_fr, family) |>
+  summarise(observations = n(), .groups = "drop") |>
+  arrange(desc(observations)) |>
+  transmute(
+    `Nom commun` = ifelse(is.na(common_name_cap), "—", common_name_cap),
+    `Nom scientifique` = species,
+    `Regne` = kingdom_fr,
+    `Famille` = ifelse(is.na(family) | family == "", "—", family),
+    `Observations` = observations
+  )
+
+datatable(
+  species_table,
+  rownames = FALSE,
+  options = list(pageLength = 10, order = list(list(4, "desc")))
+)
+```

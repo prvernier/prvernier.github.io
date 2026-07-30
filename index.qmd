@@ -9,6 +9,7 @@ Welcome to my github pages. Here you will find information on various projects t
 ### Current projects
 
 * [Regional disturbance mapping](https://github.com/beaconsproject/disturbance_mapping)
+* [LFN Caribou analysis & modelling](https://github.com/beaconsproject/caribou_workbook)
 
 ### Shiny apps
 
@@ -18,11 +19,12 @@ Welcome to my github pages. Here you will find information on various projects t
 ### Recently completed projects
 
 * [CASFRI](https://github.com/CASFRI/CASFRI)
-* [Northwest boreal LCC](http://nwb.ualberta.ca)
-* [Panboreal assessment](http://pba.ualberta.ca)
-* [SFI conservation value assessment tool](https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool/)
+* [Northwest boreal LCC](http://nwb.ualberta.ca) - The link seem to be broken
+* [Panboreal assessment](http://pba.ualberta.ca) - The link seem to be broken
+* [SFI conservation value assessment tool](https://borealbirds.ualberta.ca/2020/12/03/conservation-value-assessment-tool/) - The link seem to be broken
 
 ### Papers - supplementary materials
 
+* [Disturbance mapping](https://github.com/beaconsproject/disturbance_mapping)
 * [Surrogates paper (in prep)](https://github.com/prvernier/surrogates)
 * [Intactness paper (published)](https://github.com/prvernier/intactness)
