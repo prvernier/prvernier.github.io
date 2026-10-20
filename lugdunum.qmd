@@ -48,11 +48,12 @@ output:
 
 ### Travel
 
-- [Aeronet](https://acaeronet.aircanada.ca)
+- [Aeronet](https://travel.aircanada.com/ews/login.jsp)
 
 ### Health
 
 - [SunLife](https://www.sunnet.sunlife.com/signin/mysunlife/home.wca)
+- [Health Gateway](https://www.healthgateway.gov.bc.ca/)
 
 ### Banking
 
